@@ -10,7 +10,44 @@ fsiv_find_min_max_loc_1(cv::Mat const& input,
 
     //! TODO: do a rows/cols scanning to find the first min/max values. 
     // Hint: use cv::split to get the input image channels.
+    std::vector<cv::Mat> chs;
 
+    cv::split(input, chs);
+
+    cv::uint8_t min, max;
+    cv::Point min_p, max_p;
+
+    for (auto c : chs){
+
+        min = c.at<cv::uint8_t>(0,0);
+        max = min;
+
+        min_p = cv::Point(0,0);
+        max_p = min_p;
+
+
+        for (int row = 0; row<c.rows; row++){
+            for (int col = 0; col<c.cols; col++){
+                const auto v = c.at<cv::uint8_t>(row,col);
+
+                if (v<min){
+                    min = v;
+                    min_p = cv::Point(col, row);
+
+                }else if (v>max){
+                    max = v;
+                    max_p = cv::Point(col, row);
+                }
+
+            }
+        }
+
+        min_v.push_back(min);
+        min_loc.push_back(min_p);
+
+        max_v.push_back(max);
+        max_loc.push_back(max_p);
+    }
 
 
     //
