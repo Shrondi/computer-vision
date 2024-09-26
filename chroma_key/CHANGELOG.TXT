@@ -1,0 +1,9 @@
+* 1.0
+- Start release.
+* 1.1
+- Updated to course 23-24.
+* 1.2
+- Added fsiv_convert_bgr_to_hsv.
+- Improve docs.
+- Updated to course 24-25.
+
