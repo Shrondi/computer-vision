@@ -2,5 +2,7 @@
 build/
 build-debug/
 
+utilities/show_testfails/data
+
 # VS Code
 .vscode
