@@ -38,20 +38,27 @@ struct AppState
 };
 
 /**
+ * @brief Do the processing.
+ *
+ * @param app_state the application state.
+ */
+void do_the_work(AppState *app_state)
+{
+    app_state->output = fsiv_apply_chroma_key(app_state->foreg, app_state->backg,
+                                              app_state->hue, app_state->sensitivity);
+    cv::imshow("OUT", app_state->output);
+}
+
+/**
  * @brief Callback para gestionar el deslizador Hue.
  * @param v Posición actual del deslizador.
  * @param app_state_ Estado de la aplicación.
  */
 void on_change_hue(int v, void *app_state_)
 {
-    // Para poder acceder al estado
     AppState *app_state = static_cast<AppState *>(app_state_);
-    app_state->hue = v; // actualizar el valor de hue.
-    // Calcular la salida.
-    app_state->output = fsiv_apply_chroma_key(app_state->foreg, app_state->backg,
-                                              app_state->hue, app_state->sensitivity);
-    // Mostrar la nueva salida.
-    cv::imshow("OUT", app_state->output);
+    app_state->hue = v;
+    do_the_work(app_state);
 }
 
 /**
@@ -61,14 +68,9 @@ void on_change_hue(int v, void *app_state_)
  */
 void on_change_sensitivity(int v, void *app_state_)
 {
-    // Para poder acceder al estado
     AppState *app_state = static_cast<AppState *>(app_state_);
-    app_state->sensitivity = v; // actualizar el valor de hue.
-    // Calcular la salida.
-    app_state->output = fsiv_apply_chroma_key(app_state->foreg, app_state->backg,
-                                              app_state->hue, app_state->sensitivity);
-    // Mostrar la nueva salida.
-    cv::imshow("OUT", app_state->output);
+    app_state->sensitivity = v;
+    do_the_work(app_state);
 }
 
 /**
@@ -85,22 +87,17 @@ void on_change_sensitivity(int v, void *app_state_)
  */
 void on_mouse(int event, int x, int y, int flags, void *app_state_)
 {
-    // Para poder acceder a los atributos del estado de la aplicación.
     AppState *app_state = static_cast<AppState *>(app_state_);
 
     if (event == cv::EVENT_LBUTTONDOWN)
     {
-        // Click con el boton izquierdo.
+        // Click con el botón izquierdo.
         cv::Mat hsv;
         cv::cvtColor(app_state->foreg, hsv, cv::COLOR_BGR2HSV);
         app_state->hue = hsv.at<cv::Vec3b>(y, x)[0]; // Valor del canal H en (x,y).
-        // posicionar el deslizador para Hue.
-        cv::setTrackbarPos("H", "OUT", app_state->hue);
-        // Aplicar el cambio según el nuevo valor.
-        app_state->output = fsiv_apply_chroma_key(app_state->foreg, app_state->backg,
-                                                  app_state->hue, app_state->sensitivity);
-        // Mostrar la nueva salida.
-        cv::imshow("OUT", app_state->output);
+        // posicionar el deslizador para en el nuevo valor.
+        cv::setTrackbarPos("KEY", "OUT", app_state->hue);
+        // do_the_work(app_state);
     }
 }
 
@@ -138,7 +135,7 @@ int main(int argc, char *argv[])
             return EXIT_FAILURE;
         }
 
-        app_state.backg = cv::imread(bckname);
+        app_state.backg = cv::imread(bckname, cv::IMREAD_COLOR);
         if (app_state.backg.empty())
         {
             std::cerr << "Error reading: " << bckname << std::endl;
@@ -158,9 +155,10 @@ int main(int argc, char *argv[])
         //   el usuario lo mueve.
         // El estado de la aplicación se da para que desde
         //   el callback podamos acceder al mismo.
-        cv::createTrackbar("H", "OUT", &app_state.hue, 180, on_change_hue,
+        cv::createTrackbar("KEY", "OUT", nullptr, 180, on_change_hue,
                            &app_state);
-        cv::createTrackbar("S", "OUT", &app_state.sensitivity, 128,
+
+        cv::createTrackbar("SENSITIVITY", "OUT", nullptr, 128,
                            on_change_sensitivity, &app_state);
         //
 
@@ -206,32 +204,42 @@ int main(int argc, char *argv[])
                 // frame de entrada.
                 cv::resize(app_state.backg, app_state.backg, app_state.foreg.size());
 
+            // Inicializar los deslizadores con los valores dados por la cli.
+            // Esto forzará a que se actualice la GUI con la primera imagen.
+            cv::setTrackbarPos("KEY", "OUT", app_state.hue);
+            cv::setTrackbarPos("SENSITIVITY", "OUT", app_state.sensitivity);
+            cv::imshow("BACKG", app_state.backg);
+
             int key = 0; // La tecla que se pulsa.
+            int wait_time = 20;
+            if (is_video)
+                wait_time = (1000.0 / 24.0); // 24FPS.
             do
             {
-                app_state.output = fsiv_apply_chroma_key(app_state.foreg, app_state.backg,
-                                                         app_state.hue, app_state.sensitivity);
-                cv::imshow("OUT", app_state.output);
-                cv::imshow("FOREG", app_state.foreg);
-                key = cv::waitKey(1000.0 / 24.0) & 0xff; // 24FPS.
-                capt >> app_state.foreg;                 // Captura/lee una nueva imagen (si hay).
+                cv::imshow("FOREG", app_state.foreg); // Mostrar la imagen actual de primer plano.
+                do_the_work(&app_state);              // Procesar la imagen.
+                key = cv::waitKey(wait_time) & 0xff;  // 24FPS.
+                capt >> app_state.foreg;              // Captura/lee una nueva imagen (si hay).
 
             } // Terminamos cuando no hay nada más que leer o se pulsa la tecla ESC.
             while (!(app_state.foreg.empty() || key == 27));
         }
         else
         {
-            app_state.foreg = cv::imread(imgname);
+            app_state.foreg = cv::imread(imgname, cv::IMREAD_COLOR);
             if (app_state.foreg.empty())
             {
                 std::cerr << "Error reading: " << imgname << std::endl;
                 return EXIT_FAILURE;
             }
 
-            app_state.output = fsiv_apply_chroma_key(app_state.foreg, app_state.backg,
-                                                     app_state.hue, app_state.sensitivity);
             cv::imshow("FOREG", app_state.foreg);
-            cv::imshow("OUT", app_state.output);
+            cv::imshow("BACKG", app_state.backg);
+
+            // Inicializar los deslizadores con los valores dados por la cli.
+            // Esto forzará a que se actualice la GUI con la imagen OUT.
+            cv::setTrackbarPos("KEY", "OUT", app_state.hue);
+            cv::setTrackbarPos("SENSITIVITY", "OUT", app_state.sensitivity);
             cv::waitKey(0);
         }
 
