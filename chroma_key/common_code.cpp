@@ -11,7 +11,7 @@ fsiv_convert_bgr_to_hsv(const cv::Mat &img)
     //! TODO
     // Hint: use cvtColor.
     // Remember: the input color scheme is assumed to be BGR.
-
+    cv::cvtColor(img, out, cv::COLOR_BGR2HSV);
     //
     CV_Assert(out.channels() == 3);
     return out;
@@ -27,7 +27,8 @@ fsiv_combine_images(const cv::Mat &img1, const cv::Mat &img2,
     cv::Mat output;
     //! TODO
     //  HINT: you can use cv::Mat::copyTo().
-
+    img1.copyTo(img2, mask);
+    output = img2;
     //
     CV_Assert(output.size() == img1.size());
     CV_Assert(output.type() == img1.type());
@@ -44,7 +45,7 @@ fsiv_create_mask_from_hsv_range(const cv::Mat &hsv_img,
 
     // TODO
     // Hint: use cv::inRange to get the mask.
-
+    cv::inRange(hsv_img, lower_bound, upper_bound, mask);
     //
     CV_Assert(mask.size() == hsv_img.size());
     CV_Assert(mask.depth() == CV_8U);
@@ -64,6 +65,22 @@ fsiv_apply_chroma_key(const cv::Mat &foreg, const cv::Mat &backg, int hue,
     // Remember: the backg img must have the same dimensions to combine with
     //   foreg img. You can use cv::resize to assure this.
 
+    cv::Mat backg_ = backg;
+    if (backg.size() != foreg.size()){
+        cv::resize(backg, backg_, foreg.size());
+    }
+
+    out = fsiv_convert_bgr_to_hsv(foreg);
+
+    lower_b = cv::Scalar((hue - sensitivity + 180) % 180, 0, 0);
+    upper_b = cv::Scalar((hue + sensitivity) % 180, 255, 255);
+
+    cv::Mat mask;
+    mask = fsiv_create_mask_from_hsv_range(out, lower_b, upper_b);
+
+
+    out = fsiv_combine_images(backg_, foreg, mask);
+        
     //
     CV_Assert(out.size() == foreg.size());
     CV_Assert(out.type() == foreg.type());
