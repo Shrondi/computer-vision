@@ -26,9 +26,9 @@ fsiv_combine_images(const cv::Mat &img1, const cv::Mat &img2,
     CV_Assert(mask.size() == img1.size());
     cv::Mat output;
     //! TODO
-    //  HINT: you can use cv::Mat::copyTo().
-    img1.copyTo(img2, mask);
     output = img2;
+    //  HINT: you can use cv::Mat::copyTo().
+    img1.copyTo(output, mask);
     //
     CV_Assert(output.size() == img1.size());
     CV_Assert(output.type() == img1.type());
