@@ -91,23 +91,20 @@ float fsiv_compute_actual_clipping_histogram_value(const cv::Mat &h, float s)
 
     // TODO: Code the algorithm shown in the practical assignment description.
 
-    float top = CL;
-    float bottom = 0.0;
+    int top = CL;
+    int bottom = 0;
 
-    while ((top - bottom) > 1.0){
-        float middle = (top + bottom)/2;
+    while (top - bottom > 1){
+        int middle = (top + bottom) / 2;
 
-        float R = 0.0;
-
+        int R = 0;
         for (int i = 0; i < h.rows; i++){
-            float value = h.at<float>(i);
-
-            if (value > middle){
-                R += value - middle;
+            if (h.at<float>(i) > middle){
+                R += h.at<float>(i) - middle;
             }
         }
 
-        if (R > ((CL - middle) * h.rows)){
+        if (R > (CL - middle) * h.rows){
             top = middle;
         }else{
             bottom = middle;
@@ -116,7 +113,7 @@ float fsiv_compute_actual_clipping_histogram_value(const cv::Mat &h, float s)
 
     //
 
-    return CL;
+    return bottom;
 }
 
 cv::Mat
@@ -126,9 +123,6 @@ fsiv_create_equalization_lookup_table(const cv::Mat &hist,
     CV_Assert(hist.type() == CV_32FC1);
     CV_Assert(hist.rows == 256 && hist.cols == 1);
     cv::Mat lkt = hist.clone();
-
-    fsiv_normalize_histogram(lkt);
-    fsiv_accumulate_histogram(lkt);
 
     if (s >= 1.0)
     {
@@ -149,6 +143,10 @@ fsiv_create_equalization_lookup_table(const cv::Mat &hist,
     // Hint: use cv::Mat::convertTo() method to convert the float range [0.0, 1.0]
     //       to [0, 255] byte range.
     //
+
+    fsiv_normalize_histogram(lkt);
+    fsiv_accumulate_histogram(lkt);
+
     lkt.convertTo(lkt, CV_8UC1, 255, 0);
     //
 
@@ -169,7 +167,7 @@ fsiv_apply_lookup_table(const cv::Mat &in, const cv::Mat &lkt,
 
     // TODO
     // Hint: you can use the cv::LUT function.
-
+    cv::LUT(in, lkt, out);
     //
     CV_Assert(out.rows == in.rows && out.cols == in.cols && out.type() == in.type());
     return out;
