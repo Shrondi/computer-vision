@@ -87,9 +87,9 @@ float fsiv_compute_actual_clipping_histogram_value(const cv::Mat &h, float s)
     CV_Assert(h.type() == CV_32FC1);
     CV_Assert(h.rows == 256 && h.cols == 1);
 
-    float CL = s * cv::sum(h)[0] / h.rows;
+    int CL = s * cv::sum(h)[0] / h.rows;
 
-    // TODO: coded the algorithm show in the practical assign description.
+    // TODO: Code the algorithm shown in the practical assignment description.
 
     float top = CL;
     float bottom = 0.0;
