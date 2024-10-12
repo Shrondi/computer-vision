@@ -10,6 +10,12 @@ fsiv_compute_image_histogram(const cv::Mat &in)
     // TODO
     // Hint: Use the function cv::calcHist.
 
+    std::vector<cv::Mat> img = {in};
+    std::vector<int> chs = {0};
+    std::vector<int> histSize = {256};
+    std::vector<float> ranges = {0, 256};
+
+    cv::calcHist(img, chs, cv::Mat(), hist, histSize, ranges, false); //[0, 256) false -> histograma inicializado a 0
     //
     CV_Assert(!hist.empty());
     CV_Assert(hist.type() == CV_32FC1);
@@ -24,7 +30,7 @@ void fsiv_normalize_histogram(cv::Mat &hist)
 
     // TODO
     // Hint: Use the function cv::normalize() with norm L1 = 1.0
-
+    cv::normalize(hist, hist, 1.0, 0.0, cv::NORM_L1);
     //
 
     CV_Assert(hist.type() == CV_32FC1);
@@ -38,7 +44,9 @@ void fsiv_accumulate_histogram(cv::Mat &hist)
     CV_Assert(hist.rows == 256 && hist.cols == 1);
 
     // TODO
-
+    for (int i = 1; i < hist.rows; i++){
+        hist.at<float>(i) += hist.at<float>(i-1);
+    }
     //
 
     CV_Assert(hist.type() == CV_32FC1);
@@ -53,6 +61,20 @@ void fsiv_compute_clipped_histogram(cv::Mat &h, float cl)
     // TODO
     // Remember: the ouput histogram will be clipped to cl value and the
     // residual area will be redistributed equally in all the histogram's bins.
+    float area = 0;
+
+    for (int i = 0; i < h.rows; i++){
+        float valor = h.at<float>(i);
+
+        if (valor > cl){
+            area += valor - cl;
+
+            h.at<float>(i) = cl;
+        }
+        
+    }
+
+    h += area/h.rows;
 
     //
 
@@ -69,6 +91,29 @@ float fsiv_compute_actual_clipping_histogram_value(const cv::Mat &h, float s)
 
     // TODO: coded the algorithm show in the practical assign description.
 
+    float top = CL;
+    float bottom = 0.0;
+
+    while ((top - bottom) > 1.0){
+        float middle = (top + bottom)/2;
+
+        float R = 0.0;
+
+        for (int i = 0; i < h.rows; i++){
+            float value = h.at<float>(i);
+
+            if (value > middle){
+                R += value - middle;
+            }
+        }
+
+        if (R > ((CL - middle) * h.rows)){
+            top = middle;
+        }else{
+            bottom = middle;
+        }
+    }
+
     //
 
     return CL;
@@ -82,12 +127,18 @@ fsiv_create_equalization_lookup_table(const cv::Mat &hist,
     CV_Assert(hist.rows == 256 && hist.cols == 1);
     cv::Mat lkt = hist.clone();
 
+    fsiv_normalize_histogram(lkt);
+    fsiv_accumulate_histogram(lkt);
+
     if (s >= 1.0)
     {
         // TODO: Clip the histogram.
         // Hint: use fsiv_compute_actual_clipping_histogram_value to compute the
         //       clipping level.
         // Hint: use fsiv_compute_clipped_histogram to clip the histogram.
+
+        float cl = fsiv_compute_actual_clipping_histogram_value(hist, s);
+        fsiv_compute_clipped_histogram(lkt, cl);
 
         //
     }
@@ -98,7 +149,7 @@ fsiv_create_equalization_lookup_table(const cv::Mat &hist,
     // Hint: use cv::Mat::convertTo() method to convert the float range [0.0, 1.0]
     //       to [0, 255] byte range.
     //
-
+    lkt.convertTo(lkt, CV_8UC1, 255, 0);
     //
 
     CV_Assert(lkt.type() == CV_8UC1);
