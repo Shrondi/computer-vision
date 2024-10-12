@@ -19,4 +19,8 @@ la depuración de errores.
 * 1.8
 - Recoded to use the method CLAHE.
 - Adapted to course 24-25.
+* 1.9
+- Recoding function fsiv_compute_actual_clipping_histogram_value to match the algorithm shown in the assignment description.
+- Fixed tests of fsiv_compute_actual_clipping_histogram_value and fsiv_create_equalization_lookup_table functions to use histograms with integer values as it is expected.
+
 
