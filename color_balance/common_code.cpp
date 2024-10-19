@@ -12,8 +12,7 @@ cv::Mat fsiv_color_rescaling(const cv::Mat &in, const cv::Scalar &from, const cv
     cv::Scalar scale;
     cv::divide(to, from, scale);
 
-    //out = in.mul(scale);
-    cv::multiply(in, scale, out);
+    out = in.mul(scale);
     //
     CV_Assert(out.type() == in.type());
     CV_Assert(out.rows == in.rows && out.cols == in.cols);
