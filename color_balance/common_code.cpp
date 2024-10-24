@@ -9,8 +9,9 @@ cv::Mat fsiv_color_rescaling(const cv::Mat &in, const cv::Scalar &from, const cv
     // TODO
     // HINT: use cv:divide to compute the scaling factor.
     // HINT: use method cv::Mat::mul() to scale the input matrix.
+
     cv::Scalar scale;
-    cv::divide(to, from, scale);
+    cv::divide(to, from, scale); //to / from
 
     out = in.mul(scale);
     //
@@ -98,6 +99,11 @@ cv::Mat fsiv_white_patch_color_balance(cv::Mat const &in, float p)
     CV_Assert(in.type() == CV_8UC3);
     CV_Assert(0.0f <= p && p <= 100.0f);
     cv::Mat out;
+
+    cv::Scalar from;
+
+    out = fsiv_convert_bgr_to_gray(in, out);
+
     if (p == 0.0)
     {
         // TODO
@@ -105,16 +111,10 @@ cv::Mat fsiv_white_patch_color_balance(cv::Mat const &in, float p)
         // HINT: use cv::minMaxLoc to locate the brightest pixel.
         // HINT: use fsiv_color_rescaling when the "from" scalar was computed.
 
-        out = fsiv_convert_bgr_to_gray(in, out);
-
         cv::Point maxLoc;
-
         cv::minMaxLoc(out, NULL, NULL, NULL, &maxLoc);
 
-        cv::Scalar from = cv::Scalar(in.at<cv::Vec3b>(maxLoc));
-
-        out = fsiv_color_rescaling(in, from, cv::Scalar(255, 255, 255));
-
+        from = cv::Scalar(in.at<cv::Vec3b>(maxLoc));
         //
     }
     else
@@ -126,20 +126,16 @@ cv::Mat fsiv_white_patch_color_balance(cv::Mat const &in, float p)
         //        to compute the mean value.
         // HINT: use fsiv_color_rescaling when the "from" scalar was computed.
 
-        out = fsiv_convert_bgr_to_gray(in, out);
-
         cv::Mat hist = fsiv_compute_image_histogram(out);
-   
-
         float percentile = fsiv_compute_histogram_percentile(hist, 1 - p/100.0);
 
         cv::Mat mask = (out >= percentile);
-
-        cv::Scalar from = cv::mean(in, mask);
-
-        out = fsiv_color_rescaling(in, from, cv::Scalar(255, 255, 255));
+        from = cv::mean(in, mask);
         //
     }
+
+    out = fsiv_color_rescaling(in, from, cv::Scalar(255, 255, 255));
+
 
     CV_Assert(out.type() == in.type());
     CV_Assert(out.rows == in.rows && out.cols == in.cols);
