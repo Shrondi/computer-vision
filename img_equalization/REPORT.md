@@ -1,15 +1,15 @@
 # Lo que he hecho
 
-_Describe de forma honesta qué funcionalidades has realizado de forma total o parcial, indicando en este caso qué problema has tenido para no poder implementarla de forma completa._
+- fsiv_compute_image_histogram
+- fsiv_normalize_histogram
+- fsiv_accumulate_histogram
+- fsiv_compute_clipped_histogram
+- fsiv_compute_actual_clipping_histogram_value
+- fsiv_create_equalization_lookup_table
+- fsiv_apply_lookup_table
 
 # Lo que no he hecho
 
 # Enlace al vídeo descriptivo
 
-_No olvides poner en la descripción del vídeo los capítulos de la forma:_
-'
-Capítulos:
-00:00 fsiv_xxxx
-01:30 fsiv_xxxx
-03:00 Ejemplo de ejecución con parámetro X y justificación.
-'
+https://youtu.be/HlGwND-T860
