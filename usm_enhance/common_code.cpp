@@ -19,6 +19,9 @@ fsiv_create_box_filter(const int r)
     // TODO
     // Hint: use the constructor of cv::Mat to set the proper initial value.
 
+    int tam = 2 * r + 1;
+    ret_v = cv::Mat(tam, tam, CV_32FC1, 1.0/(tam*tam));
+
     //
     CV_Assert(ret_v.type() == CV_32FC1);
     CV_Assert(ret_v.rows == (2 * r + 1) && ret_v.rows == ret_v.cols);
@@ -34,6 +37,9 @@ fsiv_create_gaussian_filter(const int r)
     // TODO
     // Hint: use cv::getGaussianKernel()
 
+    ret_v = cv::getGaussianKernel(2 * r + 1, -1, CV_32F); //Si le indicas el tamaño te calcula el sigma o al revés. Devuelve una matriz de una fila
+    ret_v *= ret_v.t(); // Multiplicar por su traspuesta para obtener una matriz de dos dimensiones. Usar el operador * para el producto matricial
+    
     //
     CV_Assert(ret_v.type() == CV_32FC1);
     CV_Assert(ret_v.rows == (2 * r + 1) && ret_v.rows == ret_v.cols);
@@ -51,6 +57,8 @@ fsiv_fill_expansion(cv::Mat const &in, const int r)
     // Hint: use cv::copyMakeBorder() using the constant value 0 to fill the
     //       expanded area.
 
+    cv::copyMakeBorder(in, ret_v, r, r, r, r, cv::BORDER_CONSTANT);
+
     //
     CV_Assert(ret_v.type() == in.type());
     CV_Assert(ret_v.rows == in.rows + 2 * r);
@@ -66,6 +74,8 @@ fsiv_circular_expansion(cv::Mat const &in, const int r)
     cv::Mat ret_v;
     //! TODO
     //  Hint: use cv::copyMakeBorder() filling with a wrapper image.
+
+    cv::copyMakeBorder(in, ret_v, r, r, r, r, cv::BORDER_WRAP);
 
     //
     CV_Assert(ret_v.type() == in.type());
@@ -95,6 +105,16 @@ fsiv_filter2D(cv::Mat const &in, cv::Mat const &filter)
     //           understanding. In real applications, you should use one of
     //           those functions.
 
+    // Inicializar matriz con 2 columnas y 2 filas menos de tamaño r respecto a la imagen original
+    ret_v = cv::Mat(in.rows - 2 * (filter.rows / 2), in.cols - 2 * (filter.cols / 2), in.type());
+
+    for (int x = 0; x < ret_v.rows; x++){
+        for (int y = 0; y < ret_v.cols; y++){
+            ret_v.at<float>(x, y) = cv::sum(filter.mul(in(cv::Rect(y, x, filter.cols, filter.rows))))[0];
+            // Multiplicar el valor del filtro * valor de la ventana y guardar en el ancla. Sumar todas las multiplicaciones
+        }
+    }
+
     //
     CV_Assert(ret_v.type() == CV_32FC1);
     CV_Assert(ret_v.rows == in.rows - 2 * (filter.rows / 2));
@@ -113,6 +133,9 @@ fsiv_combine_images(const cv::Mat src1, const cv::Mat src2,
 
     // TODO
     // Hint: use cv::addWeighted()
+
+    // ret_v = src1*alpha + src2*beta + gamma;
+    cv::addWeighted(src1, a, src2, b, 0, ret_v);
 
     //
     CV_Assert(ret_v.type() == src2.type());
@@ -135,6 +158,29 @@ fsiv_usm_enhance(cv::Mat const &in, double g, int r,
     // Remember: use your own functions fsiv_xxxx
     // Remember: when unsharp_mask pointer is nullptr, means don't save the
     //           unsharp mask on int.
+
+    // Obtener filtro
+    cv::Mat filter;
+    if (filter_type){
+        filter = fsiv_create_gaussian_filter(r);
+    }else{
+        filter = fsiv_create_box_filter(r);
+    }
+
+    // Obtener imagen de baja frecuencia
+    cv::Mat in_low;
+    if (circular){
+        in_low = fsiv_filter2D(fsiv_circular_expansion(in, r), filter);
+    }else{
+        in_low = fsiv_filter2D(fsiv_fill_expansion(in, r), filter);
+    }
+    
+    if (unsharp_mask != nullptr){
+        *unsharp_mask = in_low;
+    }
+
+    //src1*alpha + src2*beta = in*(g+1) + in_low*(-g)
+    ret_v = fsiv_combine_images(in, in_low, g+1, -g);
 
     //
     CV_Assert(ret_v.rows == in.rows);
