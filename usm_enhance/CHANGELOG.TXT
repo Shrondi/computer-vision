@@ -22,5 +22,5 @@
 - Improved docs.
 - Hint use of copyMakeBorder and getGaussianKernel.
 - Updated to course 24-25.
-
-
+* 1.9
+- Synchronizing docs with the code.

@@ -35,7 +35,6 @@ cv::Mat fsiv_create_gaussian_filter(const int r);
 
 /**
  * @brief Expand an image with zero padding.
- * @warning the code can't use the interface cv::copyMakeborder().
  * @arg[in] in is the input image.
  * @arg[in] r is the window's radius to expand.
  * @return the expanded image.
@@ -49,7 +48,6 @@ cv::Mat fsiv_fill_expansion(cv::Mat const &in, const int r);
 
 /**
  * @brief Circular expansion of an image.
- * @warning the code can't use the interface cv::copyMakeborder().
  * @arg[in] in is the input image.
  * @arg[in] r is the window's radius to expand.
  * @return the expanded image.
