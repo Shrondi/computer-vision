@@ -20,6 +20,12 @@ fsiv_generate_3d_calibration_points(const cv::Size &board_size,
     std::vector<cv::Point3f> ret_v;
     // TODO
     // Remember: the first inner point has (1,1) in board coordinates.
+    for (int i = 1; i <= board_size.height; i++){
+        for (int j = 1; j <= board_size.width; j++){
+            ret_v.push_back(cv::Point3f(j*square_size, i*square_size, 0.0));
+        }
+
+    }
 
     //
     CV_Assert(ret_v.size() == static_cast<size_t>(board_size.width * board_size.height));
@@ -36,6 +42,27 @@ bool fsiv_find_chessboard_corners(const cv::Mat &img, const cv::Size &board_size
     // Hint: use cv::findChessboardCorners and cv::cornerSubPix.
     // Remember: if wname is not nullptr, show the detected corners and wait for a key press. If the key is ESC, return false.
 
+    was_found = cv::findChessboardCorners(img, board_size, corner_points);
+
+    if (was_found){
+        cv::Mat gray;
+        cv::cvtColor(img, gray, cv::COLOR_BGR2GRAY);
+        cv::cornerSubPix(gray, corner_points, cv::Size(5, 5), cv::Size(-1, -1), cv::TermCriteria()); //imagen gris para calcular los corner
+    }
+
+    if (wname != nullptr){
+        cv::namedWindow(wname);
+
+        cv::Mat new_img = img.clone();
+        cv::drawChessboardCorners(new_img, board_size, corner_points, was_found); //dibujamos sobre la imagen original
+
+        int key = 0;
+        const int ESC_KEY = 27;
+        do{
+            cv::imshow(wname, new_img);        
+            key = cv::waitKey(20) & 0xFF; //Mascara con bits para quedarse con los ultimos 8 bits para eliminar los modificadores
+        } while (key != ESC_KEY);
+    }
     //
     return was_found;
 }
@@ -53,6 +80,16 @@ float fsiv_calibrate_camera(const std::vector<std::vector<cv::Point2f>> &_2d_poi
     // TODO
     // Hint: use cv::calibrateCamera.
     // Remember: if rvecs or tvecs are not nullptr, save the rotation and translation vectors.
+
+    if (rvecs == nullptr){
+        rvecs = new std::vector<cv::Mat>();
+    }
+
+    if (tvecs == nullptr){
+        tvecs = new std::vector<cv::Mat>();
+    }
+
+    error = cv::calibrateCamera(_3d_points, _2d_points, camera_size, camera_matrix, dist_coeffs, *rvecs, *tvecs);
 
     //
     CV_Assert(camera_matrix.rows == camera_matrix.cols &&
@@ -82,6 +119,14 @@ void fsiv_save_calibration_parameters(cv::FileStorage &fs,
     // Hint: use cv::FileStorage "<<" operator to save the data.
     // Remember: the labels are: image-width, image-height, error, camera-matrix, distortion-coefficients, rvec, tvec.
 
+    fs << "image-width" << camera_size.width;
+    fs << "image-height" << camera_size.height;
+    fs << "error" << error;
+    fs << "camera-matrix" << camera_matrix;
+    fs << "distortion-coefficients" << dist_coeffs;
+    fs << "rvec" << rvec;
+    fs << "tvec" << tvec;
+
     //
     CV_Assert(fs.isOpened());
     return;
@@ -100,6 +145,14 @@ void fsiv_load_calibration_parameters(cv::FileStorage &fs,
     // Hint: use cv::FileStorage ">>" operator to load the data.
     // Remember: the labels are: image-width, image-height, error, camera-matrix, distortion-coefficients, rvec, tvec.
 
+    fs["image-width"] >> camera_size.width;
+    fs["image-height"] >> camera_size.height;
+    fs["error"] >> error;
+    fs["camera-matrix"] >> camera_matrix;
+    fs["distortion-coefficients"] >> dist_coeffs;
+    fs["rvec"] >> rvec;
+    fs["tvec"] >> tvec;
+
     //
     CV_Assert(fs.isOpened());
     CV_Assert(camera_matrix.type() == CV_64FC1 && camera_matrix.rows == 3 && camera_matrix.cols == 3);
@@ -115,7 +168,7 @@ void fsiv_undistort_image(const cv::Mat &input, cv::Mat &output,
 {
     // TODO
     // Hint: use cv::undistort.
-
+    cv::undistort(input, output, camera_matrix, dist_coeffs);
     //
 }
 
