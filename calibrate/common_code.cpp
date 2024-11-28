@@ -62,6 +62,7 @@ bool fsiv_find_chessboard_corners(const cv::Mat &img, const cv::Size &board_size
             cv::imshow(wname, new_img);        
             key = cv::waitKey(20) & 0xFF; //Mascara con bits para quedarse con los ultimos 8 bits para eliminar los modificadores
         } while (key != ESC_KEY);
+
     }
     //
     return was_found;
@@ -190,6 +191,27 @@ void fsiv_undistort_video_stream(cv::VideoCapture &input_stream,
     //  the input frame using the computed maps.
     // Remember: if input_wname or output_wname are not nullptr, show the frames.
 
+    cv::Mat map1, map2;
+    cv::Size size(input_stream.get(cv::CAP_PROP_FRAME_WIDTH), input_stream.get(cv::CAP_PROP_FRAME_HEIGHT));
+    cv::initUndistortRectifyMap(camera_matrix, dist_coeffs, cv::Mat(), camera_matrix, size, CV_32FC1, map1, map2);
+
+    double wait_time = 1000.0/fps;
+    int key = 0;
+
+    cv::Mat input_frame, output_frame;
+    input_stream >> input_frame;
+    
+    while(!input_frame.empty() && key!=27){
+        cv::remap(input_frame, output_frame, map1, map2, interp);
+        output_stream.write(output_frame);
+
+        cv::imshow(input_wname, input_frame);
+        cv::imshow(output_wname, output_frame);
+        
+        key = cv::waitKey(wait_time) & 0xff;
+        input_stream >> input_frame;
+    }
+    cv::destroyAllWindows();
     //
     CV_Assert(input_stream.isOpened());
     CV_Assert(output_stream.isOpened());
