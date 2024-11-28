@@ -128,6 +128,36 @@ void fsiv_draw_3d_model(cv::Mat &img, const cv::Mat &M, const cv::Mat &dist_coef
     // Hint: use a "reference point" to move the model around the image and update it
     //       at each call to move the 3D model around the scene.
 
+    std::vector<cv::Point3f> object_points = {
+        { 0, 0, 0 },                             // 0: Esquina superior izquierda de la base inferior (0, 0, 0)
+        { size, 0, 0 },                          // 1: Esquina inferior derecha de la base inferior (size, 0, 0)
+        { size, size, 0 },                       // 2: Esquina inferior derecha de la base superior (size, size, 0)
+        { 0, size, 0 },                          // 3: Esquina superior izquierda de la base superior (0, size, 0)
+        { 0, 0, -size },                         // 4: Esquina superior izquierda de la base inferior detrás (0, 0, -size)
+        { size, 0, -size },                      // 5: Esquina inferior derecha de la base inferior detrás (size, 0, -size)
+        { size, size, -size },                   // 6: Esquina inferior derecha de la base superior detrás (size, size, -size)
+        { 0, size, -size }                       // 7: Esquina superior izquierda de la base superior detrás (0, size, -size)
+    };
+
+    // Proyecta los puntos 3D en la imagen 2D.
+    std::vector<cv::Point2f> image_points;
+    cv::projectPoints(object_points, rvec, tvec, M, dist_coeffs, image_points);
+
+    // Define todas las líneas del modelo en un solo vector.
+    std::vector<std::vector<cv::Point>> segments = {
+        // Base inferior
+        { image_points[0], image_points[1], image_points[2], image_points[3], image_points[0] },
+        // Base superior
+        { image_points[4], image_points[5], image_points[6], image_points[7], image_points[4] },
+        // Conexiones entre las bases
+        { image_points[0], image_points[4] },
+        { image_points[1], image_points[5] },
+        { image_points[2], image_points[6] },
+        { image_points[3], image_points[7] }
+    };
+
+    cv::polylines(img, segments, true, cv::Scalar(0, 255, 0));
+
     //
 }
 
@@ -164,9 +194,6 @@ void fsiv_project_image(const cv::Mat &model, cv::Mat &scene,
     cv::Mat transform = getPerspectiveTransform(model_points, chess_board_points);   
 
     cv::warpPerspective(model, scene, transform, scene.size(), cv::INTER_LINEAR, cv::BORDER_TRANSPARENT);                                                                                
-
-
-
 
     //
 }
