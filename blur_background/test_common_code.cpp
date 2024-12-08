@@ -634,714 +634,710 @@
 #include <exception>
 #include <sstream>
 
-//Includes para OpenCV, Descomentar según los módulo utilizados.
+// Includes para OpenCV, Descomentar según los módulo utilizados.
 #include <opencv2/core.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/video.hpp>
-//#include <opencv2/calib3d/calib3d.hpp>
+// #include <opencv2/calib3d/calib3d.hpp>
 
-
-
-void
-my_fsiv_compute_dense_optical_flow mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-    		   
-    cv mtOADHjcfWlYUUaEqJYvC 	 
+ mRaHBseQqWYz2cyp3Rs3E 	 
     	  
     		   
      
      
- Mat const &prev,
-                                cv mhlrvVwQFcOFpdjFt4y2u 	 
-    Mat const &next,
-                                cv mgwQSYXcc9TIiKkPXgshg 	 
-    	Mat &flow mxBVKq5uLQpnUbC1M415c 	 
+ my_fsiv_compute_dense_optical_flow myuutvgsUpQCFDJ0ssvlp 	 
+    cv mWT_5joNFiaFOgpc894br 	 
     	  
-    	
- myi_nNZ_JfQR5mbTdok9w 	 
+    		   
+    Mat const &prev,
+                                        cv mgwQSYXcc9TIiKkPXgshg 	 
+    	Mat const &next,
+                                        cv mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+    	Mat &flow mCxo5hT3adsjpL3eSx_tm 	 
     	  
     		   
      
-    static cv mWT_5joNFiaFOgpc894br 	 
+ mzdEyRJKtHmAv_hyCRXsM 	 
     	  
     		   
-  Ptr mFTDk1A7X2oZzPWrjJBTS 	 
-    	  
-    		   
-     
- cv mgrChmV5pX_BBnPjupsCz 	 
-    	  
-FarnebackOpticalFlow  mpgP0vTNcH8bnjKMb0lnb 	 
-    	  
-    		    alg mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-     
-     
-     moWzCteaw2sTVcwRbVbzv 	 
-    	  
-    		   
-     mpYC3Q6HCOG_y3bCV_bzU 	 
-    	  
-    		   
-    mmp7_M9ugDi91VvmJTBt1 	 
-    	  
-    		   
-     
-     alg mA3nRYnr_lZzzMo1jh_vB 	 
-    	  
-    		   
-     
-     
-        alg  mLZ3y6cDPwjsfFVKTrILy 	 
-    	  
-    		   
-     
-     
- 
-  	  cv mMNd9IbgZGNvHCj6cXNIY 	 
- FarnebackOpticalFlow mgrChmV5pX_BBnPjupsCz 	 
-    	  
-    		   
-     
-    create mAh372E_Wg9TxPqKoaDdB 	 
-    	  
-    		   
-   mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
- 
-    alg mB2EhXT0BPBy9yjrxqp1u 	 
-    	  
-    		   
-setFlags mYSn7neYwuzZiHSfgVhG4 	 
-    	  
-    		   
-     
-     
- 
-  	flow.empty mkIFONPkvrdc61fQAT2H7 	 
-    	  
-    		    ? 0 : cv mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-    	OPTFLOW_USE_INITIAL_FLOW mA3nRYnr_lZzzMo1jh_vB 	 
-    	  
-    	 mUQApTk2utXRlZOX2bxsA 	 
   
-    alg mRPiNnEPcQH3y12uP7HFQ 	 
+    static cv mgrChmV5pX_BBnPjupsCz 	 
+    	  
+Ptr mFTDk1A7X2oZzPWrjJBTS 	 
+    	  
+    		   
+     
+     cv mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+    		   FarnebackOpticalFlow muJE97qvNzITjsGin6tfo 	 
+    	  
+    		   
+     
+ alg mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		   
+    
+     mUgFQNn6NFW_G4o3ySm_4 	 
+    	  
+    		   
+     
+      mpYC3Q6HCOG_y3bCV_bzU 	 
+    	  
+    		   
+     
+      meRV1BnTNhVK4UY7xqlmy 	 
+    	  
+    		   
+  alg mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		   
+   
+        alg  mkNGVmRSdeblSckxXzGVq 	 
+    	  
+  cv mgrChmV5pX_BBnPjupsCz 	 
+    	  
+    		   
+     
+    FarnebackOpticalFlow mwz7jWEjfVuS42kuaQPn8 	 
     	  
     		   
      
      
  
-  calc mZf3yA3X8Y4vlKmyskuBt 	 
+  	 create mwDTANvBf2eCihKlwIGcQ 	 
+  mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		   
+    alg mq1dLrY9fa4LlsXx3HCMA 	 
+    	  
+    	setFlags mChGzY6uJwNl0HsnhepB1 	 
+  flow.empty mwDTANvBf2eCihKlwIGcQ 	 
+    	  
+    	 ? 0 : cv mWT_5joNFiaFOgpc894br 	 
+    	  
+    		   
+OPTFLOW_USE_INITIAL_FLOW mt6dcxNU8FQBTRU5nGYnX 	 
     	  
     		   
      
      
  
-  	 prev, next, flow mXD0JeNoU_GFfICrMiytn 	 mHLOpps1TeJ1n4a5pxdNv 	 
+  	 mu0Zw3fsOhh38Uo4aDS8W 	 
     	  
     		   
      
      
  
-  	 
- mozmL8sMtEcXdVFJtkOKz 	 
+  
+    alg moUYnjRTAuoihfJii16Wu 	calc mmZpaGRQQTWxpkl5_I8in 	 
+    	  
+    		   
+     
+     
+ 
+  	 prev, next, flow mCxo5hT3adsjpL3eSx_tm 	 
+    	  
+    		   
+     
+     
+ 
+  	  mKCH6zvmv2K2hcW15vK3r 	 
     	  
    
-
-cv mwz7jWEjfVuS42kuaQPn8 	 
+ mJTa21GBBlpdHs8EUXwZ0 	 
     	  
-Mat 
+
+
+cv mnsDFHlx8Rb1ohrxyYFfi 	 
+   Mat
 my_fsiv_create_structuring_element mpYC3Q6HCOG_y3bCV_bzU 	 
+ int ste_r,  mPEXKIHylb5EYa1bDUzOc 	 
+    	  
+   type mA3nRYnr_lZzzMo1jh_vB 	 
     	  
     		   
-    int ste_r,  mKiEjAMYsFU_Bb_sAc8_Z 	 
-   type mW00V7n8RwzFWH7tra2wp 	 
-    	  
     
  mmgqYc0_7tKLpJXAoouea 	 
- 
-    cv mgwQSYXcc9TIiKkPXgshg 	 
     	  
-    		 Mat ste mErDDSVFJd4ybmgEkutlI 	 
-    	  
-    		   
-     
-     
-
-    ste  mtcMtq_ZgTF0Gbvko4MMI 	 
-    	  
-    		   
- cv mMNd9IbgZGNvHCj6cXNIY 	getStructuringElement mmKFpIHZ2jW3Pl2yswFoH 	 
-    	  
-    		   type, cv mgrChmV5pX_BBnPjupsCz 	 
+    		 
+    cv mgrChmV5pX_BBnPjupsCz 	 
     	  
     		   
      
-     Size mmKFpIHZ2jW3Pl2yswFoH 	 
+     
+Mat ste mIeb91O4CN5VggNyO2vQ7 	
+    ste  myAj9JkIJCTTmCuRc8M99 	 
     	  
-    		   
-    ste_r * 2 + 1, ste_r * 2 + 1 mXD0JeNoU_GFfICrMiytn 	 
-    mA3nRYnr_lZzzMo1jh_vB 	 
-    	  
-   mHLOpps1TeJ1n4a5pxdNv 	 
-    	  
-
-     mjtj7yQ_q2uLcbKG2QsDq 	 
+ cv mgrChmV5pX_BBnPjupsCz 	 
     	  
     		   
      
-   ste mUQApTk2utXRlZOX2bxsA 	 
+     getStructuringElement mmKFpIHZ2jW3Pl2yswFoH 	 
+    	  
+    		   
+    type, cv mgrChmV5pX_BBnPjupsCz 	 
+   Size mZf3yA3X8Y4vlKmyskuBt 	 
+    	  
+    		   
+ste_r * 2 + 1, ste_r * 2 + 1 mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+   mq2WtyfxNuhMujs_W_RTx 	 
+    	  
+    		    maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		   
+     
    
- mMrjjxUfFnHYwyIeo4thn 	
-
- mMnnGpHxOGg7ZBDtb2pmt 	 
+     mwdxiJ7bkKBFeuo6juueu 	 
+   ste mCF6yuex92SFioZPpxBz2 	
+ mJP7Jsm7au1oZp1CLb7PT 	 
     	  
     		   
     
-my_fsiv_compute_optical_flow_magnitude mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-    	cv mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-    		   
-     
-     
- 
-  	 Mat &flow, cv mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    Mat& mag mA3nRYnr_lZzzMo1jh_vB 	 
+
+ mRaHBseQqWYz2cyp3Rs3E 	 
     	  
     		   
      
      
  
- mxiSiDyBWybvWD_EkXqQ2 	 
+  	 my_fsiv_compute_optical_flow_magnitude mChGzY6uJwNl0HsnhepB1 	 
+    	  cv mpd4PM_FCAECboim6Wmgy 	 
     	  
-    static std mpd4PM_FCAECboim6Wmgy 	 
+    Mat &flow, cv mgwQSYXcc9TIiKkPXgshg 	 
     	  
-    	vector maJJMpCnCYLQsMYPbFYMA 	 
+    		   
+     
+     
+ Mat &mag mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    	
+ mWPvycRWzzsoqLdQC4Zks 	 
+    	  
+    	
+    static std mnsDFHlx8Rb1ohrxyYFfi 	 
     	  
     		   
      
      
  
-cv mnsDFHlx8Rb1ohrxyYFfi 	 
+  	vector mFTDk1A7X2oZzPWrjJBTS 	 
     	  
     		   
      
      
  
-  	Mat mEBO9XZXAXJaUk4obnE7N 	 
-  flow_xy mZ5n7IX_AHHoHYsodfx8Y 	 
+  	cv mgrChmV5pX_BBnPjupsCz 	 
+ Mat mpgP0vTNcH8bnjKMb0lnb 	 
+    	  
+    		   
+     
+     
+ 
+ flow_xy mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+    		   
+     
+     
+ 
+  
+    cv mpd4PM_FCAECboim6Wmgy 	 
+ split myuutvgsUpQCFDJ0ssvlp 	 
+    flow, flow_xy mCxo5hT3adsjpL3eSx_tm 	 
+    	 mCF6yuex92SFioZPpxBz2 	 
+    	  
+    
+    cv mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+    		   
+     magnitude mYSn7neYwuzZiHSfgVhG4 	 
+    	  
+    		   
+   flow_xy m_23kSgiA0WF7jIecI9GS 	 
+    	  
+    		   
+     
+     
+0 mOFbQJXpIqx2CUsXY6ojL 	, flow_xy mdYWeG2a5BHWYTCQWns_L 	 
+    	  
+ 1 mLb0lJEDMWAhQxS1Zq67K 	 
+    	  
+    		   
+    , mag mW00V7n8RwzFWH7tra2wp 	 
+   mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		   
+     
+     
+ mMrjjxUfFnHYwyIeo4thn 	 
+
+ maSRbpjxVVICurEUbIuQV 	 
+    	  
+    		   
+     
+  my_fsiv_compute_of_foreground_mask mmKFpIHZ2jW3Pl2yswFoH 	 
+    	  
+    		   
+     
+  cv mgrChmV5pX_BBnPjupsCz 	 
+    	  
+    		   
+     
+ Mat const &prev, cv mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+    		   
+     
+     
+ Mat const &curr,
+                                        cv mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+    		   
+     
+Mat &flow,
+                                        cv mWT_5joNFiaFOgpc894br 	 Mat &mask,
+                                        const  mZnpA1C5VCYvSOdWYd650 	 
+    	  
+ t,
+                                        const  mleaN1JwZuigEsM3tS2a6 	 
+    	 ste_r,
+                                        const  mKiEjAMYsFU_Bb_sAc8_Z 	 
+    	  
+  ste_type,
+                                        const  mD2IMpmuC9DqK0MgNcche 	 
+    	  
+    		alpha mq2WtyfxNuhMujs_W_RTx 	 
+    	  
+    		
+ mChKOw2unTvh7zyq4OT_T 	 
+    	  
+    		  
+    my_fsiv_compute_dense_optical_flow mf6w6nRo1UPHMI9Ix1lmT 	 
+prev, curr, flow mt6dcxNU8FQBTRU5nGYnX 	 
+    	  
+    		   
+     
+     
+ 
+   mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		   
+     
+     
+    cv mtOADHjcfWlYUUaEqJYvC 	Mat flow_mag mu0Zw3fsOhh38Uo4aDS8W 	 
     	  
     		   
      
      
  
   	
-    cv mMNd9IbgZGNvHCj6cXNIY 	 
+    my_fsiv_compute_optical_flow_magnitude mChGzY6uJwNl0HsnhepB1 	 
+   flow, flow_mag mt6dcxNU8FQBTRU5nGYnX 	 
+    	  
+    		   
+     
+      mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    static cv mtOADHjcfWlYUUaEqJYvC 	 
+    	  Mat current_mask mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		   
+    current_mask  mkNGVmRSdeblSckxXzGVq 	 
+    	  
+    		   
+     
+      flow_mag  muF6729Fw0dY7IUXcqL_F 	 
+    	  
+    		   
+     t mCF6yuex92SFioZPpxBz2 	 
+   
+     mmoN25SYs7aJ2siMeP2QH 	 
+    	  
+   mChGzY6uJwNl0HsnhepB1 	 
+    	  
+    		   
+     
+     
+ ste_r mUaKuNbS96FbvDu3x85PG 	 
     	  
     		   
      
      
  
-  split mZf3yA3X8Y4vlKmyskuBt 	 
-    	flow, flow_xy mt6dcxNU8FQBTRU5nGYnX 	 
-  mKCH6zvmv2K2hcW15vK3r 	 
-    
-    cv mnsDFHlx8Rb1ohrxyYFfi 	 
+  
+     mxiSiDyBWybvWD_EkXqQ2 	
+        cv mMNd9IbgZGNvHCj6cXNIY 	 
     	  
-    magnitude mChGzY6uJwNl0HsnhepB1 	 
-  flow_xy mdYWeG2a5BHWYTCQWns_L 	 
-    	  
-    		   
-    0 mGv6D9Qz8MbJvAmkFU4Hx 	 
-    	  
-    		   
-   , flow_xy m_23kSgiA0WF7jIecI9GS 	 
+    Mat ste  mik5L9gUWoenRFF12Yrzk 	 
     	  
     		   
      
-     
-1 mOFbQJXpIqx2CUsXY6ojL 	, mag mW00V7n8RwzFWH7tra2wp 	 
+  my_fsiv_create_structuring_element mpYC3Q6HCOG_y3bCV_bzU 	 
+  ste_r, ste_type mCo_IAiG3U7gZmGW7mfLA 	 
     	  
     		   
-      mKCH6zvmv2K2hcW15vK3r 	 
-    	  
- 
- mozmL8sMtEcXdVFJtkOKz 	 
+     
+ mIeb91O4CN5VggNyO2vQ7 	 
     	  
     		   
      
      
 
-void
-my_fsiv_compute_of_foreground_mask mppKtzP31aZy0pGd2m0Z9 	 
-    	  
-    		   
-     
- cv mnsDFHlx8Rb1ohrxyYFfi 	 Mat const& prev, cv mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-    		   
-     
-  Mat const& curr,
-                                    cv mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    		   
-     
-     
- Mat& flow,
-                                     cv mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-    		   
-     
-  Mat & mask,
-                                     const  mZnpA1C5VCYvSOdWYd650 	 
-    	  
-    		   
-     
-t,
-                                     const  mH6PiHnqpo8UuqrMEAB6z 	 ste_r,
-                                     const  mPEXKIHylb5EYa1bDUzOc 	 
-    	  
- ste_type,
-                                     const  mvShd2oEJi2tLN0SOFZu5 	 
-    	 alpha mxBVKq5uLQpnUbC1M415c 	 
-    	  
-  
- mChKOw2unTvh7zyq4OT_T 	 
-    	  
-    		
-    my_fsiv_compute_dense_optical_flow mmKFpIHZ2jW3Pl2yswFoH 	 
-    	  
-    		  prev, curr, flow mq2WtyfxNuhMujs_W_RTx 	 
-    	  
-    		 mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-     
-     
- 
-  
-    cv mErde6Wj4Ze0ly0Y61AFC 	 
-Mat flow_mag mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-     
-     
-    my_fsiv_compute_optical_flow_magnitude mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-    		   
-     
-     
- 
-  	flow, flow_mag mq2WtyfxNuhMujs_W_RTx 	 mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-     
-     
-    static cv mwz7jWEjfVuS42kuaQPn8 	 
-   Mat current_mask mZ5n7IX_AHHoHYsodfx8Y 	 
-    	      
-    current_mask  mSk1ShXRx3FQBFfrfi8ft 	 
-    	  
-    		    flow_mag  mEQIsA3CEFNeYEkD0VISr 	 
-    	   t mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		   
-    
-     moWzCteaw2sTVcwRbVbzv 	 
-    	  
-    		   
-     
-      mppKtzP31aZy0pGd2m0Z9 	 
-    	  
-  ste_r mxBVKq5uLQpnUbC1M415c 	 
-   
-     mIXHmxpusVFv3HyUXTK1Q 	 
-    	  
-    		   
-     
-     
- 
-  
         cv mwz7jWEjfVuS42kuaQPn8 	 
+dilate mf6w6nRo1UPHMI9Ix1lmT 	 
+    current_mask, current_mask, ste mUaKuNbS96FbvDu3x85PG 	 
+    	  
+    		    mKCH6zvmv2K2hcW15vK3r 	 
     	  
     		   
      
-     
- Mat ste  mSk1ShXRx3FQBFfrfi8ft 	 
-    	  
-    		   
-     
- my_fsiv_create_structuring_element mZf3yA3X8Y4vlKmyskuBt 	 
-    	  
-    ste_r, ste_type mW00V7n8RwzFWH7tra2wp 	 mCTRiZEfCcZ4rtZeXzEPU 	 
-  
-        cv mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-     
- dilate mChGzY6uJwNl0HsnhepB1 	 
-current_mask, current_mask, ste mCxo5hT3adsjpL3eSx_tm 	 
-    	  
-    		   
-     
-     
- mu0Zw3fsOhh38Uo4aDS8W 	 
-    	  
-    		   
-     mPktF2k_R4xKiN2Zg99Ud 	 
-    
-     mVmHfDt9pq2zl91iYWE6U 	 
-    	  
-    		   
-     
- mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-    		   
-      mRwhC3e3qO_WZuEA4A2BW 	 
-    	  
-  mask.empty muDy_qxq6pQC33xkdhIyC 	 
-    mjyVQ48wRRVzvwtpWu4LT 	 
-    	  
-    		   
-     
-     alpha  mro504FCPvSIA3yDAGv65 	 
-    	  
-   0.0 mt6dcxNU8FQBTRU5nGYnX 	 
-    	  
-    		   
-     
-        mask  mLwpjlSPu7J_elHZYFHIX 	 
-    	  
-    		   
-     
-     
- 
-  	 mask.mul mChGzY6uJwNl0HsnhepB1 	 
-    	  
-    		   
-     
-     cv mErde6Wj4Ze0ly0Y61AFC 	 
-    	  
-    		   
-     
-     
- Scalar mChGzY6uJwNl0HsnhepB1 	 
-   alpha mt6dcxNU8FQBTRU5nGYnX 	 
-    	  
-    		   
-     
- mCo_IAiG3U7gZmGW7mfLA 	 
-    	  
-    		   
-     
-    + current_mask.mul mZf3yA3X8Y4vlKmyskuBt 	 
-    	  
-    		   
-     cv mgrChmV5pX_BBnPjupsCz 	 
-    	  
-    		   
-     
-     
- 
-  Scalar mYSn7neYwuzZiHSfgVhG4 	 
-    	  
-    		   
-     
-     mZf3yA3X8Y4vlKmyskuBt 	 
-    	  
-   1.0-alpha mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    		   
-    mUaKuNbS96FbvDu3x85PG 	  mA3nRYnr_lZzzMo1jh_vB 	 
-    	  
-    		   
-      mu0Zw3fsOhh38Uo4aDS8W 	 
-    	  
-    		   
-   
-    else
-        current_mask.copyTo mpYC3Q6HCOG_y3bCV_bzU 	 
-    	  
-    	mask mt6dcxNU8FQBTRU5nGYnX 	 
-    mErDDSVFJd4ybmgEkutlI 	 
-    	  
-    		
- mPktF2k_R4xKiN2Zg99Ud 	 
-    	  
-   
 
- mq8QZ1fcu7doY8zC16S2e 	 
-    
-my_fsiv_blur_background mYSn7neYwuzZiHSfgVhG4 	 
-    	  
-    		   
-     
- cv mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-  Mat const& input,
-                          cv mtOADHjcfWlYUUaEqJYvC 	 
-    	  Mat const& fg_mask,
-                          cv mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   
-     
-   Mat & output,
-                          const  mPEXKIHylb5EYa1bDUzOc 	r,
-                          const  maj782xJqBofsysA5mWjg 	 
-   gaussian mCxo5hT3adsjpL3eSx_tm 	 
-    	  
-    		   
-     
-     
- mmgqYc0_7tKLpJXAoouea 	 
-    	  
-    		   
-     
-        
-     mE_6o32Gp3JDq_gnNQzZ0 	 
- mpYC3Q6HCOG_y3bCV_bzU 	 
-    	  
-    		   
-     
-  gaussian mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    		   
-     
-    
-        cv mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-    GaussianBlur mmKFpIHZ2jW3Pl2yswFoH 	 
-    	  
-    		   
-     
-   input, output,
-                         cv mwz7jWEjfVuS42kuaQPn8 	 
-    	  Size mmZpaGRQQTWxpkl5_I8in 	2*r+1, 2*r+1 mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    		   
-  , 0.0 mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		   
-     
-      mKCH6zvmv2K2hcW15vK3r 	 
- 
-    else
-        cv mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-    		  blur mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-    		   
-     
-     
- input, output, cv mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   
-     
-     
- 
-  	Size mZf3yA3X8Y4vlKmyskuBt 	 
-    	  
-    		   
-     
-     
- 
-  2*r+1, 2*r+1 mt6dcxNU8FQBTRU5nGYnX 	 
-    mW00V7n8RwzFWH7tra2wp 	 
-    	  
-    		   
-     
-    mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-     
-     
- 
+     mozmL8sMtEcXdVFJtkOKz 	 
   
-    input.copyTo mZf3yA3X8Y4vlKmyskuBt 	 
-    	  output, fg_mask mXD0JeNoU_GFfICrMiytn 	 
+     mmoN25SYs7aJ2siMeP2QH 	 
     	  
     		   
+     
+     mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
+   mqKKrBWIaOyLS3Ra_jBDL 	 
+    	  
+    		   
+     
+     
+ mask.empty meDekgZkaKWxgWJNWiB94 	 
+    	  
+    		   
+   mc3Ft5vFbWZ0I_cyBj9MZ 	 
+    	  
+    		   
+      alpha  mEBO9XZXAXJaUk4obnE7N 	 
+    	  
+    		   
+     
+     
+ 
+   0.0 mCxo5hT3adsjpL3eSx_tm 	 
+    	  
+  
+        cv mpd4PM_FCAECboim6Wmgy 	 
+    	  
+    		   
+     
+addWeighted mf6w6nRo1UPHMI9Ix1lmT 	 mask, alpha, current_mask,  mpYC3Q6HCOG_y3bCV_bzU 	 
+    	  
+    		   
+     1.0 - alpha mCo_IAiG3U7gZmGW7mfLA 	 
+    	  
+    		   
+     
+   , 0.0, mask mCFpr4Os_BUpE0hBecZXK 	 
+    	  
+    		   
+    mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+     
+    else
+        current_mask.copyTo mZf3yA3X8Y4vlKmyskuBt 	 
+    	  
+    		   
+     mask mW00V7n8RwzFWH7tra2wp 	 
     mZ5n7IX_AHHoHYsodfx8Y 	 
     	  
-    	
- mozmL8sMtEcXdVFJtkOKz 	 
+    		   
+     
+    
+ mfYUGCIJ4y66ek5pHyoZN 	 
+    	  
+   
+
+ mH2iaTe1AmMknyrV3qrko 	 
     	  
     		   
+     
+     
+ 
+  	my_fsiv_blur_background mYSn7neYwuzZiHSfgVhG4 	 
+   cv mErde6Wj4Ze0ly0Y61AFC 	 
+    	  
+    		   
+   Mat const &input,
+                             cv mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    	Mat const &fg_mask,
+                             cv mgrChmV5pX_BBnPjupsCz 	 
+    	  
+    		Mat &output,
+                             const  molbYrJdmAWzmis3mfRI9 	 
+    	  
+   r,
+                             const  mIlg7SfwuJCuKSCLrAmGW 	 
+    gaussian mW00V7n8RwzFWH7tra2wp 	 
+    	  
+  
+ mWPvycRWzzsoqLdQC4Zks 	 
+    	  
+    		   
+     
+ 
+     mdScDBc7q82a1WdAnmuIu 	 
+    	   mChGzY6uJwNl0HsnhepB1 	gaussian mCFpr4Os_BUpE0hBecZXK 	 
+    	  
+    		   
+     
+   
+        cv mnsDFHlx8Rb1ohrxyYFfi 	 
+   GaussianBlur mZf3yA3X8Y4vlKmyskuBt 	 
+    	  
+    		   
+     
+     input, output,
+                         cv mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     
+ Size mpYC3Q6HCOG_y3bCV_bzU 	 
+    	  
+    		   
+     
+  2 * r + 1, 2 * r + 1 mxBVKq5uLQpnUbC1M415c 	 
+, 0.0 mCFpr4Os_BUpE0hBecZXK 	 
+    	  
+    		   
+     
+     mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		   
+    
+    else
+        cv mtOADHjcfWlYUUaEqJYvC 	 
+    	  
+    		   
+     
+   blur mmZpaGRQQTWxpkl5_I8in 	input, output, cv mwz7jWEjfVuS42kuaQPn8 	 
+    	  Size myuutvgsUpQCFDJ0ssvlp 	 
+ 2 * r + 1, 2 * r + 1 mCFpr4Os_BUpE0hBecZXK 	 
+    	  
+    		   
+   mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    		   
+     
+      mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		  
+    input.copyTo mYSn7neYwuzZiHSfgVhG4 	 
+   output, fg_mask mCFpr4Os_BUpE0hBecZXK 	 
+    	  
+    		   
+     
+     
+ 
+  	 mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+   
+ mMrjjxUfFnHYwyIeo4thn 	 
+    	  
+    		   
+     
      
  
 
 #include "common_code.hpp"
 
-int
-main  mYSn7neYwuzZiHSfgVhG4 	 
+ msBil3sNAqwEOnp3Wgbyj 	 
     	  
     		   
      
      
  
-  int argc, char* const* argv mA3nRYnr_lZzzMo1jh_vB 	 
+  main mppKtzP31aZy0pGd2m0Z9 	 
+    	  
+    		   
+   int argc, char *const *argv mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		   
+     
+     
+ 
+  
+ myi_nNZ_JfQR5mbTdok9w 	 
+    	  
+     mCWMzZFPcoXg9fIw5padT 	 
+    	  
+    	retCode  mSk1ShXRx3FQBFfrfi8ft 	 
+    	  
+    		   
+     
+  EXIT_SUCCESS mCTRiZEfCcZ4rtZeXzEPU 	 
     	  
     		   
      
  
- miHaghnjGYZRXpERY7vgM 	
-     mleaN1JwZuigEsM3tS2a6 	 
-    	  
-    		   
-    retCode mLZ3y6cDPwjsfFVKTrILy 	 
+     mCWMzZFPcoXg9fIw5padT 	 
     	  
     		   
      
      
- EXIT_SUCCESS mHLOpps1TeJ1n4a5pxdNv 	 
-    	  
-    		   
  
-     mk5_ghEAebl24EQAP8Y2I 	 
-    tests_passed  mrW3LX4vM3dW4niDeipVf 	 
+  tests_passed  mSk1ShXRx3FQBFfrfi8ft 	 0 mErDDSVFJd4ybmgEkutlI 	 
     	  
     		   
- 0 mCF6yuex92SFioZPpxBz2 	 
+    
+     mPEXKIHylb5EYa1bDUzOc 	 
+    	  
+    		   
+     
+     
+ tests  myAj9JkIJCTTmCuRc8M99 	 
+    	  
+    		   
+  0 maPJhxKGuCRBF8PTSEfoJ 	 
+    
+
+    cv mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+    		   
+uint64_t seed  mrW3LX4vM3dW4niDeipVf 	 
+    	  
+    		   0 maPJhxKGuCRBF8PTSEfoJ 	 
+    	 
+     mE_6o32Gp3JDq_gnNQzZ0 	 
+    	  
+  mpYC3Q6HCOG_y3bCV_bzU 	 
+    	 argc  mpgP0vTNcH8bnjKMb0lnb 	 
+    	  
+    		   
+     
+    1 mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    		   
+     
+ 
+        seed  mtcMtq_ZgTF0Gbvko4MMI 	 
+    	  
+    		   
+     static_cast mxhof4Ntel2hNEVMAOf_m 	 
+    	  
+    		   
+    cv mWT_5joNFiaFOgpc894br 	 
+    	  
+    		   
+     
+   uint64_t mBK1TAtRe0ulRgZBnMSfy 	 
+    	  
+    		    myuutvgsUpQCFDJ0ssvlp 	 
+    	  
+    		   
+   std mnsDFHlx8Rb1ohrxyYFfi 	 
+  atoll mppKtzP31aZy0pGd2m0Z9 	 
+    	  
+    		 argv mphhLRc3W5j_M1GNrmYpo 	 
+    	  
+    		   
+     
+ 1 mGv6D9Qz8MbJvAmkFU4Hx 	 
+    	  
+    		   
+     
+     
+ 
+  mXD0JeNoU_GFfICrMiytn 	 
+    	  
+    		   
+  mW00V7n8RwzFWH7tra2wp 	 
+    	  
+    		   
+   mUQApTk2utXRlZOX2bxsA 	 
+    
+    else
+        seed  mLZ3y6cDPwjsfFVKTrILy 	 
+    	  
+    		   
+      cv mWT_5joNFiaFOgpc894br 	 
+    	  
+    		   
+     getTickCount mkIFONPkvrdc61fQAT2H7 	 
+    	  
+    		   
+     mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+ 
+    std mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     
+cerr  mdapI6SZ0JwzhtKL_Oxis 	 
+ "\x52\x61\x6e\x64\x6f\x6d\x20\x73\x65\x65\x64\x3a\x20"  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+   seed  mbP3VgAHoOgnaUfLyN3rO 	  std mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+    		   
+     
+endl mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		   
+  
+    cv mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+    		   
+     
+     
+RNG rng mChGzY6uJwNl0HsnhepB1 	 
+    	  
+    		   seed mt6dcxNU8FQBTRU5nGYnX 	 
+    	  
+    		   
+     
+     
+  mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+  
+
+    try
+     mChKOw2unTvh7zyq4OT_T 	 
+   
+
+        try
+         mIXHmxpusVFv3HyUXTK1Q 	 
+
+            tests mXcxo9pxHw09Ez3pwIM6S 	 mZ5n7IX_AHHoHYsodfx8Y 	 
+    	 
+
+            cv mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     
+   Mat bckg mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+    		   
+     
+    256, 256, CV_8UC1 mCo_IAiG3U7gZmGW7mfLA 	 
+    	  
+    		   
+     
+     
+ 
+  mUQApTk2utXRlZOX2bxsA 	 
     	  
     		  
-     mk5_ghEAebl24EQAP8Y2I 	 
-    	 tests  mrW3LX4vM3dW4niDeipVf 	 
+            cv mgwQSYXcc9TIiKkPXgshg 	 
     	  
-  0 mCF6yuex92SFioZPpxBz2 	 
+    		 Mat forg mYSn7neYwuzZiHSfgVhG4 	 
+ 64, 64, CV_8UC1 mUaKuNbS96FbvDu3x85PG 	 
+     mErDDSVFJd4ybmgEkutlI 	 
     	  
-    		   
-     
- 
 
-    cv mgwQSYXcc9TIiKkPXgshg 	 
-    	 uint64_t seed  mrW3LX4vM3dW4niDeipVf 	 
+            rng.fill mZf3yA3X8Y4vlKmyskuBt 	 
     	  
-    		   
-     
-    0 mHLOpps1TeJ1n4a5pxdNv 	 
-    	  
-    		   
-     
-   
-     mE_6o32Gp3JDq_gnNQzZ0 	 
-   mChGzY6uJwNl0HsnhepB1 	 
-    	  
-    		   
-  argc  mGHqZ_bgrGT4Q7zI8CKhF 	 
-    	  
-    		   
-    1 mXD0JeNoU_GFfICrMiytn 	 
-    	  
-    		   
- 
-        seed  mik5L9gUWoenRFF12Yrzk 	 
-    	  
-  static_cast mTTUVMx3R6fGe9krQWHNl 	 
-    	  
-    		   
-     cv mgrChmV5pX_BBnPjupsCz 	 
-    	  
-    		 uint64_t mUMTQYGn_vjeSIYugrU2s 	 
-    	  
-    		   
-      mZf3yA3X8Y4vlKmyskuBt 	 
-    	  
-    		   
-    std mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		   
-     
-     
- 
- atoll mZf3yA3X8Y4vlKmyskuBt 	 
-    	  
-    		   
-    argv mRSSDe7hONLNKU5PudIcE 	 
-    	  
-    		   
-    1 mVFmnX1ATHIuUhmRgOLcE 	 
-     mXD0JeNoU_GFfICrMiytn 	 
-    	  
-    		   
-     
-  mq2WtyfxNuhMujs_W_RTx 	 
-    	  
-    		    mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-     
-
-    else
-        seed  mSk1ShXRx3FQBFfrfi8ft 	 
-    	  
-    		   
-   cv mMNd9IbgZGNvHCj6cXNIY 	 
-getTickCount mwDTANvBf2eCihKlwIGcQ 	 
-    	  
-    		   
-     
- mErDDSVFJd4ybmgEkutlI 	 
-    std mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		   
-  cerr  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-    		   
-     
-     
-  "\x52\x61\x6e\x64\x6f\x6d\x20\x73\x65\x65\x64\x3a\x20"  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		    seed  mdapI6SZ0JwzhtKL_Oxis 	 
-    	  
-  std mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    		   
-     
-     
-endl maPJhxKGuCRBF8PTSEfoJ 	 
-   
-    cv mErde6Wj4Ze0ly0Y61AFC 	 
-RNG rng mYSn7neYwuzZiHSfgVhG4 	 
-    	 seed mUaKuNbS96FbvDu3x85PG 	 mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-     
-   
-
-    try  miHaghnjGYZRXpERY7vgM 	 
-    	  
-    		   
-     
-     
- 
- 
-
-        try  mnkYVtKJoztdPpfebBy4S 	 
-    	  
-    		   
-     
-    
-            tests mUzTGmNZ8S0WIPlKPasub 	 
-    	  
-    		   mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		 
-
-            cv mErde6Wj4Ze0ly0Y61AFC 	 
-    Mat bckg  mppKtzP31aZy0pGd2m0Z9 	 
-    	  
-256, 256, CV_8UC1 mt6dcxNU8FQBTRU5nGYnX 	 
-  mCF6yuex92SFioZPpxBz2 	
-            cv mtOADHjcfWlYUUaEqJYvC 	 
- Mat forg  mZf3yA3X8Y4vlKmyskuBt 	 
-    	  
-    		  64, 64, CV_8UC1 mUaKuNbS96FbvDu3x85PG 	 
+    		  bckg, cv mnsDFHlx8Rb1ohrxyYFfi 	RNG mtOADHjcfWlYUUaEqJYvC 	 
+ UNIFORM, 0, 128 mUaKuNbS96FbvDu3x85PG 	 
     	  
     		 maPJhxKGuCRBF8PTSEfoJ 	 
     	  
@@ -1350,7 +1346,7 @@ RNG rng mYSn7neYwuzZiHSfgVhG4
             rng.fill mmZpaGRQQTWxpkl5_I8in 	 
     	  
     		   
-bckg, cv mwz7jWEjfVuS42kuaQPn8 	 
+forg, cv mwz7jWEjfVuS42kuaQPn8 	 
     	  
     		   
      
@@ -1362,7 +1358,7 @@ bckg, cv mwz7jWEjfVuS42kuaQPn8
      
      
  
-UNIFORM, 0, 128 mCxo5hT3adsjpL3eSx_tm 	 
+UNIFORM, 128, 256 mCxo5hT3adsjpL3eSx_tm 	 
  mIeb91O4CN5VggNyO2vQ7 	 
     	  
     		   
@@ -1370,400 +1366,403 @@ UNIFORM, 0, 128 mCxo5hT3adsjpL3eSx_tm
      
  
  
-            rng.fill mf6w6nRo1UPHMI9Ix1lmT 	 
-    forg, cv mtOADHjcfWlYUUaEqJYvC 	 
+            cv mtOADHjcfWlYUUaEqJYvC 	 
     	  
-    RNG mtOADHjcfWlYUUaEqJYvC 	 
+    Mat frame1, frame2 maPJhxKGuCRBF8PTSEfoJ 	 
     	  
     		   
-   UNIFORM, 128, 256 mW00V7n8RwzFWH7tra2wp 	 
+   
+            bckg.copyTo mf6w6nRo1UPHMI9Ix1lmT 	 
+    frame1 mW00V7n8RwzFWH7tra2wp 	 
     	  
     		  maPJhxKGuCRBF8PTSEfoJ 	 
     	  
   
-            cv mnsDFHlx8Rb1ohrxyYFfi 	 
-  Mat frame1, frame2 mHLOpps1TeJ1n4a5pxdNv 	 
+            forg.copyTo mppKtzP31aZy0pGd2m0Z9 	frame1 mYSn7neYwuzZiHSfgVhG4 	 
+ cv mnsDFHlx8Rb1ohrxyYFfi 	 
+  Rect mppKtzP31aZy0pGd2m0Z9 	 
     	  
-    	
+    	128 - 32, 128 - 32, 64, 64 mCFpr4Os_BUpE0hBecZXK 	 
+    	  
+    	 mCxo5hT3adsjpL3eSx_tm 	 
+    	  
+    		   mUaKuNbS96FbvDu3x85PG 	 
+    	  
+    		  mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		   
+     
+  
             bckg.copyTo mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-    		 frame1 mCxo5hT3adsjpL3eSx_tm 	 
-    	  
-    		   mErDDSVFJd4ybmgEkutlI 	
-            forg.copyTo mf6w6nRo1UPHMI9Ix1lmT 	 
-frame1 mmZpaGRQQTWxpkl5_I8in 	cv mpd4PM_FCAECboim6Wmgy 	 
- Rect mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-  128-32, 128-32, 64, 64 mXD0JeNoU_GFfICrMiytn 	 
-    	  
-    	 mCo_IAiG3U7gZmGW7mfLA 	 
+frame2 mt6dcxNU8FQBTRU5nGYnX 	 
+    	   mHLOpps1TeJ1n4a5pxdNv 	
+            forg.copyTo myuutvgsUpQCFDJ0ssvlp 	 
     	  
     		   
      
-   mt6dcxNU8FQBTRU5nGYnX 	 
-    	   mUQApTk2utXRlZOX2bxsA 	 
- 
-            bckg.copyTo mYSn7neYwuzZiHSfgVhG4 	 
+   frame2 mChGzY6uJwNl0HsnhepB1 	 
+    	  cv mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+  Rect mmZpaGRQQTWxpkl5_I8in 	 
+  129 - 32, 129 - 32, 64, 64 mW00V7n8RwzFWH7tra2wp 	 
+  mW00V7n8RwzFWH7tra2wp 	 
+     mt6dcxNU8FQBTRU5nGYnX 	 
     	  
     		   
      
      
  
-  	 frame2 mW00V7n8RwzFWH7tra2wp 	 
-     mKCH6zvmv2K2hcW15vK3r 	 
+  	  mZ5n7IX_AHHoHYsodfx8Y 	 
     	  
     		   
      
-   
-            forg.copyTo mf6w6nRo1UPHMI9Ix1lmT 	 
+    
+            std mErde6Wj4Ze0ly0Y61AFC 	 
     	  
-    	frame2 mwEFsCY_vJ82sL6GSMTpd 	 
+ cerr  mdGdm6zgtH4zv3Nn0vGML 	 
     	  
-  cv mwz7jWEjfVuS42kuaQPn8 	 
-    	  Rect mmKFpIHZ2jW3Pl2yswFoH 	129-32, 129-32, 64, 64 mCFpr4Os_BUpE0hBecZXK 	 
-   mt6dcxNU8FQBTRU5nGYnX 	 
-    	  
-    		   
-     
-     mUaKuNbS96FbvDu3x85PG 	 
-    	  
-  mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		   
-     
- 
-            std mgrChmV5pX_BBnPjupsCz 	 
-    	  
-    		   
-     
-  cerr  mq3vxPsKSjjq_xpuFA9dn 	 
-    	 "\x66\x73\x69\x76\x5f\x63\x6f\x6d\x70\x75\x74\x65\x5f\x64\x65\x6e\x73\x65\x5f\x6f\x70\x74\x69\x63\x61\x6c\x5f\x66\x6c\x6f\x77\x20\x28\x77\x69\x74\x68\x6f\x75\x74\x20\x69\x6e\x69\x74\x69\x61\x6c\x20\x65\x73\x74\x69\x6d\x61\x74\x65\x29\x20\x2e\x2e\x2e\x20" mIeb91O4CN5VggNyO2vQ7 	 
-            cv mhlrvVwQFcOFpdjFt4y2u 	 
-  Mat my_flow, your_flow mCF6yuex92SFioZPpxBz2 	 
-               
-            my_fsiv_compute_dense_optical_flow mpYC3Q6HCOG_y3bCV_bzU 	 
-    	frame1, frame2, my_flow mW00V7n8RwzFWH7tra2wp 	 
-    	   mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		   
-     
-     
-
-            fsiv_compute_dense_optical_flow mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-    		   
-     
-     frame1, frame2, your_flow mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		   
-     
-    mu0Zw3fsOhh38Uo4aDS8W 	 
+    	 "\x66\x73\x69\x76\x5f\x63\x6f\x6d\x70\x75\x74\x65\x5f\x64\x65\x6e\x73\x65\x5f\x6f\x70\x74\x69\x63\x61\x6c\x5f\x66\x6c\x6f\x77\x20\x28\x77\x69\x74\x68\x6f\x75\x74\x20\x69\x6e\x69\x74\x69\x61\x6c\x20\x65\x73\x74\x69\x6d\x61\x74\x65\x29\x20\x2e\x2e\x2e\x20" mCF6yuex92SFioZPpxBz2 	 
     	  
   
-             mZnpA1C5VCYvSOdWYd650 	 
+            cv mtOADHjcfWlYUUaEqJYvC 	Mat my_flow, your_flow mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+ 
+            my_fsiv_compute_dense_optical_flow mYSn7neYwuzZiHSfgVhG4 	 
+    	frame1, frame2, my_flow mXD0JeNoU_GFfICrMiytn 	 
+    	  
+    		   
+     
+   mIeb91O4CN5VggNyO2vQ7 	 
+            fsiv_compute_dense_optical_flow mwEFsCY_vJ82sL6GSMTpd 	 
+   frame1, frame2, your_flow mCo_IAiG3U7gZmGW7mfLA 	 
+   mUQApTk2utXRlZOX2bxsA 	 
+    	  
+             mgEICEME5NV3U_tXGoy_7 	 
+    	norm_v  mLwpjlSPu7J_elHZYFHIX 	 
+    	  
+   cv mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+    		   
+     
+     
+norm mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+    		   
+     
+     my_flow, your_flow mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    		   
+     
+    mUQApTk2utXRlZOX2bxsA 	 
     	  
     		   
      
      
  
- norm_v  mAQFTjhI12FsIF680A_T9 	 
+ 
+
+             mmoN25SYs7aJ2siMeP2QH 	 
     	  
-     cv mgrChmV5pX_BBnPjupsCz 	 
-    	  
- norm mmKFpIHZ2jW3Pl2yswFoH 	 
+  mmKFpIHZ2jW3Pl2yswFoH 	 
     	  
     		   
      
-my_flow, your_flow mt6dcxNU8FQBTRU5nGYnX 	 
-     mCTRiZEfCcZ4rtZeXzEPU 	 
+norm_v  mN1XYry49Lp0X_pMj4fzO 	 
+    	  
+     1.e-6 mt6dcxNU8FQBTRU5nGYnX 	 
+    
+             mmgqYc0_7tKLpJXAoouea 	 
     	  
     		   
      
 
-
-             mj0RN9F71W_6s_YhWh1SP 	 
-    myuutvgsUpQCFDJ0ssvlp 	 
-    	  
-    		  norm_v msL_HjjMOgmuquii8oJwE 	 
-    	1.e-6 mt6dcxNU8FQBTRU5nGYnX 	 
+                tests_passed mjXVeKcEorHWSksfRH2UB 	 
+    mZ5n7IX_AHHoHYsodfx8Y 	 
     	  
     		   
      
      
  
   	
-             myi_nNZ_JfQR5mbTdok9w 	 
+                std mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+    		  cerr  mdapI6SZ0JwzhtKL_Oxis 	 
     	  
     		   
      
      
-
-                tests_passed mkPJr4m66EIhdFNV2A2hx 	 
+ "\x20\x4f\x6b\x21"  maSJfbIkVmsGsjTv0UQpa 	 
     	  
-   mCF6yuex92SFioZPpxBz2 	 
-    	  
-    		   
-     
-     
- 
-
-                std mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-    	cerr  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-    		   
-   "\x20\x4f\x6b\x21"  mXSaJTMo4mCIueHA05tT9 	 
-    	  
- std mgwQSYXcc9TIiKkPXgshg 	 
+   std mWT_5joNFiaFOgpc894br 	 
     	endl mCF6yuex92SFioZPpxBz2 	 
     	  
     		   
      
      
  
-  
-             mJP7Jsm7au1oZp1CLb7PT 	 
-    	  
-    		   
-     
-     
 
-            else
-             mChKOw2unTvh7zyq4OT_T 	 
-   
-                std mgrChmV5pX_BBnPjupsCz 	 ostringstream fname maPJhxKGuCRBF8PTSEfoJ 	 
+             mOK1tXVOT4PUgeSc88pGY 	 
     	  
     	
-                fname  mbP3VgAHoOgnaUfLyN3rO 	 
-    "\x74\x65\x73\x74\x2d"  mXSaJTMo4mCIueHA05tT9 	 
-  tests  mUgUEfVdBAs_RDl0oUbQO 	  '-'  mdGdm6zgtH4zv3Nn0vGML 	 
-     seed  maSJfbIkVmsGsjTv0UQpa 	 
-    	  
-    		   
-     
-    "\x2e\x78\x6d\x6c" mErDDSVFJd4ybmgEkutlI 	 
-  
-                std mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    	cerr  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-     
-     
- 
-   "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x66\x6c\x6f\x77\x2c\x20\x79\x6f\x75\x72\x5f\x66\x6c\x6f\x77\x29\x3d\x3d" 
-                     mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-  norm_v  mLKaNDZsfPRxbXiWdHvqO 	 "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  mHuF4mTDu6zvknssKtlKQ 	 
-    	  std mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   
-     
-     
- 
-endl maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    		   
-     
-
+            else
+             mmgqYc0_7tKLpJXAoouea 	 
+    	
                 std mpd4PM_FCAECboim6Wmgy 	 
     	  
     		   
-     
-     cerr  mLKaNDZsfPRxbXiWdHvqO 	 "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  mLKaNDZsfPRxbXiWdHvqO 	 
+  ostringstream fname mHLOpps1TeJ1n4a5pxdNv 	 
     	  
-     fname.str mkIFONPkvrdc61fQAT2H7 	 
-    	  
-    		   
-       mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    		   
-     
-     std mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-   endl mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		   
-  
-                 mlaJAVwTnSatEJKz1vwwT 	 
+
+                fname  mLKaNDZsfPRxbXiWdHvqO 	 
     	  
     		   
      
      
  
-file  mrW3LX4vM3dW4niDeipVf 	 
-    	  
- cv mErde6Wj4Ze0ly0Y61AFC 	 
+   "\x74\x65\x73\x74\x2d"  mbP3VgAHoOgnaUfLyN3rO 	 
     	  
     		   
      
      
- FileStorage mmLzOj1OpcOraAxHe0sHs 	 
+ tests  mUgUEfVdBAs_RDl0oUbQO 	 
+    '-'  mbP3VgAHoOgnaUfLyN3rO 	  seed  mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    	 "\x2e\x78\x6d\x6c" mErDDSVFJd4ybmgEkutlI 	 
+   
+                std mWT_5joNFiaFOgpc894br 	 
+ cerr  mUgUEfVdBAs_RDl0oUbQO 	  "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x66\x6c\x6f\x77\x2c\x20\x79\x6f\x75\x72\x5f\x66\x6c\x6f\x77\x29\x3d\x3d"
+                           maSJfbIkVmsGsjTv0UQpa 	 
     	  
     		   
      
-     mZ5n7IX_AHHoHYsodfx8Y 	
-                file.open mmZpaGRQQTWxpkl5_I8in 	 
+    norm_v  mbP3VgAHoOgnaUfLyN3rO 	 
+   "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  maSJfbIkVmsGsjTv0UQpa 	 
     	  
-    		   fname.str moLZmyH4uSJX9pXN1kkKz 	 
-    	  
-    		  , cv mErde6Wj4Ze0ly0Y61AFC 	 
-    	  
-    		   
-     
-FileStorage mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    		 WRITE mCFpr4Os_BUpE0hBecZXK 	 
+    	 std mErde6Wj4Ze0ly0Y61AFC 	 
+    endl mu0Zw3fsOhh38Uo4aDS8W 	 
     	  
     		   
      
- mIeb91O4CN5VggNyO2vQ7 	 
+     
+ 
+  
+                std mgrChmV5pX_BBnPjupsCz 	 
+    	  
+  cerr  mHuF4mTDu6zvknssKtlKQ 	 
+    	  "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    		   
+     
+ fname.str mZGQ4J8pc7eRHZbaNBrTR 	 
+    	  
+    		   
+     
+     
+ 
+  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+      std mnsDFHlx8Rb1ohrxyYFfi 	endl mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		   
+     
+     
+                 mAot4lv_hqRDJSbAui1kl 	 
+    	  
+   file  mAQFTjhI12FsIF680A_T9 	 
+    	  
+    		   
+     
+     cv mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+    FileStorage mAh372E_Wg9TxPqKoaDdB 	 mKCH6zvmv2K2hcW15vK3r 	 
     	  
     		   
   
-                file  mA85Ru6M8Sh6PK100OVgE 	 
-    	  "\x6e\x6f\x72\x6d\x5f\x76"  mXSaJTMo4mCIueHA05tT9 	 
+                file.open mYSn7neYwuzZiHSfgVhG4 	fname.str mJjX0DECNHF5WB5M9vRzJ 	 
     	  
-  norm_v maPJhxKGuCRBF8PTSEfoJ 	 
+    		   
+     
+     
+ 
+, cv mgrChmV5pX_BBnPjupsCz 	 
     	  
+    		   
+     
+    FileStorage mErde6Wj4Ze0ly0Y61AFC 	 
+    	  
+    		   
+     
+     
+ WRITE mxBVKq5uLQpnUbC1M415c 	 
+    	  
+ mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		  
+                file  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    		   
+     
+ "\x6e\x6f\x72\x6d\x5f\x76"  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		  norm_v mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		   
+     
 
                 file  mXSaJTMo4mCIueHA05tT9 	 
     	  
-    		   
-     
-     
- 
-  	  "\x66\x72\x61\x6d\x65\x31"  mXSaJTMo4mCIueHA05tT9 	 
-    	  frame1 mHLOpps1TeJ1n4a5pxdNv 	 
-    
-                file  mHuF4mTDu6zvknssKtlKQ 	 
+    		    "\x66\x72\x61\x6d\x65\x31"  mdapI6SZ0JwzhtKL_Oxis 	 
     	  
     		   
-     
-   "\x66\x72\x61\x6d\x65\x32"  mdGdm6zgtH4zv3Nn0vGML 	 
+   frame1 mUQApTk2utXRlZOX2bxsA 	 
+    	 
+                file  mXSaJTMo4mCIueHA05tT9 	 
     	  
-  frame2 mu0Zw3fsOhh38Uo4aDS8W 	 
-   
-                file  mUgUEfVdBAs_RDl0oUbQO 	 
+  "\x66\x72\x61\x6d\x65\x32"  mUgUEfVdBAs_RDl0oUbQO 	 
     	  
-    		 "\x79\x6f\x75\x72\x5f\x66\x6c\x6f\x77"  mUgUEfVdBAs_RDl0oUbQO 	 
+ frame2 mHLOpps1TeJ1n4a5pxdNv 	 
     	  
     		   
      
      
  
-  	 your_flow mHLOpps1TeJ1n4a5pxdNv 	 
-   
-                file  mLKaNDZsfPRxbXiWdHvqO 	 
+  	 
+                file  mXSaJTMo4mCIueHA05tT9 	 
+    	  "\x79\x6f\x75\x72\x5f\x66\x6c\x6f\x77"  mXSaJTMo4mCIueHA05tT9 	 
+     your_flow mKCH6zvmv2K2hcW15vK3r 	 
     	  
     		   
      
-     
- 
- "\x6d\x79\x5f\x66\x6c\x6f\x77"  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-     
-     
- 
-   my_flow maPJhxKGuCRBF8PTSEfoJ 	 
   
-                file.release mmLzOj1OpcOraAxHe0sHs 	 mUQApTk2utXRlZOX2bxsA 	 
+                file  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+  "\x6d\x79\x5f\x66\x6c\x6f\x77"  mdGdm6zgtH4zv3Nn0vGML 	 
+    my_flow maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		
+                file.release mWAv9IocI7GJUr5S69MXT 	 
     	  
     		   
      
      
  
+  	 mHLOpps1TeJ1n4a5pxdNv 	 
+   
+             mMrjjxUfFnHYwyIeo4thn 	 
+    	  
+    		   
+     
+     
  
-             mPktF2k_R4xKiN2Zg99Ud 	 
+
+         mPktF2k_R4xKiN2Zg99Ud 	 
+    	  
+    		   
+     
+     
+ 
+  
+        catch  mChGzY6uJwNl0HsnhepB1 	 
+    	  
+    		   
+     
+     
+ 
+ std mtOADHjcfWlYUUaEqJYvC 	 
+  exception &e mXD0JeNoU_GFfICrMiytn 	
+         mIXHmxpusVFv3HyUXTK1Q 	 
     	  
     		   
      
     
-         mfYUGCIJ4y66ek5pHyoZN 	
-        catch  mmKFpIHZ2jW3Pl2yswFoH 	 
+            std mErde6Wj4Ze0ly0Y61AFC 	 
+    	  
+    		   
+     cerr  mUgUEfVdBAs_RDl0oUbQO 	 
     	  
     		   
      
      
  
-std mErde6Wj4Ze0ly0Y61AFC 	 
+ "\x45\x72\x72\x6f\x72\x3a\x20"  mq3vxPsKSjjq_xpuFA9dn 	 
+    	   e.what mwDTANvBf2eCihKlwIGcQ 	  mbP3VgAHoOgnaUfLyN3rO 	 
     	  
     		   
-     exception& e mUaKuNbS96FbvDu3x85PG 	 
-    	   mWPvycRWzzsoqLdQC4Zks 	 
-    	  
-            std mWT_5joNFiaFOgpc894br 	 
-  cerr  mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    		   
-     
-    "\x45\x72\x72\x6f\x72\x3a\x20"  mdapI6SZ0JwzhtKL_Oxis 	 
- e.what mmLzOj1OpcOraAxHe0sHs 	 
-    	  
-    		   
-     mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    		   
-     std mErde6Wj4Ze0ly0Y61AFC 	 
+    std mErde6Wj4Ze0ly0Y61AFC 	 
+    	 endl mHLOpps1TeJ1n4a5pxdNv 	 
+  
+         mPktF2k_R4xKiN2Zg99Ud 	 
     	  
     		   
      
      
-endl mErDDSVFJd4ybmgEkutlI 	 
+
+        catch  mZf3yA3X8Y4vlKmyskuBt 	 
+... mq2WtyfxNuhMujs_W_RTx 	 
     	  
     		   
      
-     
-         mJP7Jsm7au1oZp1CLb7PT 	 
-    	  
- 
-        catch  mwEFsCY_vJ82sL6GSMTpd 	 
-   ... mUaKuNbS96FbvDu3x85PG 	 
+   
+         mChKOw2unTvh7zyq4OT_T 	 
     	  
     		   
-     
-     
- 
-   mnkYVtKJoztdPpfebBy4S 	 
-    	
+    
             std mgrChmV5pX_BBnPjupsCz 	 
     	  
-cerr  mHuF4mTDu6zvknssKtlKQ 	 
- "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mbP3VgAHoOgnaUfLyN3rO 	 
- std mWT_5joNFiaFOgpc894br 	 
-endl maPJhxKGuCRBF8PTSEfoJ 	 
+    		   
+     
+     cerr  mdGdm6zgtH4zv3Nn0vGML 	 
     	  
     		   
      
-   
-         mfYUGCIJ4y66ek5pHyoZN 	 
+     
+ 
+  "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mLKaNDZsfPRxbXiWdHvqO 	 
+    std mgrChmV5pX_BBnPjupsCz 	 
     	  
-    		   
+ endl mCF6yuex92SFioZPpxBz2 	 
+    	
+         mJP7Jsm7au1oZp1CLb7PT 	 
+    	  
 
 
-        try  mChKOw2unTvh7zyq4OT_T 	 
-    	  
-  
-            tests mjXVeKcEorHWSksfRH2UB 	 
-    	  
-    		   
-  mu0Zw3fsOhh38Uo4aDS8W 	 
-   
+        try
+         mzdEyRJKtHmAv_hyCRXsM 	 
 
-            cv mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   Mat bckg  myuutvgsUpQCFDJ0ssvlp 	 
-  256, 256, CV_8UC1 mUaKuNbS96FbvDu3x85PG 	 
-    	  
-    		  mZ5n7IX_AHHoHYsodfx8Y 	 
-  
-            cv mpd4PM_FCAECboim6Wmgy 	 
+            tests mQqnRcoNxbykQSXWuA762 	 
+ mErDDSVFJd4ybmgEkutlI 	 
+
+
+            cv mtOADHjcfWlYUUaEqJYvC 	 
     	  
     		   
      
-    Mat forg  mYSn7neYwuzZiHSfgVhG4 	 
-64, 64, CV_8UC1 mUaKuNbS96FbvDu3x85PG 	 
+   Mat bckg mmKFpIHZ2jW3Pl2yswFoH 	 
+    	  
+  256, 256, CV_8UC1 mCxo5hT3adsjpL3eSx_tm 	 
+    	  
+    		   
+ mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		   
+ 
+            cv mErde6Wj4Ze0ly0Y61AFC 	 
+   Mat forg mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
+    		 64, 64, CV_8UC1 mCFpr4Os_BUpE0hBecZXK 	 
+    	  
+    		    mKCH6zvmv2K2hcW15vK3r 	 
+  
+            rng.fill mYSn7neYwuzZiHSfgVhG4 	 
+bckg, cv mpd4PM_FCAECboim6Wmgy 	 
+  RNG mpd4PM_FCAECboim6Wmgy 	 
+    	  
+    		   
+     
+    UNIFORM, 0, 128 mUaKuNbS96FbvDu3x85PG 	 
     	  
     		   
  mKCH6zvmv2K2hcW15vK3r 	 
@@ -1771,7 +1770,7 @@ endl maPJhxKGuCRBF8PTSEfoJ
     		
             rng.fill mYSn7neYwuzZiHSfgVhG4 	 
     	  
- bckg, cv mnsDFHlx8Rb1ohrxyYFfi 	 
+ forg, cv mnsDFHlx8Rb1ohrxyYFfi 	 
     	  
     		   
      
@@ -1781,7 +1780,7 @@ endl maPJhxKGuCRBF8PTSEfoJ
     	  
     		   
      
-  UNIFORM, 0, 128 mCo_IAiG3U7gZmGW7mfLA 	 
+  UNIFORM, 128, 256 mCo_IAiG3U7gZmGW7mfLA 	 
     	  
     		 mErDDSVFJd4ybmgEkutlI 	 
     	  
@@ -1790,17 +1789,18 @@ endl maPJhxKGuCRBF8PTSEfoJ
      
  
   	 
-            rng.fill mppKtzP31aZy0pGd2m0Z9 	 
-    	  
-    		 forg, cv mtOADHjcfWlYUUaEqJYvC 	 
+            cv mtOADHjcfWlYUUaEqJYvC 	 
     	  
     		   
      
      
  
-  RNG mpd4PM_FCAECboim6Wmgy 	 
+  Mat frame1, frame2, frame3 mZ5n7IX_AHHoHYsodfx8Y 	 
     	  
-    		   UNIFORM, 128, 256 mq2WtyfxNuhMujs_W_RTx 	 
+    		   
+            bckg.copyTo mppKtzP31aZy0pGd2m0Z9 	 
+    	  
+    		 frame1 mq2WtyfxNuhMujs_W_RTx 	 
     	  
     		   
      
@@ -1808,74 +1808,63 @@ endl maPJhxKGuCRBF8PTSEfoJ
  
   	  mCF6yuex92SFioZPpxBz2 	 
  
-            cv mErde6Wj4Ze0ly0Y61AFC 	Mat frame1, frame2, frame3 mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-    	
-            bckg.copyTo mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-    		   
-   frame1 mCo_IAiG3U7gZmGW7mfLA 	 
-  mErDDSVFJd4ybmgEkutlI 	 
-    	  
-    		   
- 
-            forg.copyTo mChGzY6uJwNl0HsnhepB1 	 
-   frame1 mppKtzP31aZy0pGd2m0Z9 	cv mErde6Wj4Ze0ly0Y61AFC 	 
-    	  
-    		   
-     
-     
- 
-  	Rect mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-128-32, 128-32, 64, 64 mCxo5hT3adsjpL3eSx_tm 	 
-    mCxo5hT3adsjpL3eSx_tm 	 
-    	  
-  mUaKuNbS96FbvDu3x85PG 	 
-    	  
-    		   
-     
-     mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-     
-     
- 
-  	
-            bckg.copyTo mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-    		   
-frame2 mt6dcxNU8FQBTRU5nGYnX 	 
-    	  
-   mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-     
-    
             forg.copyTo mppKtzP31aZy0pGd2m0Z9 	 
     	  
     		   
-   frame2 mf6w6nRo1UPHMI9Ix1lmT 	 
+ frame1 mf6w6nRo1UPHMI9Ix1lmT 	 
     	  
     		   
      
      
  
-  	 cv mhlrvVwQFcOFpdjFt4y2u 	 
+  	cv mErde6Wj4Ze0ly0Y61AFC 	Rect mZf3yA3X8Y4vlKmyskuBt 	 
+   128 - 32, 128 - 32, 64, 64 mCxo5hT3adsjpL3eSx_tm 	 
     	  
-    		 Rect myuutvgsUpQCFDJ0ssvlp 	 
+    	 mCo_IAiG3U7gZmGW7mfLA 	 
+  mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    		   
+    mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+ 
+            bckg.copyTo mChGzY6uJwNl0HsnhepB1 	 
+   frame2 mUaKuNbS96FbvDu3x85PG 	 
     	  
     		   
      
-     129-32, 129-32, 64, 64 mA3nRYnr_lZzzMo1jh_vB 	 
+     mErDDSVFJd4ybmgEkutlI 	
+            forg.copyTo mpYC3Q6HCOG_y3bCV_bzU 	 
     	  
-    mCo_IAiG3U7gZmGW7mfLA 	 
+    		   
+     
+    frame2 myuutvgsUpQCFDJ0ssvlp 	 
+    	  
+    		 cv mErde6Wj4Ze0ly0Y61AFC 	 
+    	  
+Rect mpYC3Q6HCOG_y3bCV_bzU 	 
+    	  
+   129 - 32, 129 - 32, 64, 64 mt6dcxNU8FQBTRU5nGYnX 	 
     	  
     		   
      
      
  
-   mXD0JeNoU_GFfICrMiytn 	 
+  	 mt6dcxNU8FQBTRU5nGYnX 	 
+    	  
+   mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    		   
+ mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		   
+     
+     
+ 
+  
+            bckg.copyTo mppKtzP31aZy0pGd2m0Z9 	 
+    	  
+    		   
+   frame3 mXD0JeNoU_GFfICrMiytn 	 
     	  
     		   
   mu0Zw3fsOhh38Uo4aDS8W 	 
@@ -1884,854 +1873,345 @@ frame2 mt6dcxNU8FQBTRU5nGYnX
      
      
  
-  
-            bckg.copyTo mf6w6nRo1UPHMI9Ix1lmT 	 
+  	 
+            forg.copyTo mppKtzP31aZy0pGd2m0Z9 	 
+   frame3 mpYC3Q6HCOG_y3bCV_bzU 	 
     	  
-  frame3 mUaKuNbS96FbvDu3x85PG 	 
+    		   
+     
+     
+cv mhlrvVwQFcOFpdjFt4y2u 	 
     	  
-    		   mErDDSVFJd4ybmgEkutlI 	 
+    		   
+     
+     Rect mmZpaGRQQTWxpkl5_I8in 	 
+    	  
+    		   
+     
+ 130 - 32, 130 - 32, 64, 64 mUaKuNbS96FbvDu3x85PG 	 
+    	  
+    		   
+     
+     
+ 
+   mUaKuNbS96FbvDu3x85PG 	 
+    	  
+    		   mUaKuNbS96FbvDu3x85PG 	 
+    	  
+   mCF6yuex92SFioZPpxBz2 	 
+ 
+            std mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+    cerr  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+   "\x66\x73\x69\x76\x5f\x63\x6f\x6d\x70\x75\x74\x65\x5f\x64\x65\x6e\x73\x65\x5f\x6f\x70\x74\x69\x63\x61\x6c\x5f\x66\x6c\x6f\x77\x20\x28\x77\x69\x74\x68\x20\x69\x6e\x69\x74\x69\x61\x6c\x20\x65\x73\x74\x69\x6d\x61\x74\x65\x29\x20\x2e\x2e\x2e\x20" mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+    		   
+     
+
+            cv mgwQSYXcc9TIiKkPXgshg 	 
+    	Mat initial_estimate, my_flow, your_flow mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+            my_fsiv_compute_dense_optical_flow mChGzY6uJwNl0HsnhepB1 	 
+frame1, frame2, initial_estimate mXD0JeNoU_GFfICrMiytn 	 
+  mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		   
+     
+            initial_estimate.copyTo mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
+my_flow mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    		   
+     
+     mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		  
+            initial_estimate.copyTo mmKFpIHZ2jW3Pl2yswFoH 	 
+    	  
+    		   
+     
+     
+ your_flow mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		   
+   mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		   
+ 
+            my_fsiv_compute_dense_optical_flow mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+    		   
+  frame2, frame3, my_flow mCo_IAiG3U7gZmGW7mfLA 	 
+    	  
+     mu0Zw3fsOhh38Uo4aDS8W 	 
    
-            forg.copyTo mpYC3Q6HCOG_y3bCV_bzU 	 
-    	  
-    		   
-  frame3 mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-    		   
-     
-cv mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-     
-     
-Rect mpYC3Q6HCOG_y3bCV_bzU 	 
-    	130-32, 130-32, 64, 64 mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    		   
-     
-  mxBVKq5uLQpnUbC1M415c 	 
-  mCxo5hT3adsjpL3eSx_tm 	 
-    	  
-     mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		   
-            std mgrChmV5pX_BBnPjupsCz 	 
- cerr  mA85Ru6M8Sh6PK100OVgE 	 
- "\x66\x73\x69\x76\x5f\x63\x6f\x6d\x70\x75\x74\x65\x5f\x64\x65\x6e\x73\x65\x5f\x6f\x70\x74\x69\x63\x61\x6c\x5f\x66\x6c\x6f\x77\x20\x28\x77\x69\x74\x68\x20\x69\x6e\x69\x74\x69\x61\x6c\x20\x65\x73\x74\x69\x6d\x61\x74\x65\x29\x20\x2e\x2e\x2e\x20" mHLOpps1TeJ1n4a5pxdNv 	 
-    	  
-    		   
-     
-            cv mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    		   
-     
-    Mat initial_estimate, my_flow, your_flow mu0Zw3fsOhh38Uo4aDS8W 	 
-    	  
-            
-            my_fsiv_compute_dense_optical_flow mpYC3Q6HCOG_y3bCV_bzU 	 
-    	  
-    		   
-  frame1, frame2, initial_estimate mt6dcxNU8FQBTRU5nGYnX 	 
-    	  
-    		   maPJhxKGuCRBF8PTSEfoJ 	 
+            fsiv_compute_dense_optical_flow mf6w6nRo1UPHMI9Ix1lmT 	 
     	  
     		   
      
      
  
-            initial_estimate.copyTo myuutvgsUpQCFDJ0ssvlp 	 
+frame2, frame3, your_flow mCFpr4Os_BUpE0hBecZXK 	 
+    	 mHLOpps1TeJ1n4a5pxdNv 	 
     	  
-    my_flow mA3nRYnr_lZzzMo1jh_vB 	 
-    	  
-    		   
-  mCF6yuex92SFioZPpxBz2 	 
-    	  
-    		   
-  
-            initial_estimate.copyTo mmZpaGRQQTWxpkl5_I8in 	 
-    	your_flow mUaKuNbS96FbvDu3x85PG 	 
-    mu0Zw3fsOhh38Uo4aDS8W 	 
+    		
+             mM2iqaERfKSkIvyG_DVsA 	 
     	  
     		   
      
      
  
-
-            my_fsiv_compute_dense_optical_flow mmKFpIHZ2jW3Pl2yswFoH 	 
+  	 norm_v  mLwpjlSPu7J_elHZYFHIX 	 
+   cv mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+norm mZf3yA3X8Y4vlKmyskuBt 	 
     	  
     		   
-     
-     
+ my_flow, your_flow mW00V7n8RwzFWH7tra2wp 	  mUQApTk2utXRlZOX2bxsA 	 
  
-  	 frame2, frame3, my_flow mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    		 mUQApTk2utXRlZOX2bxsA 	 
-    	  
-
-            fsiv_compute_dense_optical_flow mZf3yA3X8Y4vlKmyskuBt 	 
-    	  
-    		   
- frame2, frame3, your_flow mW00V7n8RwzFWH7tra2wp 	  mu0Zw3fsOhh38Uo4aDS8W 	 
-  
-             mZnpA1C5VCYvSOdWYd650 	 
- norm_v  mLwpjlSPu7J_elHZYFHIX 	 
-    	  
-    		   cv mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-norm mpYC3Q6HCOG_y3bCV_bzU 	 
-    	  
-    		   
-     
-  my_flow, your_flow mXD0JeNoU_GFfICrMiytn 	 
-    	  mHLOpps1TeJ1n4a5pxdNv 	 
 
              ma_EPPI2vwlDqLbi0tgWx 	 
     	  
-    		   mwEFsCY_vJ82sL6GSMTpd 	norm_v mC5E9mNw3KALrr8VsSONZ 	 
+ mpYC3Q6HCOG_y3bCV_bzU 	 
+    	  
+    		   
+     
+  norm_v  mYDKn6Yr_a4ORyXvUa69a 	 
+    	  
+    		   1.e-6 mXD0JeNoU_GFfICrMiytn 	 
+    	 
+             mzdEyRJKtHmAv_hyCRXsM 	 
+                tests_passed mUzTGmNZ8S0WIPlKPasub 	 
+    	  
+    		   mCF6yuex92SFioZPpxBz2 	 
+    	  
+    		   
+     
+     
+                std mnsDFHlx8Rb1ohrxyYFfi 	cerr  mbP3VgAHoOgnaUfLyN3rO 	 
     	  
     		   
      
      
  
- 1.e-6 mxBVKq5uLQpnUbC1M415c 	 
+ "\x20\x4f\x6b\x21"  mUgUEfVdBAs_RDl0oUbQO 	 
     	  
     		   
-     
-     
-             mDayc5WiuF3Q2GBCWXNZN 	 
+    std mgwQSYXcc9TIiKkPXgshg 	 
     	  
     		   
      
      
  
-
-                tests_passed mvpbb7zB0unxZ3rn7aVG2 	 
-    	  
-    		   
-    mHLOpps1TeJ1n4a5pxdNv 	 
+ endl mHLOpps1TeJ1n4a5pxdNv 	 
     	  
     		   
  
-                std mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   
-     
- cerr  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-     
-    "\x20\x4f\x6b\x21"  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		 std mwz7jWEjfVuS42kuaQPn8 	 
-    	  
- endl mu0Zw3fsOhh38Uo4aDS8W 	 
+             mqSTm3bttsS7HrMtCtqcS 	 
     	  
     		   
      
  
-             mMrjjxUfFnHYwyIeo4thn 	 
-    	  
-    		   
-     
-   
             else
-             mmgqYc0_7tKLpJXAoouea 	 
+             mxiSiDyBWybvWD_EkXqQ2 	 
+    	  
+ 
+                std mErde6Wj4Ze0ly0Y61AFC 	 
     	  
     		   
      
-     
- 
-                std mpd4PM_FCAECboim6Wmgy 	 
-    	  
    ostringstream fname mHLOpps1TeJ1n4a5pxdNv 	 
     	  
-    		   
-     
-     
- 
-
+    		
                 fname  mdGdm6zgtH4zv3Nn0vGML 	 
     	  
     		   
      
+  "\x74\x65\x73\x74\x2d"  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+     
+    tests  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+     
+     
+  '-'  mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+    seed  mXSaJTMo4mCIueHA05tT9 	 
+    	  
+    		   
+     
      
  
-  "\x74\x65\x73\x74\x2d"  maSJfbIkVmsGsjTv0UQpa 	 
-    	  
-   tests  mdapI6SZ0JwzhtKL_Oxis 	 
-     '-'  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    		   
-     
-     seed  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		   
-     
-   "\x2e\x78\x6d\x6c" mCF6yuex92SFioZPpxBz2 	
-                std mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		   
-     cerr  mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-    	 "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x66\x6c\x6f\x77\x2c\x20\x79\x6f\x75\x72\x5f\x66\x6c\x6f\x77\x29\x3d\x3d" 
-                     mXSaJTMo4mCIueHA05tT9 	 
-    norm_v  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    		   
-     
-      "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  mUgUEfVdBAs_RDl0oUbQO 	 
+ "\x2e\x78\x6d\x6c" mu0Zw3fsOhh38Uo4aDS8W 	 
     	  
     		   
      
      
- std mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-  endl mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-  
+ 
+ 
                 std mgwQSYXcc9TIiKkPXgshg 	 
     	  
-    cerr  mq3vxPsKSjjq_xpuFA9dn 	 
+  cerr  mdapI6SZ0JwzhtKL_Oxis 	 
+     "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x66\x6c\x6f\x77\x2c\x20\x79\x6f\x75\x72\x5f\x66\x6c\x6f\x77\x29\x3d\x3d"
+                           mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		   
+     
+   norm_v  mLKaNDZsfPRxbXiWdHvqO 	 "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+    		   
+      std mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+    		   
+     
+    endl mErDDSVFJd4ybmgEkutlI 	 
+    	  
+    	
+                std mWT_5joNFiaFOgpc894br 	 
+    cerr  mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    		   
+     
+     
+ "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+   fname.str mAh372E_Wg9TxPqKoaDdB 	 
+    	  
+    maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+    std mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+    		   
+     
+     endl mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    
+                 mSnZkOnBAqXU3YDsfi4ET 	 
+    	  
+ file  mrW3LX4vM3dW4niDeipVf 	 
+    	  
+    		    cv mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+    		   
+     
+     FileStorage meDekgZkaKWxgWJNWiB94 	 
     	  
     		   
      
      
  
-  	  "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		   
-     
-      fname.str mkIFONPkvrdc61fQAT2H7 	 
-    	  
-    		   
-     mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		    std mpd4PM_FCAECboim6Wmgy 	 
-    	  
- endl mu0Zw3fsOhh38Uo4aDS8W 	 
+  	  mu0Zw3fsOhh38Uo4aDS8W 	 
     	  
     		   
      
      
-                 mHtiFW3N5ulFoQa8SvVjg 	 
+                file.open mppKtzP31aZy0pGd2m0Z9 	 
     	  
     		   
      
-    file  mtcMtq_ZgTF0Gbvko4MMI 	 
-    	  
-    	 cv mnsDFHlx8Rb1ohrxyYFfi 	 
-  FileStorage moLZmyH4uSJX9pXN1kkKz 	 
-    	  
-   mErDDSVFJd4ybmgEkutlI 	 
+fname.str mwDTANvBf2eCihKlwIGcQ 	 
     	  
     		   
+     
+    , cv mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+  FileStorage mnsDFHlx8Rb1ohrxyYFfi 	 
+  WRITE mCxo5hT3adsjpL3eSx_tm 	 
+    	  
+    	 maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		   
+     
      
 
-                file.open mwEFsCY_vJ82sL6GSMTpd 	 
-fname.str mWAv9IocI7GJUr5S69MXT 	 
+                file  mdapI6SZ0JwzhtKL_Oxis 	 
     	  
-    		   
-     
-     
-, cv mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-FileStorage mnsDFHlx8Rb1ohrxyYFfi 	 WRITE mW00V7n8RwzFWH7tra2wp 	 
-   mErDDSVFJd4ybmgEkutlI 	 
-    	  
-    		   
-     
+ "\x6e\x6f\x72\x6d\x5f\x76"  mLKaNDZsfPRxbXiWdHvqO 	  norm_v mUQApTk2utXRlZOX2bxsA 	 
   
-                file  maSJfbIkVmsGsjTv0UQpa 	 
-    	  
-    		   
-   "\x6e\x6f\x72\x6d\x5f\x76"  mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-    		   
-     norm_v mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		 
-                file  maSJfbIkVmsGsjTv0UQpa 	 
+                file  mLKaNDZsfPRxbXiWdHvqO 	 
+ "\x66\x72\x61\x6d\x65\x32"  mbP3VgAHoOgnaUfLyN3rO 	 
     	  
     		   
      
-    "\x66\x72\x61\x6d\x65\x32"  mHuF4mTDu6zvknssKtlKQ 	 
+   frame1 mCTRiZEfCcZ4rtZeXzEPU 	 
     	  
     		   
-     
-     
- 
-  	  frame1 mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		   
-     
-
-                file  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    		   
-    "\x66\x72\x61\x6d\x65\x33"  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		   
-     
-     
- frame2 mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		   
-     
-     
- 
-                file  mHuF4mTDu6zvknssKtlKQ 	 
-    	 "\x69\x6e\x69\x74\x69\x61\x6c"  mdapI6SZ0JwzhtKL_Oxis 	 
-    	  
-    		   
-     
-      initial_estimate mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-    		   
-     
-     
- 
   
-                file  mXSaJTMo4mCIueHA05tT9 	 
+                file  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+    		   
+     "\x66\x72\x61\x6d\x65\x33"  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		  frame2 mCTRiZEfCcZ4rtZeXzEPU 	 
     	  
     		   
      
-     
- 
- "\x79\x6f\x75\x72\x5f\x66\x6c\x6f\x77"  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		   
-     
-     
- 
-  your_flow mErDDSVFJd4ybmgEkutlI 	 
    
-                file  mUgUEfVdBAs_RDl0oUbQO 	 
+                file  mHuF4mTDu6zvknssKtlKQ 	 
     	  
     		   
      
      
  
-   "\x6d\x79\x5f\x66\x6c\x6f\x77"  mdapI6SZ0JwzhtKL_Oxis 	 
+  	  "\x69\x6e\x69\x74\x69\x61\x6c"  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		   
+     
+ initial_estimate mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		   
+   
+                file  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		   
+     
+     
+ "\x79\x6f\x75\x72\x5f\x66\x6c\x6f\x77"  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+     
+     
+  your_flow mKCH6zvmv2K2hcW15vK3r 	 
+    	
+                file  mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+    		   
+     
+      "\x6d\x79\x5f\x66\x6c\x6f\x77"  mdapI6SZ0JwzhtKL_Oxis 	 
     	  
     		   
      
      
  
-  	 my_flow maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    		   
-     
- 
-                file.release mZGQ4J8pc7eRHZbaNBrTR 	 
-  mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		  
-             mPktF2k_R4xKiN2Zg99Ud 	 
-    	  
-    		   
-    
-         mMrjjxUfFnHYwyIeo4thn 	 
-    
-        catch  mmZpaGRQQTWxpkl5_I8in 	 
-  std mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		   
- exception& e mCo_IAiG3U7gZmGW7mfLA 	 
-    	  
-    		   
-     
-     
-  mWPvycRWzzsoqLdQC4Zks 	 
-    	  
-    		   
-     
- 
-            std mtOADHjcfWlYUUaEqJYvC 	 
-    cerr  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-     
-     
- 
-   "\x45\x72\x72\x6f\x72\x3a\x20"  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		    e.what mwDTANvBf2eCihKlwIGcQ 	 
-    	  
-   maSJfbIkVmsGsjTv0UQpa 	 std mgwQSYXcc9TIiKkPXgshg 	 
-    	  
- endl mCF6yuex92SFioZPpxBz2 	 
-         mMrjjxUfFnHYwyIeo4thn 	 
+   my_flow mHLOpps1TeJ1n4a5pxdNv 	 
     	  
     		   
      
      
  
 
-        catch  mmZpaGRQQTWxpkl5_I8in 	 ... mCFpr4Os_BUpE0hBecZXK 	 
+                file.release moLZmyH4uSJX9pXN1kkKz 	 
     	  
     		   
      
      
  
-  	   mzdEyRJKtHmAv_hyCRXsM 	 
+  mErDDSVFJd4ybmgEkutlI 	 
+   
+             mOK1tXVOT4PUgeSc88pGY 	 
     	  
     		   
      
      
  
- 
-            std mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		cerr  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-      "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mdapI6SZ0JwzhtKL_Oxis 	 
-  std mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    		   
-     
-     
- endl mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		   
+  
          mfYUGCIJ4y66ek5pHyoZN 	 
-    	  
-    		   
-     
-     
-
-        try  mmgqYc0_7tKLpJXAoouea 	 
-    	  
-    	
-            tests mUzTGmNZ8S0WIPlKPasub 	 
-    	  
-    		   
-     
-    mHLOpps1TeJ1n4a5pxdNv 	 
-    	  
-   
-
-            cv mgrChmV5pX_BBnPjupsCz 	 
-    	  
-    		   
-    Mat bckg  mpYC3Q6HCOG_y3bCV_bzU 	 
-    	  
-    		   
-     
-     
- 
-256, 256, CV_8UC1 mW00V7n8RwzFWH7tra2wp 	 
-    	  
-    		   
-     
-   mHLOpps1TeJ1n4a5pxdNv 	 
-    	  
-    		   
-    
-            cv mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-   Mat forg  mppKtzP31aZy0pGd2m0Z9 	 
-    	  
-    		   
-64, 64, CV_8UC1 mCxo5hT3adsjpL3eSx_tm 	 
- mErDDSVFJd4ybmgEkutlI 	 
-    	  
-    		   
-     
- 
-            rng.fill mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-    		   
-     
-  bckg, cv mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-  RNG mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-    		   
-     
-     
- 
-  	UNIFORM, 0, 128 mXD0JeNoU_GFfICrMiytn 	 
-    	  
-    		   
- maPJhxKGuCRBF8PTSEfoJ 	 
-  
-            rng.fill mppKtzP31aZy0pGd2m0Z9 	 
-    	  
-    		   
- forg, cv mgwQSYXcc9TIiKkPXgshg 	RNG mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-    		   
-     
-     
- 
-UNIFORM, 128, 256 mq2WtyfxNuhMujs_W_RTx 	 
-    	  
-    		   
-     
-     
- 
-   mHLOpps1TeJ1n4a5pxdNv 	 
-    	  
-    		   
-     
-     
- 
-  	 
-            cv mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-     
-     
- Mat frame1, frame2 mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-
-            bckg.copyTo mChGzY6uJwNl0HsnhepB1 	 
-    	  
-    		 frame1 mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		   
-     
-     
- 
-  mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-    		   
-     
-
-            forg.copyTo mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-    		   
-     
-    frame1 mYSn7neYwuzZiHSfgVhG4 	cv mWT_5joNFiaFOgpc894br 	 
-    	Rect myuutvgsUpQCFDJ0ssvlp 	 
-    	  
-    	128-32, 128-32, 64, 64 mCo_IAiG3U7gZmGW7mfLA 	 
-    	  
-   mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    		   
-  mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    		   
-    mHLOpps1TeJ1n4a5pxdNv 	 
-    	  
-    		   
-     
-     
- 
-  	 
-            bckg.copyTo mYSn7neYwuzZiHSfgVhG4 	 
-    	  
-    		   
-   frame2 mCFpr4Os_BUpE0hBecZXK 	 
-    	  mCF6yuex92SFioZPpxBz2 	 
-    	  
-    		   
-     
-     
- 
-  	
-            forg.copyTo mmKFpIHZ2jW3Pl2yswFoH 	 
- frame2 mChGzY6uJwNl0HsnhepB1 	 
-    	  
-    		   
-     
-     
- 
-  	cv mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-    		   
-    Rect mpYC3Q6HCOG_y3bCV_bzU 	 
-    	  
-    		   
-     
-   129-32, 129-32, 64, 64 mCo_IAiG3U7gZmGW7mfLA 	 
-    	  
-    		   
-     
- mW00V7n8RwzFWH7tra2wp 	 
-    	 mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    		   
-   mKCH6zvmv2K2hcW15vK3r 	 
-
-            std mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    	cerr  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		   
-     
-  "\x66\x73\x69\x76\x5f\x63\x6f\x6d\x70\x75\x74\x65\x5f\x6f\x70\x74\x69\x63\x61\x6c\x5f\x66\x6c\x6f\x77\x5f\x6d\x61\x67\x6e\x69\x74\x75\x64\x65\x20\x2e\x2e\x2e\x20" mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-            cv mgwQSYXcc9TIiKkPXgshg 	 
-  Mat flow, my_mag, your_mag mErDDSVFJd4ybmgEkutlI 	 
-
-            my_fsiv_compute_dense_optical_flow mpYC3Q6HCOG_y3bCV_bzU 	 
-    	  
-    frame1, frame2, flow mW00V7n8RwzFWH7tra2wp 	 
-    	  
-    		   
-     
-     mErDDSVFJd4ybmgEkutlI 	 
-   
-            my_fsiv_compute_optical_flow_magnitude mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-   flow, my_mag mXD0JeNoU_GFfICrMiytn 	 
-    	  
-    		   
-    mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		   
-     
-     
-            fsiv_compute_optical_flow_magnitude mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-   flow, your_mag mXD0JeNoU_GFfICrMiytn 	 
-    	  
-    		   
-     
-  mCF6yuex92SFioZPpxBz2 	 
-   
-             mxhl9wjLQZULxOU_43q0G 	 
-    	  
-    		   
-     
-   norm_v  mpIazGz0BO8GDZeOCwtDA 	 
-    	  
-   cv mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		   
-     
-     
- 
-norm mChGzY6uJwNl0HsnhepB1 	 
-    my_mag, your_mag mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		    mu0Zw3fsOhh38Uo4aDS8W 	
-
-             mj0RN9F71W_6s_YhWh1SP 	 
-    	  
-    		   mChGzY6uJwNl0HsnhepB1 	 
-    	  
-   norm_v mTTUVMx3R6fGe9krQWHNl 	 
-    	  
-    		   
-     
-1.e-6 mCo_IAiG3U7gZmGW7mfLA 	 
-    	  
-    		   
-     
-     
- 
-
-             mnkYVtKJoztdPpfebBy4S 	 
-    	  
-    		   
-                tests_passed mXcxo9pxHw09Ez3pwIM6S 	 
-    	  
-    		   
-  mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    
-                std mgrChmV5pX_BBnPjupsCz 	 
-    	  
-    		   
-     
-     cerr  mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-    		  "\x20\x4f\x6b\x21"  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-    		   
-    std mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		   endl mu0Zw3fsOhh38Uo4aDS8W 	
-             mJTa21GBBlpdHs8EUXwZ0 	 
-    	  
-    		   
-     
-  
-            else
-             myi_nNZ_JfQR5mbTdok9w 	 
-    	  
-    		   
-     
-     
- 
-                std mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
-    		   
- ostringstream fname mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-                fname  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
- "\x74\x65\x73\x74\x2d"  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		    tests  maSJfbIkVmsGsjTv0UQpa 	 '-'  mdapI6SZ0JwzhtKL_Oxis 	 
-     seed  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    		   
-     
-      "\x2e\x78\x6d\x6c" mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-    	
-                std mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    		   
-     
-     cerr  mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-    		   
-     
-   "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x6d\x61\x67\x2c\x20\x79\x6f\x75\x72\x5f\x6d\x61\x67\x29\x3d\x3d" 
-                     mdapI6SZ0JwzhtKL_Oxis 	 
-    	  
-    norm_v  mUgUEfVdBAs_RDl0oUbQO 	 
-   "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  maSJfbIkVmsGsjTv0UQpa 	 
-    	  
- std mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
-    		   
-     
-    endl mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		   
-     
-                std mgrChmV5pX_BBnPjupsCz 	 
-    	  
-    		   
-   cerr  maSJfbIkVmsGsjTv0UQpa 	 
-   "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  mUgUEfVdBAs_RDl0oUbQO 	 
-  fname.str mkIFONPkvrdc61fQAT2H7 	 
-    	  
-    		   
-     
-     
- 
-    mUgUEfVdBAs_RDl0oUbQO 	 
-  std mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-    endl mZ5n7IX_AHHoHYsodfx8Y 	 
-    	 
-                 mHtiFW3N5ulFoQa8SvVjg 	file  mrW3LX4vM3dW4niDeipVf 	 
-    	  
-    		   
-     
-     
- 
-   cv mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-    		   
-     FileStorage mWAv9IocI7GJUr5S69MXT 	 
-    	  
-    		   
-     
-     
- 
-   mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-                file.open mwEFsCY_vJ82sL6GSMTpd 	 
-    	fname.str mJjX0DECNHF5WB5M9vRzJ 	 
-    	  
-    	, cv mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-    		   
- FileStorage mgwQSYXcc9TIiKkPXgshg 	 
-    	 WRITE mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    	 mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-     
-     
- 
-  	
-                file  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-     
-  "\x6e\x6f\x72\x6d\x5f\x76"  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-     
-     norm_v maPJhxKGuCRBF8PTSEfoJ 	
-                file  maSJfbIkVmsGsjTv0UQpa 	 
-    	  
-    		   
-     
-     
- 
-  "\x66\x6c\x6f\x77"  mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-    	 flow mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-    		   
-     
-                 
-                file  mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    "\x79\x6f\x75\x72\x5f\x6d\x61\x67"  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    	 your_mag mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    
-                file  mXSaJTMo4mCIueHA05tT9 	 
-    	  "\x6d\x79\x5f\x6d\x61\x67"  mq3vxPsKSjjq_xpuFA9dn 	 my_mag mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-                file.release muDy_qxq6pQC33xkdhIyC 	 
-    	  
-    		   
-     
-     
- 
-  	  mHLOpps1TeJ1n4a5pxdNv 	
-             mfYUGCIJ4y66ek5pHyoZN 	 
-    	  
-    		  
-         mNGHuSbVa0_na45B50kOF 	 
-    	  
-    		   
-   
-        catch  mmKFpIHZ2jW3Pl2yswFoH 	 
-    	  
-    		   
-     
-     
- 
-std mgrChmV5pX_BBnPjupsCz 	 
-    	  
-    		   
-     
-     
- exception& e mq2WtyfxNuhMujs_W_RTx 	 
-    	  
-    		   
-      mIXHmxpusVFv3HyUXTK1Q 	 
-   
-            std mWT_5joNFiaFOgpc894br 	 
-    	 cerr  mUgUEfVdBAs_RDl0oUbQO 	 
-   "\x45\x72\x72\x6f\x72\x3a\x20"  maSJfbIkVmsGsjTv0UQpa 	 
- e.what meDekgZkaKWxgWJNWiB94 	 
-    	  
-    		   
-     
-     
- 
-  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		   
-     
-     
- 
-  	 std mpd4PM_FCAECboim6Wmgy 	endl mHLOpps1TeJ1n4a5pxdNv 	 
-    	  
-    		   
-     
-     
- 
-  
-         mJP7Jsm7au1oZp1CLb7PT 	 
     	  
     		   
      
@@ -2740,2366 +2220,54 @@ std mgrChmV5pX_BBnPjupsCz
   	
         catch  mYSn7neYwuzZiHSfgVhG4 	 
     	  
+    		  std mtOADHjcfWlYUUaEqJYvC 	 
+    	  
     		   
      
-... mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    		   
-       mnkYVtKJoztdPpfebBy4S 	 
-    	  
-    		   
+ exception &e mCFpr4Os_BUpE0hBecZXK 	 
  
-            std mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
-    		   
-     
-     
- 
-  	cerr  mdGdm6zgtH4zv3Nn0vGML 	 
-  "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		   
-     
-  std mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-    		  endl mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		 
-         mPktF2k_R4xKiN2Zg99Ud 	 
-    	  
-    		   
-     
- 
-
-        try  myi_nNZ_JfQR5mbTdok9w 	 
+         mIXHmxpusVFv3HyUXTK1Q 	 
     	  
     		   
     
-            tests mGFaG2sFpPbGqC0w_fGEu 	 
-    	  
-    		   
-     
-     
- 
-  mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		  
-
-             msBil3sNAqwEOnp3Wgbyj 	 
-    	  
-    		   
-     
-  r  mAQFTjhI12FsIF680A_T9 	 
-    	  
-     rng.uniform mmZpaGRQQTWxpkl5_I8in 	 
-    	 1, 25 mA3nRYnr_lZzzMo1jh_vB 	 
-    	  
-    		   
-     
-     
- 
- mHLOpps1TeJ1n4a5pxdNv 	 
-    	  
-    		
-             mxsIRoNEMzjS6Yb5k6usv 	 
-    	  
-    		   
-     type  mrW3LX4vM3dW4niDeipVf 	 
-    	  
-    		   
-     
-     
- 
-  	  rng.uniform mChGzY6uJwNl0HsnhepB1 	0, 3 mt6dcxNU8FQBTRU5nGYnX 	 
-    mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-     
-     
-            std mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-     
-     
- 
-  	 cerr  mHuF4mTDu6zvknssKtlKQ 	 
- "\x66\x73\x69\x76\x5f\x63\x72\x65\x61\x74\x65\x5f\x73\x74\x72\x75\x63\x74\x75\x72\x69\x6e\x67\x5f\x65\x6c\x65\x6d\x65\x6e\x74\x20\x28\x72\x3d" mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-  r mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		   
-     
-     "\x2c\x20\x74\x79\x70\x65\x3d"  mdapI6SZ0JwzhtKL_Oxis 	 
-    	   type  mHuF4mTDu6zvknssKtlKQ 	 
-    	 "\x29\x20\x2e\x2e\x2e\x20" mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-
-            cv mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-    		 Mat my_ste, your_ste mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-
-            my_ste  mAQFTjhI12FsIF680A_T9 	 
-    	  
-    		   
- my_fsiv_create_structuring_element mppKtzP31aZy0pGd2m0Z9 	 
-    	  
-    		   
-     
-r, type mUaKuNbS96FbvDu3x85PG 	 
-    	  
-    		   mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		   
-
-            your_ste  myAj9JkIJCTTmCuRc8M99 	 
-     fsiv_create_structuring_element mppKtzP31aZy0pGd2m0Z9 	 
-    	  
-r, type mW00V7n8RwzFWH7tra2wp 	 
-    	  
-  mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		   
-     
-    
-             mP1zJlYesuPo0RorPJYu9 	 
-    	  
-   norm_v  myAj9JkIJCTTmCuRc8M99 	 
-    	  
-    		   
-    cv mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-    		   
-     
-   norm mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-my_ste, your_ste mA3nRYnr_lZzzMo1jh_vB 	 
-    mKCH6zvmv2K2hcW15vK3r 	 
-
-             ma_EPPI2vwlDqLbi0tgWx 	 
-    	  
-     mmZpaGRQQTWxpkl5_I8in 	 
-  norm_v mC5E9mNw3KALrr8VsSONZ 	 
-    	  
-    		   
-     
-    1.e-6 mUaKuNbS96FbvDu3x85PG 	 
-    	  
-    		   
-     
-
-             mnkYVtKJoztdPpfebBy4S 	 
-    	  
-    		   
-     
-     
-
-                tests_passed mQqnRcoNxbykQSXWuA762 	 
-    	  
-    		   
-     
-      maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    		   
-   
-                std mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-    		   
-     
-     
-cerr  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		   
-      "\x20\x4f\x6b\x21"  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-   std mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-    		   
-     
-     
- 
-  	endl mCTRiZEfCcZ4rtZeXzEPU 	 
-
-             mfYUGCIJ4y66ek5pHyoZN 	 
-            else
-             mxiSiDyBWybvWD_EkXqQ2 	 
-    	  
-    		   
-    
-                std mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   
-     
-     
- 
-  	 ostringstream fname mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-
-                fname  mA85Ru6M8Sh6PK100OVgE 	  "\x74\x65\x73\x74\x2d"  mbP3VgAHoOgnaUfLyN3rO 	 tests  mdapI6SZ0JwzhtKL_Oxis 	 
-     '-'  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		  seed  mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-    		   
-     
-   "\x2e\x78\x6d\x6c" mErDDSVFJd4ybmgEkutlI 	 
-    	  
-    		   
-     
-     
- 
-  
-                std mtOADHjcfWlYUUaEqJYvC 	 
-   cerr  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-     
-   "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x73\x74\x65\x2c\x20\x79\x6f\x75\x72\x5f\x73\x74\x65\x29\x3d\x3d" 
-                     mXSaJTMo4mCIueHA05tT9 	norm_v  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    		   
-     
-     
- "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		   
-   std mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   
-     
-     
- 
-  	 endl mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-                std mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-    		   
-     
- cerr  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-    		   
-     
- "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  mdapI6SZ0JwzhtKL_Oxis 	 
-    	  
-    		   
-     
-    fname.str mwDTANvBf2eCihKlwIGcQ 	 
-    	  
-    mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		   
-     std mWT_5joNFiaFOgpc894br 	 
-    	  
-    	endl mErDDSVFJd4ybmgEkutlI 	 
-    	  
-    		  
-                 mTRdzsidy41IXzn6FJpYi 	 
-    	  
-file  mkNGVmRSdeblSckxXzGVq 	 
-    	  
-    		   
-     
-     
- 
-   cv mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-    		   
-     
-    FileStorage mAh372E_Wg9TxPqKoaDdB 	 
-    	  
-  mu0Zw3fsOhh38Uo4aDS8W 	 
-    	 
-                file.open mmKFpIHZ2jW3Pl2yswFoH 	 
-    	  
-    		   
-     
-     
- 
-  fname.str mwDTANvBf2eCihKlwIGcQ 	 
-    	  
-    		   
-     
-, cv mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-    		   
-    FileStorage mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		   
-WRITE mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    		    mErDDSVFJd4ybmgEkutlI 	 
-    	  
-  
-                file  mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    		   
-     
-     "\x6e\x6f\x72\x6d\x5f\x76"  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    norm_v mUQApTk2utXRlZOX2bxsA 	 
-    	  
-
-                file  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    "\x6d\x79\x5f\x73\x74\x65"  mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-    		   
-     
-     
- 
-  	 my_ste mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-     
-                   
-                file  mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-    		  "\x79\x6f\x75\x72\x5f\x73\x74\x65"  mHuF4mTDu6zvknssKtlKQ 	 
-  your_ste maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    		   
-     
-     
- 
-  
-                file.release mJjX0DECNHF5WB5M9vRzJ 	 
-   mUQApTk2utXRlZOX2bxsA 	 
-    	
-             mJP7Jsm7au1oZp1CLb7PT 	 
-    	  
-    		   
-     
-     
- 
-
-         mNGHuSbVa0_na45B50kOF 	 
-    	  
-    		   
-     
-        catch  myuutvgsUpQCFDJ0ssvlp 	 
-    	  
-    		   
-std mgwQSYXcc9TIiKkPXgshg 	 
-    	exception& e mCFpr4Os_BUpE0hBecZXK 	 
-    	  mWPvycRWzzsoqLdQC4Zks 	 
-    	  
-   
-            std mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-    		   cerr  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		   
- "\x45\x72\x72\x6f\x72\x3a\x20"  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		   
- e.what mAh372E_Wg9TxPqKoaDdB 	 
-    	  
-    		   
-     
-     
- 
-    mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-  std mwz7jWEjfVuS42kuaQPn8 	 
-    endl mCTRiZEfCcZ4rtZeXzEPU 	 
-    
-         mfYUGCIJ4y66ek5pHyoZN 	 
-    	  
-    		   
- 
-        catch  myuutvgsUpQCFDJ0ssvlp 	 
-... mCo_IAiG3U7gZmGW7mfLA 	 
-    	  
-    		   
-     
-     
-  mWPvycRWzzsoqLdQC4Zks 	 
- 
             std mpd4PM_FCAECboim6Wmgy 	 
     	  
     		   
-     
  cerr  mXSaJTMo4mCIueHA05tT9 	 
+   "\x45\x72\x72\x6f\x72\x3a\x20"  mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+    		   
+     
+  e.what mAh372E_Wg9TxPqKoaDdB 	 
+      mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+  std mhlrvVwQFcOFpdjFt4y2u 	 
     	  
     		   
      
      
-  "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mdapI6SZ0JwzhtKL_Oxis 	 
-    	  
-    		    std mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
-    		   
-     
-     
- 
-  endl mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-     
-     
- 
-  	 
+endl maPJhxKGuCRBF8PTSEfoJ 	 
+    
          mqBnU2_MtantM647nyIHb 	 
     	  
-    		 
-
-        try  myi_nNZ_JfQR5mbTdok9w 	 
-    	  
-    		   
-
-            tests mjXVeKcEorHWSksfRH2UB 	 
-    	  
-    		   
-     
-   maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    	
-
-            cv mgrChmV5pX_BBnPjupsCz 	 
-    	  
-    		   
-     
-Mat bckg  mChGzY6uJwNl0HsnhepB1 	 
-    	  
-    		   
-     
-  256, 256, CV_8UC1 mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		   mKCH6zvmv2K2hcW15vK3r 	 
-    
-            cv mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
-    		   
-   Mat forg  mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-    		   
-  64, 64, CV_8UC1 mCo_IAiG3U7gZmGW7mfLA 	 
- mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		   
-     
-     
-
-            rng.fill mYSn7neYwuzZiHSfgVhG4 	 
-    	  bckg, cv mpd4PM_FCAECboim6Wmgy 	 
-    	  
- RNG mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-    		   
-     
-     UNIFORM, 0, 128 mCo_IAiG3U7gZmGW7mfLA 	 
-    	  
-    		    mIeb91O4CN5VggNyO2vQ7 	 
-            rng.fill mmKFpIHZ2jW3Pl2yswFoH 	 
-  forg, cv mErde6Wj4Ze0ly0Y61AFC 	 
-    	  
-    		RNG mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		 UNIFORM, 128, 256 mq2WtyfxNuhMujs_W_RTx 	 
-    	  
-    		   
-     
-     
-  mu0Zw3fsOhh38Uo4aDS8W 	
-            cv mwz7jWEjfVuS42kuaQPn8 	 
-    Mat frame1, frame2 mIeb91O4CN5VggNyO2vQ7 	 
-    	
-            bckg.copyTo mChGzY6uJwNl0HsnhepB1 	 
- frame1 mW00V7n8RwzFWH7tra2wp 	 mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		   
-     
  
-            forg.copyTo mmKFpIHZ2jW3Pl2yswFoH 	 
+        catch  mwEFsCY_vJ82sL6GSMTpd 	 
     	  
-    		   
-     
- frame1 mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-    		 cv mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-     
-     
- 
-  Rect mpYC3Q6HCOG_y3bCV_bzU 	 
-    	  
-    		   
-     
-   128-32, 128-32, 64, 64 mXD0JeNoU_GFfICrMiytn 	 
-    	  
-    		 mt6dcxNU8FQBTRU5nGYnX 	 
-    	  
-    		   
-     
-     
- mCxo5hT3adsjpL3eSx_tm 	 
-  mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
- 
-            bckg.copyTo mpYC3Q6HCOG_y3bCV_bzU 	 
-    	  
-    		   
-     
-  frame2 mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    		   
-     
-     
-  mHLOpps1TeJ1n4a5pxdNv 	 
-    	  
-  
-            forg.copyTo mChGzY6uJwNl0HsnhepB1 	 
-    	  
-    frame2 myuutvgsUpQCFDJ0ssvlp 	 
-   cv mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-    		   
-    Rect mChGzY6uJwNl0HsnhepB1 	 
-   129-32, 129-32, 64, 64 mCo_IAiG3U7gZmGW7mfLA 	 
-    	  
-   mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		   
-      mA3nRYnr_lZzzMo1jh_vB 	 
-    	  
-    		   
-     
-     
- 
- mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-  
-            std mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
-    		   
-     cerr  mA85Ru6M8Sh6PK100OVgE 	 "\x66\x73\x69\x76\x5f\x63\x6f\x6d\x70\x75\x74\x65\x5f\x6f\x70\x74\x69\x63\x61\x6c\x5f\x66\x6c\x6f\x77\x5f\x6d\x61\x67\x6e\x69\x74\x75\x64\x65\x20\x2e\x2e\x2e\x20" maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    		   
-     
-    
-            cv mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		   
-     
-     
- Mat flow, my_mag, your_mag mHLOpps1TeJ1n4a5pxdNv 	 
-    
-            my_fsiv_compute_dense_optical_flow mwEFsCY_vJ82sL6GSMTpd 	 
-    frame1, frame2, flow mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		   
-     mIeb91O4CN5VggNyO2vQ7 	 
-    	 
-            my_fsiv_compute_optical_flow_magnitude myuutvgsUpQCFDJ0ssvlp 	 
-flow, my_mag mW00V7n8RwzFWH7tra2wp 	 
-    	  
-    		   
- mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-     
-     
-            fsiv_compute_optical_flow_magnitude mZf3yA3X8Y4vlKmyskuBt 	 
-    	  
-    		   
- flow, your_mag mxBVKq5uLQpnUbC1M415c 	 
-    	  
-   mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-    		   
-  
-             mP1zJlYesuPo0RorPJYu9 	 
-    	  
-norm_v  myAj9JkIJCTTmCuRc8M99 	 
-     cv mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    		   
-  norm mChGzY6uJwNl0HsnhepB1 	 
-    	  
-    		   
-     
-     
- my_mag, your_mag mA3nRYnr_lZzzMo1jh_vB 	 
-    	  
-    		   
-  mCF6yuex92SFioZPpxBz2 	 
-    	  
- 
-
-             mj0RN9F71W_6s_YhWh1SP 	 
-    	  mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-    		   
-     
- norm_v msL_HjjMOgmuquii8oJwE 	1.e-6 mCxo5hT3adsjpL3eSx_tm 	 
-    	  
-    		   
-     
-             mWPvycRWzzsoqLdQC4Zks 	 
-    	  
-                tests_passed mXcxo9pxHw09Ez3pwIM6S 	 
-    	 mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		   
-     
-     
-
-                std mErde6Wj4Ze0ly0Y61AFC 	cerr  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		   
-     
-  "\x20\x4f\x6b\x21"  mA85Ru6M8Sh6PK100OVgE 	 
-   std mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   
-     
-     
-endl mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-     
-     
-
-             mqBnU2_MtantM647nyIHb 	 
-    	  
-    		   
-     
-
-            else
-             mnkYVtKJoztdPpfebBy4S 	 
-    	  
-    		   
-     
-     
-
-                std mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-    	ostringstream fname mCTRiZEfCcZ4rtZeXzEPU 	
-                fname  maSJfbIkVmsGsjTv0UQpa 	 
-    	  
-    		   
-     
- "\x74\x65\x73\x74\x2d"  mdapI6SZ0JwzhtKL_Oxis 	 
-    	  
-    		   
-     
-     
- tests  maSJfbIkVmsGsjTv0UQpa 	 
-    	  
-     '-'  mXSaJTMo4mCIueHA05tT9 	 
-    	  seed  mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    		   
- "\x2e\x78\x6d\x6c" mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-    		   
-     
- 
-                std mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-    cerr  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-    		   
-   "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x6d\x61\x67\x2c\x20\x79\x6f\x75\x72\x5f\x6d\x61\x67\x29\x3d\x3d" 
-                     mq3vxPsKSjjq_xpuFA9dn 	 
- norm_v  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-   "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  maSJfbIkVmsGsjTv0UQpa 	 
-    	  
-    		   
-     
-    std mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    		   
-     
-     
- 
-  	endl mErDDSVFJd4ybmgEkutlI 	 
-    	  
-    		   
-    
-                std mwz7jWEjfVuS42kuaQPn8 	 
-  cerr  mA85Ru6M8Sh6PK100OVgE 	 
-    	 "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  maSJfbIkVmsGsjTv0UQpa 	 
-    	  
-    		   
-     
-      fname.str mZGQ4J8pc7eRHZbaNBrTR 	 
-    	  
-    		   
-     
-     
- 
-    mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-   std mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-endl mu0Zw3fsOhh38Uo4aDS8W 	
-                 mAot4lv_hqRDJSbAui1kl 	 
-    	  
-    		   
-     
-     
- file  mLZ3y6cDPwjsfFVKTrILy 	 
-    	  cv mMNd9IbgZGNvHCj6cXNIY 	 
-    	  FileStorage mwDTANvBf2eCihKlwIGcQ 	 
-    	  
-    		   mErDDSVFJd4ybmgEkutlI 	 
-   
-                file.open mppKtzP31aZy0pGd2m0Z9 	 
-    	  
-   fname.str mJjX0DECNHF5WB5M9vRzJ 	 
-, cv mpd4PM_FCAECboim6Wmgy 	 
-FileStorage mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   
-     
-    WRITE mxBVKq5uLQpnUbC1M415c 	  mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-                file  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		   
-    "\x6e\x6f\x72\x6d\x5f\x76"  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		   
-   norm_v mCF6yuex92SFioZPpxBz2 	 
-                file  mLKaNDZsfPRxbXiWdHvqO 	 "\x66\x6c\x6f\x77"  mdGdm6zgtH4zv3Nn0vGML 	  flow mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-                   
-                file  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    		   
-     
-   "\x79\x6f\x75\x72\x5f\x6d\x61\x67"  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    	 your_mag mCF6yuex92SFioZPpxBz2 	 
-    	  
-    		   
-     
-
-                file  mA85Ru6M8Sh6PK100OVgE 	 
-  "\x6d\x79\x5f\x6d\x61\x67"  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    		   
-     
-     
- 
- my_mag mCTRiZEfCcZ4rtZeXzEPU 	 
-    	
-                file.release mwDTANvBf2eCihKlwIGcQ 	 
-    	  
-    		   
-     
- mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		   
-     
-     
- 
-  	 
-             mJTa21GBBlpdHs8EUXwZ0 	 
-         mfYUGCIJ4y66ek5pHyoZN 	 
-    	  
- 
-        catch  myuutvgsUpQCFDJ0ssvlp 	 
-    	  
-    		   
-    std mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   exception& e mq2WtyfxNuhMujs_W_RTx 	 
-    	  
-    		   
-     
-     
-   mmgqYc0_7tKLpJXAoouea 	 
-    	  
-    		
-            std mErde6Wj4Ze0ly0Y61AFC 	cerr  mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-    		   
-      "\x45\x72\x72\x6f\x72\x3a\x20"  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		   
-    e.what mkIFONPkvrdc61fQAT2H7 	 
-    	  
-     mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-    		   
- std mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-    		  endl mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		   
-     
-  
-         mNGHuSbVa0_na45B50kOF 	 
-    	  
-    		   
-     
-    
-        catch  myuutvgsUpQCFDJ0ssvlp 	 ... mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		   
-     mzdEyRJKtHmAv_hyCRXsM 	 
-    	  
-    		   
-   
-            std mwz7jWEjfVuS42kuaQPn8 	 
- cerr  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		  "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		 std mwz7jWEjfVuS42kuaQPn8 	endl mCTRiZEfCcZ4rtZeXzEPU 	 
-   
-         mPktF2k_R4xKiN2Zg99Ud 	 
-    	  
-    		   
-
-        try  mmgqYc0_7tKLpJXAoouea 	 
-    	  
-    		  
-            tests mw6J30JhGYZOxHrm_wMpc 	 
-    	  
-    		 maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    		   
-     
-   
-
-            cv mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-    		   
-     
-Mat bckg  mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-    		   
-   256, 256, CV_8UC1 mUaKuNbS96FbvDu3x85PG 	 
-    mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-    		   
-   
-            cv mgrChmV5pX_BBnPjupsCz 	 
-Mat forg  mpYC3Q6HCOG_y3bCV_bzU 	 
-    	  
-    		   
-    64, 64, CV_8UC1 mCxo5hT3adsjpL3eSx_tm 	 
-    	  
-    		   
-      mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		   
-     
-    
-            rng.fill mYSn7neYwuzZiHSfgVhG4 	 
-  bckg, cv mgwQSYXcc9TIiKkPXgshg 	 
-    	  
- RNG mpd4PM_FCAECboim6Wmgy 	 
-  UNIFORM, 0, 128 mCxo5hT3adsjpL3eSx_tm 	 
-    	  
-    		   
-     
-  mCF6yuex92SFioZPpxBz2 	 
-    	  
-    		  
-            rng.fill mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-    		forg, cv mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-    		   
-     
-     RNG mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    		   
-UNIFORM, 128, 256 mW00V7n8RwzFWH7tra2wp 	 
-    	  
-    mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    	
-            cv mErde6Wj4Ze0ly0Y61AFC 	Mat frame1, frame2 mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		   
-     
-     
- 
-            bckg.copyTo myuutvgsUpQCFDJ0ssvlp 	 
-    	  
-    		   
-     
-     frame1 mq2WtyfxNuhMujs_W_RTx 	 
- mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-    		   
-     
-     
- 
-
-            forg.copyTo mChGzY6uJwNl0HsnhepB1 	 
-    	  
-    		   
-     
-     
- 
-  	frame1 mmZpaGRQQTWxpkl5_I8in 	 
-    	  cv mWT_5joNFiaFOgpc894br 	 
-    	  
-    	Rect mppKtzP31aZy0pGd2m0Z9 	 
-    	  
-    		   
-   128-32, 128-32, 64, 64 mA3nRYnr_lZzzMo1jh_vB 	 
-    	  mt6dcxNU8FQBTRU5nGYnX 	 
-    	  
-    		   
-     
-   mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		   
-     mu0Zw3fsOhh38Uo4aDS8W 	 
- 
-            bckg.copyTo mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-frame2 mCxo5hT3adsjpL3eSx_tm 	 
-    	  
-    		   
-     
-     mIeb91O4CN5VggNyO2vQ7 	 
-    
-            forg.copyTo mppKtzP31aZy0pGd2m0Z9 	 frame2 myuutvgsUpQCFDJ0ssvlp 	cv mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-    		   
-  Rect myuutvgsUpQCFDJ0ssvlp 	 
-  129-32, 129-32, 64, 64 mUaKuNbS96FbvDu3x85PG 	  mA3nRYnr_lZzzMo1jh_vB 	 
-   mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    	 mZ5n7IX_AHHoHYsodfx8Y 	 
-             mPg8ShPrRyDomzQVD8JDd 	 
-    	  
-    th  mLwpjlSPu7J_elHZYFHIX 	 
-    	  
-    		   
-     
-     
- int mf6w6nRo1UPHMI9Ix1lmT 	rng.uniform mZf3yA3X8Y4vlKmyskuBt 	 
-    	  
-    		   
-     
-     
- 0.0, 1.5 mCo_IAiG3U7gZmGW7mfLA 	 
-    	  
-    		 *100.0 mA3nRYnr_lZzzMo1jh_vB 	 
-    	  
-    		   
-  /100.0 mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
- 
-             mxsIRoNEMzjS6Yb5k6usv 	 ste_r  mik5L9gUWoenRFF12Yrzk 	 
-    	  
-    		   
-     0 mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		   
-   
-             mleaN1JwZuigEsM3tS2a6 	 
-    	  
-    		   
-  ste_type  mpIazGz0BO8GDZeOCwtDA 	 
-    	  
-    		   
-   2 maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    		   
-   
-             mD2IMpmuC9DqK0MgNcche 	 
-    	  
-    		   
-     
-  alpha  mSk1ShXRx3FQBFfrfi8ft 	 
-    	  
-    		   
-     
-     
- 
-  0.0 mu0Zw3fsOhh38Uo4aDS8W 	 
-  
-            std mErde6Wj4Ze0ly0Y61AFC 	 
-    	  
-    	cerr  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		    "\x66\x73\x69\x76\x5f\x63\x6f\x6d\x70\x75\x74\x65\x5f\x6f\x66\x5f\x66\x6f\x72\x65\x67\x72\x6f\x75\x6e\x64\x5f\x6d\x61\x73\x6b\x20\x28\x77\x69\x74\x68\x6f\x75\x74\x20\x69\x6e\x69\x74\x69\x61\x6c\x20\x65\x73\x74\x69\x6d\x61\x74\x65\x2c\x20\x74\x68\x20\x3d\x20"  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-    		  th 
-                 mHuF4mTDu6zvknssKtlKQ 	 
-    	   "\x20\x73\x74\x65\x5f\x72\x3d"  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    		   
-     
-     
- 
- ste_r  mUgUEfVdBAs_RDl0oUbQO 	 "\x20\x73\x74\x65\x5f\x74\x79\x70\x65\x3d"  mdapI6SZ0JwzhtKL_Oxis 	 
-    	  
-    		   
-     
- ste_type 
-                 mXSaJTMo4mCIueHA05tT9 	 
-    "\x20\x61\x6c\x70\x68\x61\x3d"  mA85Ru6M8Sh6PK100OVgE 	 alpha  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-    		   
-     
-     
- 
- "\x29\x20\x2e\x2e\x2e\x20" maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    		   
-  
-            cv mgrChmV5pX_BBnPjupsCz 	Mat my_flow, your_flow mErDDSVFJd4ybmgEkutlI 	 
-    	  
-    		
-            cv mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
-    		   
- Mat my_mask, your_mask maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    		   
-     
-     
- 
-  	
-            my_fsiv_compute_of_foreground_mask mwEFsCY_vJ82sL6GSMTpd 	 
-    	frame1, frame2, my_flow,
-                my_mask, th, ste_r, ste_type, alpha mW00V7n8RwzFWH7tra2wp 	 mErDDSVFJd4ybmgEkutlI 	 
-  
-            fsiv_compute_of_foreground_mask mZf3yA3X8Y4vlKmyskuBt 	 
-    	  
-    		   
-     
-     frame1, frame2, your_flow,
-                your_mask, th, ste_r, ste_type, alpha mA3nRYnr_lZzzMo1jh_vB 	 
-    	  
-    		   
-   mCTRiZEfCcZ4rtZeXzEPU 	 
-
-             mM2iqaERfKSkIvyG_DVsA 	 
-    	  
-    		   
-     
-     
- 
- norm_v  mLZ3y6cDPwjsfFVKTrILy 	 
-    	  
-    		   
-     
-   cv mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
-    		   
-norm mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-    		my_mask, your_mask mW00V7n8RwzFWH7tra2wp 	 
-    	  
-    		   
-     
- mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    	
-
-             mVmHfDt9pq2zl91iYWE6U 	 mmKFpIHZ2jW3Pl2yswFoH 	 
-    	  
-    		   
-     
-     
- 
-  	norm_v mTTUVMx3R6fGe9krQWHNl 	 
-    	  
-    		   
-     
-     
-1.e-6 mUaKuNbS96FbvDu3x85PG 	 
-    	  
-    		   
-     
-     
- 
- 
-             mnkYVtKJoztdPpfebBy4S 	
-                tests_passed mvpbb7zB0unxZ3rn7aVG2 	 
-    	  
-    		  maPJhxKGuCRBF8PTSEfoJ 	 
-   
-                std mgrChmV5pX_BBnPjupsCz 	 
-    	  
-  cerr  mLKaNDZsfPRxbXiWdHvqO 	 
-     "\x20\x4f\x6b\x21"  maSJfbIkVmsGsjTv0UQpa 	 
-    	  
-    		   
-     
-    std mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
-    		   
-     
-  endl mErDDSVFJd4ybmgEkutlI 	 
-    	  
-
-             mfYUGCIJ4y66ek5pHyoZN 	 
-    	  
-    		   
-    
-            else
-             myi_nNZ_JfQR5mbTdok9w 	 
-    	  
-    		   
-  
-                std mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   
-     
-   ostringstream fname mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-    		   
-                fname  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-    "\x74\x65\x73\x74\x2d"  maSJfbIkVmsGsjTv0UQpa 	 
-    	  
-    		   
-     
-     
- 
-  	 tests  mHuF4mTDu6zvknssKtlKQ 	 
- '-'  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-    		    seed  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		  "\x2e\x78\x6d\x6c" mErDDSVFJd4ybmgEkutlI 	 
-    	 
-                std mtOADHjcfWlYUUaEqJYvC 	cerr  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		   
-     
-     
- 
-  	  "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x6d\x61\x73\x6b\x2c\x20\x79\x6f\x75\x72\x5f\x6d\x61\x73\x6b\x29\x3d\x3d" 
-                     mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		   
-     
-     
- 
-  	norm_v  mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    		  "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  mbP3VgAHoOgnaUfLyN3rO 	 
-    std mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-   endl maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    		   
-     
-     
- 
-  	 
-                std mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		   
-cerr  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		   
-     
-     "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		    fname.str mmLzOj1OpcOraAxHe0sHs 	   mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    		 std mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
-    		   
-     
-     
- 
- endl mu0Zw3fsOhh38Uo4aDS8W 	 
-    	  
-    		   
-     
-     
- 
-  	 
-                 mTRdzsidy41IXzn6FJpYi 	 
-    	  
-    		   
-  file  mSk1ShXRx3FQBFfrfi8ft 	 
-    	  
-    		   
-     
-     
- 
-   cv mWT_5joNFiaFOgpc894br 	 
-    FileStorage mmLzOj1OpcOraAxHe0sHs 	 
-    	  
-   mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-                file.open mZf3yA3X8Y4vlKmyskuBt 	 
-    	  fname.str mZGQ4J8pc7eRHZbaNBrTR 	 
-    	  
-    		 , cv mgrChmV5pX_BBnPjupsCz 	 
-   FileStorage mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-    WRITE mA3nRYnr_lZzzMo1jh_vB 	 
-     mCF6yuex92SFioZPpxBz2 	 
-    	  
-    		   
-   
-                file  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		   
-      "\x6e\x6f\x72\x6d\x5f\x76"  mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    		   
-     
-      norm_v mIeb91O4CN5VggNyO2vQ7 	 
-                file  mdapI6SZ0JwzhtKL_Oxis 	 
-    	  
-    		   
-    "\x79\x6f\x75\x72\x5f\x6d\x61\x73\x6b"  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-     
-     
- 
-   your_mask mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-     
-                file  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-     "\x6d\x79\x5f\x6d\x61\x73\x6b"  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    my_mask mu0Zw3fsOhh38Uo4aDS8W 	 
-    	  
-   
-                file.release mZGQ4J8pc7eRHZbaNBrTR 	 mu0Zw3fsOhh38Uo4aDS8W 	 
-    	  
-    		   
-     
-     
- 
- 
-             mfYUGCIJ4y66ek5pHyoZN 	 
-    	  
-         mJTa21GBBlpdHs8EUXwZ0 	 
-    	  
-    		   
-     
-     
- 
- 
-        catch  mZf3yA3X8Y4vlKmyskuBt 	 
-    	  
-    		   
-     
-     
- 
- std mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-  exception& e mxBVKq5uLQpnUbC1M415c 	 
-    mxiSiDyBWybvWD_EkXqQ2 	 
+    		   ... mUaKuNbS96FbvDu3x85PG 	 
     	  
     		   
      
      
  
   
-            std mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-    		   
-     
-  cerr  mdapI6SZ0JwzhtKL_Oxis 	 
-    "\x45\x72\x72\x6f\x72\x3a\x20"  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-    		   
- e.what mAh372E_Wg9TxPqKoaDdB 	 
-    	  
-    		   
-    mHuF4mTDu6zvknssKtlKQ 	 
-  std mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-    endl mCF6yuex92SFioZPpxBz2 	 
-    	  
-    		   
-     
-
-         mJP7Jsm7au1oZp1CLb7PT 	 
+         mmgqYc0_7tKLpJXAoouea 	
+            std mnsDFHlx8Rb1ohrxyYFfi 	 cerr  mXSaJTMo4mCIueHA05tT9 	 
     	  
     		   
      
      
  
- 
-        catch  mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-    		   
-     
-... mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		   
-     
-     
- 
-  mChKOw2unTvh7zyq4OT_T 	 
-    	  
-    		   
-     
-  
-            std mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-   cerr  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    		   
-    "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-    		   
-     
-     
- 
-  std mwz7jWEjfVuS42kuaQPn8 	 
-  endl mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-
-         mNGHuSbVa0_na45B50kOF 	 
-    	  
- 
-
-        try  mDayc5WiuF3Q2GBCWXNZN 	 
-    	  
-            tests mkPJr4m66EIhdFNV2A2hx 	 
-    	  
-    		   
- mCF6yuex92SFioZPpxBz2 	 
-    	
-
-            cv mErde6Wj4Ze0ly0Y61AFC 	 
-    	  
-    		   
- Mat bckg  mZf3yA3X8Y4vlKmyskuBt 	 
-    256, 256, CV_8UC1 mW00V7n8RwzFWH7tra2wp 	 
-    	  
-    		   
-   mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-    		   
-     
-  
-            cv mhlrvVwQFcOFpdjFt4y2u 	 
- Mat forg  mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-    64, 64, CV_8UC1 mxBVKq5uLQpnUbC1M415c 	 mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		   
-     
- 
-            rng.fill myuutvgsUpQCFDJ0ssvlp 	 
-    	  
-    		   
-    bckg, cv mgrChmV5pX_BBnPjupsCz 	 
-    	  
-    		   
-     RNG mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
-    		   
-UNIFORM, 0, 128 mW00V7n8RwzFWH7tra2wp 	 
-    	  
-    		   
-     mIeb91O4CN5VggNyO2vQ7 	 
-  
-            rng.fill mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-    		   
-   forg, cv mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-     
-RNG mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   
-     
-     
- 
- UNIFORM, 128, 256 mA3nRYnr_lZzzMo1jh_vB 	 
-    	  
-    		   
- mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		   
-            cv mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    	Mat frame1, frame2, frame3 mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-    
-            bckg.copyTo mmKFpIHZ2jW3Pl2yswFoH 	 
-    	  
-   frame1 mXD0JeNoU_GFfICrMiytn 	 
-    	   maPJhxKGuCRBF8PTSEfoJ 	
-            forg.copyTo mppKtzP31aZy0pGd2m0Z9 	 
-    	  
- frame1 mZf3yA3X8Y4vlKmyskuBt 	 
-    	  
-    		   
-     
-     
- 
-  	cv mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-    		   
-     
-     
- 
-  	Rect mYSn7neYwuzZiHSfgVhG4 	 
-    	  
-    		   
-     
-     
- 
-  128-32, 128-32, 64, 64 mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		   
-     
-     
- 
-  	 mCxo5hT3adsjpL3eSx_tm 	 
-    	  
-    		   
-     
-     
- mUaKuNbS96FbvDu3x85PG 	 
-    	  
-    mUQApTk2utXRlZOX2bxsA 	 
-    	  
-
-            bckg.copyTo mmKFpIHZ2jW3Pl2yswFoH 	 
-    	  
-    frame2 mCxo5hT3adsjpL3eSx_tm 	 
-  mHLOpps1TeJ1n4a5pxdNv 	 
-    	  
-    		   
-     
-            forg.copyTo mYSn7neYwuzZiHSfgVhG4 	 
-    	  
- frame2 mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-    		   
-     
-     
- 
-  	 cv mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		 Rect myuutvgsUpQCFDJ0ssvlp 	 
-    	  
-    129-32, 129-32, 64, 64 mt6dcxNU8FQBTRU5nGYnX 	 
-    	  
-  mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		   
-     
-   mxBVKq5uLQpnUbC1M415c 	 
-   mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		
-            bckg.copyTo mZf3yA3X8Y4vlKmyskuBt 	frame3 mCxo5hT3adsjpL3eSx_tm 	 
- mu0Zw3fsOhh38Uo4aDS8W 	 
-    	  
-  
-            forg.copyTo mpYC3Q6HCOG_y3bCV_bzU 	 
-    	  
-    		   
-     
-     
- 
-  	 frame3 mwEFsCY_vJ82sL6GSMTpd 	cv mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-     
-Rect mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-    		   
-     
-     
- 
-  	130-32, 130-32, 64, 64 mW00V7n8RwzFWH7tra2wp 	 
-    	 mUaKuNbS96FbvDu3x85PG 	 
-    	  
- mCFpr4Os_BUpE0hBecZXK 	 mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-
-             mD2IMpmuC9DqK0MgNcche 	 th  mkNGVmRSdeblSckxXzGVq 	 
-    	  
-    		   
-      int mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-    		   
-     rng.uniform mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-    		   
-     
-0.0, 1.5 mq2WtyfxNuhMujs_W_RTx 	 
-    	  
-    		   
-     
-     
- 
-  	 *100.0 mCo_IAiG3U7gZmGW7mfLA 	 
-    	  
-    		   
-     
-/100.0 mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-   
-             mCWMzZFPcoXg9fIw5padT 	 
-    	  
-    	ste_r  mLwpjlSPu7J_elHZYFHIX 	 
-     3 mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		
-             mKiEjAMYsFU_Bb_sAc8_Z 	 
-    	  
-    		   
-     
-     
-ste_type  mtcMtq_ZgTF0Gbvko4MMI 	 
-     2 mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		   
-     
-
-             m_Q5PCBYXJE_DRsG0wKBK 	 
-    	  
-    		   
-     
-     
- 
- alpha  myAj9JkIJCTTmCuRc8M99 	 int mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-    		   
-     
-rng.uniform mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-    		0.0, 1.0 mA3nRYnr_lZzzMo1jh_vB 	 
-    	  
-    		   
-*100.0 mCxo5hT3adsjpL3eSx_tm 	 
-    	  
- /100.0 mUQApTk2utXRlZOX2bxsA 	 
- 
-            std mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    		   
-    cerr  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-     "\x66\x73\x69\x76\x5f\x63\x6f\x6d\x70\x75\x74\x65\x5f\x6f\x66\x5f\x66\x6f\x72\x65\x67\x72\x6f\x75\x6e\x64\x5f\x6d\x61\x73\x6b\x20\x28\x77\x69\x74\x68\x20\x69\x6e\x69\x74\x69\x61\x6c\x20\x65\x73\x74\x69\x6d\x61\x74\x65\x2c\x20\x74\x68\x20\x3d\x20"  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-  th 
-                 mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		   
-     "\x20\x73\x74\x65\x5f\x72\x3d"  mdapI6SZ0JwzhtKL_Oxis 	 ste_r  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		   
-     
-   "\x20\x73\x74\x65\x5f\x74\x79\x70\x65\x3d"  mXSaJTMo4mCIueHA05tT9 	 
- ste_type 
-                 mXSaJTMo4mCIueHA05tT9 	 
-    	   "\x20\x61\x6c\x70\x68\x61\x3d"  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    		   
-     
-     
- 
- alpha  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		   
-     
-     
- 
-  	  "\x29\x20\x2e\x2e\x2e\x20" mHLOpps1TeJ1n4a5pxdNv 	
-            cv mwz7jWEjfVuS42kuaQPn8 	Mat prev_flow, my_flow, your_flow mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-     
-     
- 
-  	 
-            cv mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-    Mat prev_mask, my_mask, your_mask mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-  
-            my_fsiv_compute_of_foreground_mask mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-    		   
-     
-  frame1, frame2, prev_flow,
-                prev_mask, th, ste_r, ste_type, alpha mCxo5hT3adsjpL3eSx_tm 	 
-    	  mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-  
-            prev_mask.copyTo mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-    		   
-   my_mask mUaKuNbS96FbvDu3x85PG 	 
-    	  
-    		   
- mUQApTk2utXRlZOX2bxsA 	 
-
-            prev_mask.copyTo mwEFsCY_vJ82sL6GSMTpd 	 
-    	 your_mask mUaKuNbS96FbvDu3x85PG 	 
-    	  
-    		   
-     
-      mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		   
-
-            prev_flow.copyTo myuutvgsUpQCFDJ0ssvlp 	 
-    	  
-    		   
-my_flow mq2WtyfxNuhMujs_W_RTx 	 
-    	  
-    		   
-     
-     
- mu0Zw3fsOhh38Uo4aDS8W 	 
-    	  
-    	
-            prev_flow.copyTo mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-    		   
-  your_flow mUaKuNbS96FbvDu3x85PG 	 
-    	  
-  mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		
-            my_fsiv_compute_of_foreground_mask mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-    		   
-     frame2, frame3, my_flow,
-                my_mask, th, ste_r, ste_type, alpha mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    		   
-     
- mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-     
-     
- 
-
-            fsiv_compute_of_foreground_mask mppKtzP31aZy0pGd2m0Z9 	 
-    	  
-    		   
-     
-     
-frame2, frame3, your_flow,
-                your_mask, th, ste_r, ste_type, alpha mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    		   mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
- 
-             mZnpA1C5VCYvSOdWYd650 	 
-    	  
-    		   
-     
-    norm_v  mLZ3y6cDPwjsfFVKTrILy 	 
-    	  
-    		   
-     
-     
- 
-  	 cv mwz7jWEjfVuS42kuaQPn8 	 
-    	  
- norm mmKFpIHZ2jW3Pl2yswFoH 	 
-    	  
-    		   
-     
-     
- 
-  my_mask, your_mask mCo_IAiG3U7gZmGW7mfLA 	 mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		              
-
-             ma_EPPI2vwlDqLbi0tgWx 	 
-    	  
-    		   
-    mZf3yA3X8Y4vlKmyskuBt 	 
-    	  
-    		   norm_v mFTDk1A7X2oZzPWrjJBTS 	 
-    	  
-    		   
-     
-     
- 
- 1.e-6 mUaKuNbS96FbvDu3x85PG 	 
-    	  
-    		   
- 
-             mnkYVtKJoztdPpfebBy4S 	 
-    	  
-    		   
-     
-   
-                tests_passed mXcxo9pxHw09Ez3pwIM6S 	 
-    	  
-    		  maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    		   
-     
-                std mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		   
-     
-     
- cerr  mXSaJTMo4mCIueHA05tT9 	 
-    	  
- "\x20\x4f\x6b\x21"  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-    		   
-   std mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-     
- endl maPJhxKGuCRBF8PTSEfoJ 	 
- 
-             mJTa21GBBlpdHs8EUXwZ0 	 
-    	  
-    		   
-     
-     
-
-            else
-             mIXHmxpusVFv3HyUXTK1Q 	 
-    	  
-                std mpd4PM_FCAECboim6Wmgy 	 
- ostringstream fname mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-    		   
-     
-     
- 
-  
-                fname  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-  "\x74\x65\x73\x74\x2d"  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    		    tests  mA85Ru6M8Sh6PK100OVgE 	 
- '-'  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-     seed  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-     
-      "\x2e\x78\x6d\x6c" mu0Zw3fsOhh38Uo4aDS8W 	 
-    	  
-    		  
-                std mgrChmV5pX_BBnPjupsCz 	 
-    	  
-    		   
-     
-     
- 
- cerr  mdGdm6zgtH4zv3Nn0vGML 	 
-     "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x6d\x61\x73\x6b\x2c\x20\x79\x6f\x75\x72\x5f\x6d\x61\x73\x6b\x29\x3d\x3d" 
-                     mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		   
-     
- norm_v  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		   
-     "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		    std mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   
-     
-  endl mCF6yuex92SFioZPpxBz2 	 
-    	  
-    		
-                std mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-cerr  mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
- "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  maSJfbIkVmsGsjTv0UQpa 	 fname.str mmLzOj1OpcOraAxHe0sHs 	  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    	 std mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-    		   
-     
-     
- 
-endl mCTRiZEfCcZ4rtZeXzEPU 	 
-    	
-                 mm3ERFtObyKhe7QdFRo2M 	 
-    	  
-    		   
-     
-     file  mik5L9gUWoenRFF12Yrzk 	 
-  cv mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    		   
-     
-     FileStorage mwDTANvBf2eCihKlwIGcQ 	 
-    	   mu0Zw3fsOhh38Uo4aDS8W 	 
-    	  
-    		   
-     
-
-                file.open mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-    		   
-     
-     fname.str moLZmyH4uSJX9pXN1kkKz 	 
-    	  
-    		 , cv mwz7jWEjfVuS42kuaQPn8 	FileStorage mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    		   
-  WRITE mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		   
- mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    
-                file  mdapI6SZ0JwzhtKL_Oxis 	 
-    	 "\x6e\x6f\x72\x6d\x5f\x76"  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		   
-      norm_v mCF6yuex92SFioZPpxBz2 	 
-    	  
-    		   
-    
-                file  mA85Ru6M8Sh6PK100OVgE 	 
-     "\x79\x6f\x75\x72\x5f\x6d\x61\x73\x6b"  mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    		   
-     
-     
-  your_mask mIeb91O4CN5VggNyO2vQ7 	 
- 
-                file  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		   "\x6d\x79\x5f\x6d\x61\x73\x6b"  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-   my_mask maPJhxKGuCRBF8PTSEfoJ 	
-                file.release muDy_qxq6pQC33xkdhIyC 	 mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-     
-     
- 
-  
-             mJP7Jsm7au1oZp1CLb7PT 	 
-         mozmL8sMtEcXdVFJtkOKz 	 
-    	  
-        catch  mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-  std mErde6Wj4Ze0ly0Y61AFC 	 
-    	  
-    		   
-     
- exception& e mW00V7n8RwzFWH7tra2wp 	 
-    	  
-      mIXHmxpusVFv3HyUXTK1Q 	 
-    	  
-   
-            std mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		   
-     cerr  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
- "\x45\x72\x72\x6f\x72\x3a\x20"  mbP3VgAHoOgnaUfLyN3rO 	 
-    	  e.what muDy_qxq6pQC33xkdhIyC 	 
-    	  
-    		   
-    mbP3VgAHoOgnaUfLyN3rO 	 
-    	 std mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
-    	endl mu0Zw3fsOhh38Uo4aDS8W 	 
-    	  
-    	
-         mozmL8sMtEcXdVFJtkOKz 	 
-    
-        catch  mChGzY6uJwNl0HsnhepB1 	... mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    mChKOw2unTvh7zyq4OT_T 	 
-    	
-            std mErde6Wj4Ze0ly0Y61AFC 	 
-    	  
-    		   
-     
-   cerr  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		   
-     "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-   std mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-     
-     
- 
-  endl mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		   
-     
-     
- 
-
-         mqBnU2_MtantM647nyIHb 	 
-    	  
-    		   
-  
-
-        try  mIXHmxpusVFv3HyUXTK1Q 	 
-    	  
-
-            tests mLAyVzLAK_LqwPnxSz9Ya 	 
-    	  
-    		   
-      mu0Zw3fsOhh38Uo4aDS8W 	 
-    	  
- 
-
-            cv mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   
-    Mat img  mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-   256, 256, CV_8UC1 mCo_IAiG3U7gZmGW7mfLA 	 
-    	  
- mCF6yuex92SFioZPpxBz2 	 
-    	  
-    		   
-     
-     
-
-            cv mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    Mat mask  mik5L9gUWoenRFF12Yrzk 	 
-    	  
-    		   
-     
-   cv mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-    		   
-     
-     
- 
-Mat mErde6Wj4Ze0ly0Y61AFC 	 
-    	  
-    		   
-     
-     
- 
-  zeros mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-    		   
-   256, 256, CV_8UC1 mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-  mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-     
-  
-            cv mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   
-     Rect rect  mppKtzP31aZy0pGd2m0Z9 	 
-rng.uniform mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-    128-32, 128+32 mW00V7n8RwzFWH7tra2wp 	 
-    	  
-    		   
- ,
-                rng.uniform mpYC3Q6HCOG_y3bCV_bzU 	 
-    	  
-    		   
-     128-32, 128+32 mA3nRYnr_lZzzMo1jh_vB 	 
-    	  
-    		   
-     
-     
- 
- , 65, 65 mXD0JeNoU_GFfICrMiytn 	 
-    	  
-    		    mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		 
-            mask mf6w6nRo1UPHMI9Ix1lmT 	 
-  rect mCxo5hT3adsjpL3eSx_tm 	 
-    	  
-     mSk1ShXRx3FQBFfrfi8ft 	 
-    	  
-    	 255 mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		   
-             msBil3sNAqwEOnp3Wgbyj 	 
-    	  
-    		   
-r  mik5L9gUWoenRFF12Yrzk 	 
-    	  
- rng.uniform myuutvgsUpQCFDJ0ssvlp 	 
-    	  
-    		   
-    5, 15 mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-    		  mUQApTk2utXRlZOX2bxsA 	 
-    	  
-
-             mXifu34TuHwfEgv5FpdR5 	 
-    	  
-    		   
-     
-     
- gaussian  mik5L9gUWoenRFF12Yrzk 	 
-    	  
-    		   
-     
-     
- false mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-   
-            
-            std mgrChmV5pX_BBnPjupsCz 	cerr  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		   
-     
-   "\x66\x73\x69\x76\x5f\x62\x6c\x75\x72\x5f\x62\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x20\x28\x72\x3d"  maSJfbIkVmsGsjTv0UQpa 	 
-    	  
-   r  maSJfbIkVmsGsjTv0UQpa 	 
-    	  
-    		   
-     
-     
- 
-  	  "\x20\x67\x61\x75\x73\x73\x69\x61\x6e\x3d" 
-                 mdapI6SZ0JwzhtKL_Oxis 	  mYSn7neYwuzZiHSfgVhG4 	 
-    	  
-    		   
-     
-   gaussian ? "\x74\x72\x75\x65" : "\x66\x61\x6c\x73\x65" mCxo5hT3adsjpL3eSx_tm 	 
-    	  
-    		   
-     
-     
- 
-  	   mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		   
-  "\x20\x29\x20\x2e\x2e\x2e\x20" mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		   
-     
-  
-            cv mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-   Mat my_img, your_img maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    	
-            my_fsiv_blur_background mZf3yA3X8Y4vlKmyskuBt 	 
-    	  img, mask, my_img, r, gaussian mq2WtyfxNuhMujs_W_RTx 	 
-    	  
-    		   maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    		 
-            fsiv_blur_background mmKFpIHZ2jW3Pl2yswFoH 	 
-    	  
-    		   
-     
-     
- img, mask, your_img, r, gaussian mW00V7n8RwzFWH7tra2wp 	 
-    mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-
-             mb5F9AqEAhyr5cXENvU_U 	 
-    	  
-    		   
-     
-norm_v  mik5L9gUWoenRFF12Yrzk 	 
-    	  
-    		   
-    cv mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-    		   
-  norm mmKFpIHZ2jW3Pl2yswFoH 	 
-    	  
-    		   
- my_img, your_img mCFpr4Os_BUpE0hBecZXK 	 
-  mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-
-
-             mj0RN9F71W_6s_YhWh1SP 	 
-    	  
-    		   
-     mppKtzP31aZy0pGd2m0Z9 	 
-    norm_v mYDKn6Yr_a4ORyXvUa69a 	 
-    	  
-    		1.e-6 mXD0JeNoU_GFfICrMiytn 	 
-    	  
-    
-             mnkYVtKJoztdPpfebBy4S 	 
-    	  
-    		   
-     
-     
- 
-                tests_passed mI4i8YlJZREbZV6pNhNgC 	 
-    	  
-    		   
-   mu0Zw3fsOhh38Uo4aDS8W 	 
-    	  
-    		   
-     
-     
-                std mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-    		   
-     
-     
- 
-  	cerr  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-    		   
-     
-     
- "\x20\x4f\x6b\x21"  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		  std mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    		   
-     
-  endl mHLOpps1TeJ1n4a5pxdNv 	 
-             mozmL8sMtEcXdVFJtkOKz 	 
-    	  
-    		   
-   
-            else
-             mxiSiDyBWybvWD_EkXqQ2 	 
-    	  
-    		   
-     
-    
-                std mgrChmV5pX_BBnPjupsCz 	 
-    	  
-    		   
-     
-     
- 
-  	ostringstream fname mKCH6zvmv2K2hcW15vK3r 	 
-    
-                fname  mdGdm6zgtH4zv3Nn0vGML 	 
- "\x74\x65\x73\x74\x2d"  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-     tests  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    		   
-     
-     
- 
-   '-'  mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    		   
- seed  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-   "\x2e\x78\x6d\x6c" mUQApTk2utXRlZOX2bxsA 	 
- 
-                std mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-     
-     
- cerr  mA85Ru6M8Sh6PK100OVgE 	 
-     "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x69\x6d\x67\x2c\x20\x79\x6f\x75\x72\x5f\x69\x6d\x67\x29\x3d\x3d" 
-                     mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-    		   
-     
-    norm_v  mA85Ru6M8Sh6PK100OVgE 	 
-    	  "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    		   
-     
-  std mErde6Wj4Ze0ly0Y61AFC 	 
-    	  
-    		   
-     
-     
- 
- endl mu0Zw3fsOhh38Uo4aDS8W 	
-                std mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-   cerr  mdapI6SZ0JwzhtKL_Oxis 	 
-    	  
-    "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
- fname.str mwDTANvBf2eCihKlwIGcQ 	 
-    	  
-    		   
-     
-     
-  mdGdm6zgtH4zv3Nn0vGML 	 
-     std mgrChmV5pX_BBnPjupsCz 	 
-    	  
-    endl mKCH6zvmv2K2hcW15vK3r 	 
-    	  
-    		   
-     
-     
- 
-
-                 mm3ERFtObyKhe7QdFRo2M 	 
-    	  
-    		   
-     
-     
- 
-  file  myAj9JkIJCTTmCuRc8M99 	 
-    	  
-    		   
-     
-     
- 
-  	 cv mErde6Wj4Ze0ly0Y61AFC 	 
-    	  
-    		   
-     FileStorage meDekgZkaKWxgWJNWiB94 	 
-    	  mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    		
-                file.open mChGzY6uJwNl0HsnhepB1 	 
-    	  
-    		   
-     
-     
- 
-  	 fname.str mwDTANvBf2eCihKlwIGcQ 	 
-    	  
-    		   , cv mWT_5joNFiaFOgpc894br 	 
-   FileStorage mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-WRITE mA3nRYnr_lZzzMo1jh_vB 	 
-    	  
-    		   maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    		   
-     
-     
- 
-  
-                file  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		   
-     
-     
-  "\x6e\x6f\x72\x6d\x5f\x76"  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-     
-     
- 
-  norm_v mHLOpps1TeJ1n4a5pxdNv 	 
-    
-                file  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    		   
-     
-     
- 
-  	 "\x69\x6e\x70\x75\x74"  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    	 img mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-    
-                file  mXSaJTMo4mCIueHA05tT9 	  "\x6d\x79\x5f\x69\x6d\x67"  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-     
-     
-  my_img mErDDSVFJd4ybmgEkutlI 	 
-    	  
-    		
-                file  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-    		   
- "\x79\x6f\x75\x72\x5f\x69\x6d\x67"  mdapI6SZ0JwzhtKL_Oxis 	 
-    	  
-    		   
-     
-   your_img mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    		   
-     
-  
-                file.release muDy_qxq6pQC33xkdhIyC 	 
-    	  
-    		   
-     
- mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-    		   
-     
-  
-             mqSTm3bttsS7HrMtCtqcS 	 
-    	  
-    		   
-     
-         mqSTm3bttsS7HrMtCtqcS 	
-        catch  mppKtzP31aZy0pGd2m0Z9 	 
-    	  
-    		   
-     
-     std mpd4PM_FCAECboim6Wmgy 	 
-    	  
-    		   
-exception& e mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		   
-     
-  mmgqYc0_7tKLpJXAoouea 	 
-    	  
-   
-            std mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
-    		   
-     
-cerr  mq3vxPsKSjjq_xpuFA9dn 	 
-    	  
-    		   
-     
-      "\x45\x72\x72\x6f\x72\x3a\x20"  mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    		   
-     e.what meDekgZkaKWxgWJNWiB94 	 
-    	  
-    		   
-     
-     
- 
-    mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-     
-     
-  std mMNd9IbgZGNvHCj6cXNIY 	 
+  	  "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mXSaJTMo4mCIueHA05tT9 	  std mnsDFHlx8Rb1ohrxyYFfi 	 
     	  
     		   
      
@@ -5110,37 +2278,482 @@ endl mHLOpps1TeJ1n4a5pxdNv
     		   
      
      
+ 
+ 
+         mNGHuSbVa0_na45B50kOF 	 
+    	  
+    		
 
-         mqSTm3bttsS7HrMtCtqcS 	 
+        try
+         mnkYVtKJoztdPpfebBy4S 	 
+    	  
+    		   
+     
+     
+ 
+            tests mXcxo9pxHw09Ez3pwIM6S 	 
+    	  
+    		   
+      mIeb91O4CN5VggNyO2vQ7 	 
+ 
+
+            cv mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+    		   Mat bckg mpYC3Q6HCOG_y3bCV_bzU 	 
+    	  
+    	256, 256, CV_8UC1 mCxo5hT3adsjpL3eSx_tm 	 
+    	  
+    		   
+     
+      mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+   
+            cv mWT_5joNFiaFOgpc894br 	 
+    	  
+   Mat forg mChGzY6uJwNl0HsnhepB1 	 
+    	  
+    		   
+     
+  64, 64, CV_8UC1 mXD0JeNoU_GFfICrMiytn 	 
+    	  
+    		   
+     mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		   
+     
+     
+ 
+
+            rng.fill mppKtzP31aZy0pGd2m0Z9 	 
+    	  
+    		   
+bckg, cv mWT_5joNFiaFOgpc894br 	 
+    	  
+    		   
+    RNG mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+   UNIFORM, 0, 128 mCxo5hT3adsjpL3eSx_tm 	 
+ mErDDSVFJd4ybmgEkutlI 	 
+    	  
+    		   
+     
+ 
+            rng.fill mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+    		   
+     
+  forg, cv mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+  RNG mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+    		   
+     
+     
+ 
+  	UNIFORM, 128, 256 mXD0JeNoU_GFfICrMiytn 	 
+    	  
+    		   
+ maPJhxKGuCRBF8PTSEfoJ 	 
+  
+            cv mgwQSYXcc9TIiKkPXgshg 	Mat frame1, frame2 maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		   
+     
+     
+ 
+
+            bckg.copyTo mppKtzP31aZy0pGd2m0Z9 	 
+    	  
+    		   
+ frame1 mq2WtyfxNuhMujs_W_RTx 	 
+    	  
+    		   
+     
+     
+ 
+   mHLOpps1TeJ1n4a5pxdNv 	 
     	  
     		   
      
      
  
   	 
-        catch  mwEFsCY_vJ82sL6GSMTpd 	 
+            forg.copyTo mZf3yA3X8Y4vlKmyskuBt 	 
+    	  
+    		   
+     
+frame1 mmZpaGRQQTWxpkl5_I8in 	 
+    	cv mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     
+     
+ Rect myuutvgsUpQCFDJ0ssvlp 	 
+    	  
+  128 - 32, 128 - 32, 64, 64 mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+ mxBVKq5uLQpnUbC1M415c 	 
     	  
     		   
      
      
  
-  	... mXD0JeNoU_GFfICrMiytn 	 
+  mW00V7n8RwzFWH7tra2wp 	 
+    	  
+    		  mHLOpps1TeJ1n4a5pxdNv 	 
     	  
     		   
-      mIXHmxpusVFv3HyUXTK1Q 	 
+ 
+            bckg.copyTo mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
+    		   
+     
+    frame2 mCFpr4Os_BUpE0hBecZXK 	 
+    	  
+    		   
+    mZ5n7IX_AHHoHYsodfx8Y 	
+            forg.copyTo mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+    		   
+     
+     
+ 
+  	frame2 mZf3yA3X8Y4vlKmyskuBt 	 
+    	  
+    		   
+    cv mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+    	Rect myuutvgsUpQCFDJ0ssvlp 	 
+    	  
+    		   
+     
+129 - 32, 129 - 32, 64, 64 mCFpr4Os_BUpE0hBecZXK 	 
+    	  
+    		   
+     
+     
+ 
+  	  mCFpr4Os_BUpE0hBecZXK 	 
+    	  mt6dcxNU8FQBTRU5nGYnX 	 
+    	  
+    		   
+    mUQApTk2utXRlZOX2bxsA 	 
+    	
+            std mWT_5joNFiaFOgpc894br 	 
+    	  
+    		   
+  cerr  mUgUEfVdBAs_RDl0oUbQO 	 
+  "\x66\x73\x69\x76\x5f\x63\x6f\x6d\x70\x75\x74\x65\x5f\x6f\x70\x74\x69\x63\x61\x6c\x5f\x66\x6c\x6f\x77\x5f\x6d\x61\x67\x6e\x69\x74\x75\x64\x65\x20\x2e\x2e\x2e\x20" mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+     
+ 
+  	
+            cv mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     
+   Mat flow, my_mag, your_mag mKCH6zvmv2K2hcW15vK3r 	 
+
+            my_fsiv_compute_dense_optical_flow mmZpaGRQQTWxpkl5_I8in 	 
+    	  
+    		   
+     
+ frame1, frame2, flow mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    	 mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+            my_fsiv_compute_optical_flow_magnitude mppKtzP31aZy0pGd2m0Z9 	 
+flow, my_mag mA3nRYnr_lZzzMo1jh_vB 	 
+   mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+    
+            fsiv_compute_optical_flow_magnitude mppKtzP31aZy0pGd2m0Z9 	 
+   flow, your_mag mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+     mErDDSVFJd4ybmgEkutlI 	 
+    	  
+    		   
    
-            std mnsDFHlx8Rb1ohrxyYFfi 	 
+             mxhl9wjLQZULxOU_43q0G 	 
+    	  
+   norm_v  mrW3LX4vM3dW4niDeipVf 	 
+    cv mhlrvVwQFcOFpdjFt4y2u 	 
     	  
     		   
-   cerr  mdGdm6zgtH4zv3Nn0vGML 	 "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mq3vxPsKSjjq_xpuFA9dn 	 
+     
+     norm mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+   my_mag, your_mag mXD0JeNoU_GFfICrMiytn 	 
     	  
     		   
- std mMNd9IbgZGNvHCj6cXNIY 	 
+     
+  mHLOpps1TeJ1n4a5pxdNv 	 
     	  
-    		 endl mHLOpps1TeJ1n4a5pxdNv 	 
+    		   
+     
+   
+
+             moWzCteaw2sTVcwRbVbzv 	 
     	  
+    		   
+     
+     
  
-         mMrjjxUfFnHYwyIeo4thn 	 
+ mChGzY6uJwNl0HsnhepB1 	 
+    norm_v  mEaKKI8OgTfRUieYzOXug 	 
+    	  
+   1.e-6 mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    		   
+             mIXHmxpusVFv3HyUXTK1Q 	
+                tests_passed mjXVeKcEorHWSksfRH2UB 	 
+    	  
+    		   mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		   
+     
+     
+ 
+
+                std mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+   cerr  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		    "\x20\x4f\x6b\x21"  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    		   
+  std mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+    		   
+     
+endl mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    
+             mJP7Jsm7au1oZp1CLb7PT 	 
+    	  
+    		   
+     
+     
+            else
+             mWPvycRWzzsoqLdQC4Zks 	 
+    	  
+    		   
+                std mgrChmV5pX_BBnPjupsCz 	 
+    	  
+    		 ostringstream fname mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		   
+   
+                fname  mdGdm6zgtH4zv3Nn0vGML 	 "\x74\x65\x73\x74\x2d"  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		   
+     
+   tests  mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+    		   
+     
+     
+  '-'  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+  seed  maSJfbIkVmsGsjTv0UQpa 	 
+    	   "\x2e\x78\x6d\x6c" mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+
+                std mWT_5joNFiaFOgpc894br 	 
+    	  
+    		   cerr  maSJfbIkVmsGsjTv0UQpa 	 "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x6d\x61\x67\x2c\x20\x79\x6f\x75\x72\x5f\x6d\x61\x67\x29\x3d\x3d"
+                           mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+     
+      norm_v  mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+    	 "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+     
+      std mMNd9IbgZGNvHCj6cXNIY 	 
+    endl mErDDSVFJd4ybmgEkutlI 	 
+    	  
+    		   
+     
+  
+                std mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+    cerr  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+ "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		   
+      fname.str muDy_qxq6pQC33xkdhIyC 	 
+    	  
+    		   
+     
+      maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+     
+     
+ 
+   std mtOADHjcfWlYUUaEqJYvC 	 
+  endl mErDDSVFJd4ybmgEkutlI 	 
+    	  
+    		   
+   
+                 mS_cL6sduOKwOc9eoSgGT 	 
+    	  
+    		   
+    file  mAQFTjhI12FsIF680A_T9 	 
+  cv mtOADHjcfWlYUUaEqJYvC 	 
+ FileStorage mkIFONPkvrdc61fQAT2H7 	 
+   mZ5n7IX_AHHoHYsodfx8Y 	 
+    	 
+                file.open mZf3yA3X8Y4vlKmyskuBt 	 
+    	  fname.str mwDTANvBf2eCihKlwIGcQ 	, cv mtOADHjcfWlYUUaEqJYvC 	 
+    	  
+    		   
+     
+     
+ 
+  FileStorage mtOADHjcfWlYUUaEqJYvC 	 
+    	  
+    		   
+     WRITE mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    		   
+     
+     
+ 
+   mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+    	
+                file  mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    		   
+  "\x6e\x6f\x72\x6d\x5f\x76"  maSJfbIkVmsGsjTv0UQpa 	 
+    	  norm_v mCF6yuex92SFioZPpxBz2 	 
+    	  
+    	
+                file  mLKaNDZsfPRxbXiWdHvqO 	 
+    	 "\x66\x6c\x6f\x77"  mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+    		   
+     
+     
+ 
+  	 flow mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+    		   
+     
+ 
+                file  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    		   
+     
+     "\x79\x6f\x75\x72\x5f\x6d\x61\x67"  mUgUEfVdBAs_RDl0oUbQO 	 your_mag mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		   
+     
+     
+ 
+ 
+                file  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+    	 "\x6d\x79\x5f\x6d\x61\x67"  mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+    		   
+     
+  my_mag maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+   
+                file.release moLZmyH4uSJX9pXN1kkKz 	 
+    	  
+    	 mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    
+             mqSTm3bttsS7HrMtCtqcS 	 
+    	 
+         mNGHuSbVa0_na45B50kOF 	
+        catch  mmZpaGRQQTWxpkl5_I8in 	std mpd4PM_FCAECboim6Wmgy 	 
+    	  exception &e mCo_IAiG3U7gZmGW7mfLA 	 
+    	  
+    		   
+     
+     
+ 
+  	 
+         myi_nNZ_JfQR5mbTdok9w 	 
+    	  
+    		  
+            std mgrChmV5pX_BBnPjupsCz 	 
+    	  
+    		   
+     
+     
+ cerr  mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    		   
+     
+     
+ 
+ "\x45\x72\x72\x6f\x72\x3a\x20"  mdGdm6zgtH4zv3Nn0vGML 	 
+    e.what meDekgZkaKWxgWJNWiB94 	 
+    	  
+    		   
+     mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+    		   
+     
+     
+ 
+ std mtOADHjcfWlYUUaEqJYvC 	 
+    	  
+    		   
+    endl mHLOpps1TeJ1n4a5pxdNv 	 
+    	 
+         mNGHuSbVa0_na45B50kOF 	
+        catch  mpYC3Q6HCOG_y3bCV_bzU 	 
+... mq2WtyfxNuhMujs_W_RTx 	 
+  
+         mxiSiDyBWybvWD_EkXqQ2 	 
+    	  
+    		   
+     
+     
+ 
+  	
+            std mWT_5joNFiaFOgpc894br 	 
+    	  
+    		   
+     
+     
+ 
+  cerr  mXSaJTMo4mCIueHA05tT9 	 
+    	  
+    		   
+      "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+    		   
+     
+ std mgrChmV5pX_BBnPjupsCz 	 
+    	  
+    		   
+     
+     
+ 
+  	endl mCF6yuex92SFioZPpxBz2 	 
+    	  
+    		   
+ 
+         mozmL8sMtEcXdVFJtkOKz 	 
     	  
     		   
      
@@ -5148,373 +2761,2348 @@ endl mHLOpps1TeJ1n4a5pxdNv
  
   	
 
-        try  mWPvycRWzzsoqLdQC4Zks 	 
-    	 
+        try
+         myi_nNZ_JfQR5mbTdok9w 	 
+    	  
+    		  
+            tests mXcxo9pxHw09Ez3pwIM6S 	 
+  mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+ 
+
+             mxsIRoNEMzjS6Yb5k6usv 	 
+    	  
+    		 r  mpIazGz0BO8GDZeOCwtDA 	 
+    	  
+    		   
+     
+     
+ 
+  rng.uniform mZf3yA3X8Y4vlKmyskuBt 	 
+    	  
+    		   
+    1, 25 mUaKuNbS96FbvDu3x85PG 	 
+    	  
+    		   
+     
+  mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		  
+             msBil3sNAqwEOnp3Wgbyj 	 
+    	  
+    		   
+     
+  type  mAQFTjhI12FsIF680A_T9 	 
+    	  
+     rng.uniform mmZpaGRQQTWxpkl5_I8in 	 
+    	 0, 3 mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		   
+     
+     
+ 
+ mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		
+            std mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+    		   
+     cerr  mq3vxPsKSjjq_xpuFA9dn 	 
+    "\x66\x73\x69\x76\x5f\x63\x72\x65\x61\x74\x65\x5f\x73\x74\x72\x75\x63\x74\x75\x72\x69\x6e\x67\x5f\x65\x6c\x65\x6d\x65\x6e\x74\x20\x28\x72\x3d"  mA85Ru6M8Sh6PK100OVgE 	 r  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+     
+     
+ 
+  	  "\x2c\x20\x74\x79\x70\x65\x3d"  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+     
+      type  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+     
+     
+ 
+  	  "\x29\x20\x2e\x2e\x2e\x20" mKCH6zvmv2K2hcW15vK3r 	 
+
+            cv mgrChmV5pX_BBnPjupsCz 	 
+    	  
+  Mat my_ste, your_ste mCF6yuex92SFioZPpxBz2 	 
+    	  
+    		   
+     
+     
+            my_ste  mkNGVmRSdeblSckxXzGVq 	 
+    	  
+    		   
+ my_fsiv_create_structuring_element myuutvgsUpQCFDJ0ssvlp 	 
+    	r, type mCxo5hT3adsjpL3eSx_tm 	 
+    	   maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		 
+            your_ste  mpIazGz0BO8GDZeOCwtDA 	 
+    	  
+    		   
+     
+ fsiv_create_structuring_element mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
+    		  r, type mt6dcxNU8FQBTRU5nGYnX 	 
+    	  
+    		   
+ maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		   
+
+             mZnpA1C5VCYvSOdWYd650 	 
+    	  
+    		   
+norm_v  mSk1ShXRx3FQBFfrfi8ft 	 
+    	  
+    		   
+     
+     cv mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+ norm mmZpaGRQQTWxpkl5_I8in 	 
+    my_ste, your_ste mXD0JeNoU_GFfICrMiytn 	 
+    	  
+ mErDDSVFJd4ybmgEkutlI 	 
+    	  
+   
+
+             ma_EPPI2vwlDqLbi0tgWx 	 
+    	  
+    		   
+     
+    mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
+norm_v  msL_HjjMOgmuquii8oJwE 	 
+    	  
+    		   
+    1.e-6 mA3nRYnr_lZzzMo1jh_vB 	 
+   
+             miHaghnjGYZRXpERY7vgM 	 
+                tests_passed mUzTGmNZ8S0WIPlKPasub 	 
+    	  
+     mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+    		   
+     
+
+                std mWT_5joNFiaFOgpc894br 	 
+  cerr  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+     
+     
+ "\x20\x4f\x6b\x21"  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+     
+      std mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     
+    endl maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		   
+   
+             mOK1tXVOT4PUgeSc88pGY 	 
+    	  
+    		   
+     
+     
+
+            else
+             mxiSiDyBWybvWD_EkXqQ2 	 
+    	  
+    		   
+     
+     
+ 
+  	
+                std mWT_5joNFiaFOgpc894br 	 
+    	  
+    		   
+     ostringstream fname mUQApTk2utXRlZOX2bxsA 	 
+    	  
+  
+                fname  maSJfbIkVmsGsjTv0UQpa 	 
+ "\x74\x65\x73\x74\x2d"  mdapI6SZ0JwzhtKL_Oxis 	  tests  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		   
+     '-'  mXSaJTMo4mCIueHA05tT9 	 
+    	  
+    		   
+     
+     
+ 
+  	  seed  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+ "\x2e\x78\x6d\x6c" mUQApTk2utXRlZOX2bxsA 	 
+                std mgrChmV5pX_BBnPjupsCz 	cerr  mdapI6SZ0JwzhtKL_Oxis 	 
+     "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x73\x74\x65\x2c\x20\x79\x6f\x75\x72\x5f\x73\x74\x65\x29\x3d\x3d"
+                           mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+    		   
+     
+   norm_v  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+    		   
+     
+     
+ 
+   "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  mUgUEfVdBAs_RDl0oUbQO 	 
+    std mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+    		 endl mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+    		   
+     
+  
+                std mWT_5joNFiaFOgpc894br 	cerr  mXSaJTMo4mCIueHA05tT9 	 
+    	  
+    		   
+   "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  maSJfbIkVmsGsjTv0UQpa 	 
+    	   fname.str mZGQ4J8pc7eRHZbaNBrTR 	 
+    	  
+    		   
+     
+     
+ 
+  	   mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+   std mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+    		   
+     
+     
+endl mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+    		   
+     
+ 
+                 mTRdzsidy41IXzn6FJpYi 	 
+    	  
+    	file  myAj9JkIJCTTmCuRc8M99 	 
+    	  
+    		   
+     cv mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+    		   
+     
+   FileStorage meDekgZkaKWxgWJNWiB94 	 
+    	  
+    		   
+     
+ mErDDSVFJd4ybmgEkutlI 	 
+    	  
+    		  
+                file.open mf6w6nRo1UPHMI9Ix1lmT 	 
+    	 fname.str mZGQ4J8pc7eRHZbaNBrTR 	 
+    	  
+, cv mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+ FileStorage mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+    		   
+     
+    WRITE mt6dcxNU8FQBTRU5nGYnX 	 
+    	  
+    		   
+     
+     
+ 
+   mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+    		   
+     
+
+                file  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		   
+     "\x6e\x6f\x72\x6d\x5f\x76"  mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+    		   
+ norm_v mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		   
+                file  mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    		   
+     
+     
+ 
+   "\x6d\x79\x5f\x73\x74\x65"  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+   my_ste maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		   
+     
+    
+                file  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    "\x79\x6f\x75\x72\x5f\x73\x74\x65"  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+ your_ste mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+   
+                file.release mmLzOj1OpcOraAxHe0sHs 	 
+    	  
+    		   
+     
+     
+ 
+  	 mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		   
+     
+   
+             mJP7Jsm7au1oZp1CLb7PT 	 
+    	  
+    		 
+         mozmL8sMtEcXdVFJtkOKz 	 
+ 
+        catch  mChGzY6uJwNl0HsnhepB1 	 
+    	std mtOADHjcfWlYUUaEqJYvC 	 
+    	  
+    		   
+     
+     
+ 
+  exception &e mUaKuNbS96FbvDu3x85PG 	 
+  
+         mDayc5WiuF3Q2GBCWXNZN 	 
+    	  
+    		   
+     
+     
+ 
+
+            std mgwQSYXcc9TIiKkPXgshg 	 
+    	cerr  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+ "\x45\x72\x72\x6f\x72\x3a\x20"  mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+    e.what meDekgZkaKWxgWJNWiB94 	 
+    	  
+    		   
+       mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+     
+     
+ 
+   std mWT_5joNFiaFOgpc894br 	 
+    	endl maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		   
+         mJTa21GBBlpdHs8EUXwZ0 	 
+    
+        catch  mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+    		   
+... mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    		   
+
+         mDayc5WiuF3Q2GBCWXNZN 	 
+    	  
+ 
+            std mgwQSYXcc9TIiKkPXgshg 	 
+    cerr  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+     
+     
+ "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mHuF4mTDu6zvknssKtlKQ 	 
+ std mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+    		   
+ endl mZ5n7IX_AHHoHYsodfx8Y 	 
+ 
+         mNGHuSbVa0_na45B50kOF 	 
+    	  
+    		   
+     
+ 
+
+        try
+         miHaghnjGYZRXpERY7vgM 	 
+    	  
+    		   
+     
+     
+ 
+  
             tests mjXVeKcEorHWSksfRH2UB 	 
+    	  
+    		   
+     
+     
+  mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+    		   
+
+            cv mpd4PM_FCAECboim6Wmgy 	 
+    	  
+    		   
+     
+     
+ 
+  	 Mat bckg mZf3yA3X8Y4vlKmyskuBt 	 
+    	  
+    		   
+256, 256, CV_8UC1 mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		  mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		   
+     
+  
+            cv mtOADHjcfWlYUUaEqJYvC 	 
+    	  
+    	Mat forg mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+    		  64, 64, CV_8UC1 mXD0JeNoU_GFfICrMiytn 	 
+    	  
+    		   
+     
+ mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+  
+            rng.fill mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+    		   
+  bckg, cv mhlrvVwQFcOFpdjFt4y2u 	 
+    RNG mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+    		   
+   UNIFORM, 0, 128 mCo_IAiG3U7gZmGW7mfLA 	 
+ mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+     
+
+            rng.fill mYSn7neYwuzZiHSfgVhG4 	 
+    	  forg, cv mpd4PM_FCAECboim6Wmgy 	 
+    	  
+ RNG mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+    		   
+     
+     UNIFORM, 128, 256 mCo_IAiG3U7gZmGW7mfLA 	 
+    	  
+    		    mIeb91O4CN5VggNyO2vQ7 	 
+            cv mErde6Wj4Ze0ly0Y61AFC 	 
+    	  
+    		Mat frame1, frame2 mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		 
+            bckg.copyTo mmKFpIHZ2jW3Pl2yswFoH 	 
+  frame1 mq2WtyfxNuhMujs_W_RTx 	 
+    	  
+    		   
+     
+     
+  mu0Zw3fsOhh38Uo4aDS8W 	
+            forg.copyTo mChGzY6uJwNl0HsnhepB1 	 
+    	  
+    		   
+     
+ frame1 mpYC3Q6HCOG_y3bCV_bzU 	 
+    	  
+    		   
+     
+     
+ 
+  cv mwz7jWEjfVuS42kuaQPn8 	 
+    Rect mppKtzP31aZy0pGd2m0Z9 	 
+    	  
+    		128 - 32, 128 - 32, 64, 64 mCxo5hT3adsjpL3eSx_tm 	 
+    	 mW00V7n8RwzFWH7tra2wp 	 mW00V7n8RwzFWH7tra2wp 	 
   mZ5n7IX_AHHoHYsodfx8Y 	 
     	  
     		   
      
-    
+     
 
-            cv mpd4PM_FCAECboim6Wmgy 	 
-    Mat img  mppKtzP31aZy0pGd2m0Z9 	 
+            bckg.copyTo mmKFpIHZ2jW3Pl2yswFoH 	 
+    	  
+    		   
+     
+ frame2 mCxo5hT3adsjpL3eSx_tm 	 
+  mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		 
+            forg.copyTo mmZpaGRQQTWxpkl5_I8in 	 
+    	  
+  frame2 mZf3yA3X8Y4vlKmyskuBt 	 
+    	  
+    		   
+    cv mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     
+   Rect myuutvgsUpQCFDJ0ssvlp 	 
+    	  
+  129 - 32, 129 - 32, 64, 64 mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		   
+  mCFpr4Os_BUpE0hBecZXK 	 
     	  
     		   
      
      
-256, 256, CV_8UC1 mA3nRYnr_lZzzMo1jh_vB 	 
+  mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		   
+     
+   mCF6yuex92SFioZPpxBz2 	 
+    	  
+    		   
+     
+            std mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     
+     
+ 
+cerr  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+     "\x66\x73\x69\x76\x5f\x63\x6f\x6d\x70\x75\x74\x65\x5f\x6f\x70\x74\x69\x63\x61\x6c\x5f\x66\x6c\x6f\x77\x5f\x6d\x61\x67\x6e\x69\x74\x75\x64\x65\x20\x2e\x2e\x2e\x20" mKCH6zvmv2K2hcW15vK3r 	 
+   
+            cv mwz7jWEjfVuS42kuaQPn8 	 
+   Mat flow, my_mag, your_mag mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+  
+            my_fsiv_compute_dense_optical_flow mChGzY6uJwNl0HsnhepB1 	frame1, frame2, flow mCo_IAiG3U7gZmGW7mfLA 	 
+    	  
+    		   
+      maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		   
+     
+    
+            my_fsiv_compute_optical_flow_magnitude mmZpaGRQQTWxpkl5_I8in 	 
+    flow, my_mag mt6dcxNU8FQBTRU5nGYnX 	 
+    	  
+    		   
+     
+     
+  mCF6yuex92SFioZPpxBz2 	 
+    	  
+    		   
+    
+            fsiv_compute_optical_flow_magnitude mZf3yA3X8Y4vlKmyskuBt 	 
+    	 flow, your_mag mxBVKq5uLQpnUbC1M415c 	 
+     mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+
+             mVlKX00k16qzhto6c5_qj 	 
+norm_v  mtcMtq_ZgTF0Gbvko4MMI 	 
+    	  
+    		   
+   cv mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     
+     norm mZf3yA3X8Y4vlKmyskuBt 	 
+    	  
+    		   
+ my_mag, your_mag mxBVKq5uLQpnUbC1M415c 	 
+    	  
+   mErDDSVFJd4ybmgEkutlI 	 
+    	  
+
+
+             mE_6o32Gp3JDq_gnNQzZ0 	 
+    	  
+    		   
+   mChGzY6uJwNl0HsnhepB1 	 
+    	  
+    		   
+     
+     
+ norm_v  msL_HjjMOgmuquii8oJwE 	 
+     1.e-6 mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		   
+ 
+             mnkYVtKJoztdPpfebBy4S 	 
+    	  
+ 
+                tests_passed mjXVeKcEorHWSksfRH2UB 	 
+    	  mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+    		   
+     
+                std mWT_5joNFiaFOgpc894br 	 
+    	  
+    		   
+     
+ cerr  mq3vxPsKSjjq_xpuFA9dn 	 
+    	   "\x20\x4f\x6b\x21"  mdGdm6zgtH4zv3Nn0vGML 	 
+    	 std mWT_5joNFiaFOgpc894br 	endl mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		   
+     
+     
+
+             mPktF2k_R4xKiN2Zg99Ud 	
+            else
+             mzdEyRJKtHmAv_hyCRXsM 	 
+    	  
+    		   
+     
+     
+
+                std mWT_5joNFiaFOgpc894br 	 
+    	  
+    		   
+     
+ ostringstream fname mUQApTk2utXRlZOX2bxsA 	 
+  
+                fname  mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+    		   
+     
+     
+ "\x74\x65\x73\x74\x2d"  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+     
+ tests  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+     
+     
+ '-'  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    	 seed  maSJfbIkVmsGsjTv0UQpa 	 "\x2e\x78\x6d\x6c" mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		   
+     
+
+                std mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+    		   
+     
+     
+cerr  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+     "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x6d\x61\x67\x2c\x20\x79\x6f\x75\x72\x5f\x6d\x61\x67\x29\x3d\x3d"
+                           mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    		   
+ norm_v  mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+    		   
+     
+  "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+     std mWT_5joNFiaFOgpc894br 	 
+    	 endl mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		   
+  
+                std mpd4PM_FCAECboim6Wmgy 	 
+ cerr  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+     
+    "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+    		   
+     fname.str mAh372E_Wg9TxPqKoaDdB 	 
+    	  
+    		   
+     
+     
+ 
+  	  mXSaJTMo4mCIueHA05tT9 	 
+    	  
+    		   
+     
+     
+ 
+   std mErde6Wj4Ze0ly0Y61AFC 	 
+    	  
+    		   
+  endl mUQApTk2utXRlZOX2bxsA 	 
+  
+                 mHtiFW3N5ulFoQa8SvVjg 	 
+    	  
+file  mLwpjlSPu7J_elHZYFHIX 	 
+    	  
+    		   
+   cv mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     
+     FileStorage moLZmyH4uSJX9pXN1kkKz 	 
+    	 mu0Zw3fsOhh38Uo4aDS8W 	
+                file.open mppKtzP31aZy0pGd2m0Z9 	 
+   fname.str moLZmyH4uSJX9pXN1kkKz 	 
+    	  
+    		   
+     
+     
+ , cv mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+    		  FileStorage mMNd9IbgZGNvHCj6cXNIY 	 
+    	  WRITE mW00V7n8RwzFWH7tra2wp 	 
+    	  mu0Zw3fsOhh38Uo4aDS8W 	 
+
+                file  mq3vxPsKSjjq_xpuFA9dn 	 
+ "\x6e\x6f\x72\x6d\x5f\x76"  mXSaJTMo4mCIueHA05tT9 	 
+    	  
+    		   
+     
+     norm_v mCF6yuex92SFioZPpxBz2 	 
+                file  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+    "\x66\x6c\x6f\x77"  mdapI6SZ0JwzhtKL_Oxis 	 
+    	   flow mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		   
+   
+                file  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+   "\x79\x6f\x75\x72\x5f\x6d\x61\x67"  mLKaNDZsfPRxbXiWdHvqO 	  your_mag mCF6yuex92SFioZPpxBz2 	
+                file  mdGdm6zgtH4zv3Nn0vGML 	  "\x6d\x79\x5f\x6d\x61\x67"  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+    my_mag mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		   
+     
+  
+                file.release mZGQ4J8pc7eRHZbaNBrTR 	 
+    	  
+    	 mCF6yuex92SFioZPpxBz2 	 
+    	  
+    		   
+     
+
+             mJTa21GBBlpdHs8EUXwZ0 	 
+ 
+         mozmL8sMtEcXdVFJtkOKz 	 
+    	  
+    		   
+     
+     
+ 
+
+        catch  myuutvgsUpQCFDJ0ssvlp 	 
+    	  
+    		   
+     
+     
+ 
+  	 std mgwQSYXcc9TIiKkPXgshg 	 
+    	exception &e mCxo5hT3adsjpL3eSx_tm 	 
+    	  
+    		   
+     
+
+         mxiSiDyBWybvWD_EkXqQ2 	 
+            std mWT_5joNFiaFOgpc894br 	 
+    	  
+    		   cerr  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+     "\x45\x72\x72\x6f\x72\x3a\x20"  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		 e.what mwDTANvBf2eCihKlwIGcQ 	 
+    	  
+   maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    std mtOADHjcfWlYUUaEqJYvC 	 
+    	  
+    		   
+     
+     
+ endl mu0Zw3fsOhh38Uo4aDS8W 	
+         mOK1tXVOT4PUgeSc88pGY 	 
+    	  
+    		  
+        catch  mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+    		   
+   ... mXD0JeNoU_GFfICrMiytn 	 
+    	  
+    		   
+     
+         mDayc5WiuF3Q2GBCWXNZN 	 
+    	  
+    		   
+
+            std mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+    		   
+     
+  cerr  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+    "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mHuF4mTDu6zvknssKtlKQ 	  std mpd4PM_FCAECboim6Wmgy 	 
+    	  
+    		   
+     
+    endl mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		   
+   
+         mJTa21GBBlpdHs8EUXwZ0 	 
+ 
+
+        try
+         mxiSiDyBWybvWD_EkXqQ2 	
+            tests mI4i8YlJZREbZV6pNhNgC 	 
+    	  
+    		  mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		
+
+            cv mgwQSYXcc9TIiKkPXgshg 	 
+   Mat bckg mpYC3Q6HCOG_y3bCV_bzU 	 
+    	  
+    		  256, 256, CV_8UC1 mUaKuNbS96FbvDu3x85PG 	 
     	  
     		    mZ5n7IX_AHHoHYsodfx8Y 	 
     	  
- 
-            cv mgrChmV5pX_BBnPjupsCz 	 
-    	  
-    		   
-     
-    Mat mask  mpIazGz0BO8GDZeOCwtDA 	 
-    	  
-    		   
- cv mgrChmV5pX_BBnPjupsCz 	 
-    	  
-   Mat mMNd9IbgZGNvHCj6cXNIY 	zeros mwEFsCY_vJ82sL6GSMTpd 	 
-    	  
-    		   
-     
-     
- 256, 256, CV_8UC1 mXD0JeNoU_GFfICrMiytn 	 
-    	 mCTRiZEfCcZ4rtZeXzEPU 	 
-    
+    		
             cv mtOADHjcfWlYUUaEqJYvC 	 
     	  
-    		Rect rect  mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-    		   
-  rng.uniform mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
     		   
      
- 128-32, 128+32 mA3nRYnr_lZzzMo1jh_vB 	 
-    	,
-                rng.uniform mmZpaGRQQTWxpkl5_I8in 	 
+   Mat forg mf6w6nRo1UPHMI9Ix1lmT 	 
+   64, 64, CV_8UC1 mW00V7n8RwzFWH7tra2wp 	 
     	  
     		   
      
-128-32, 128+32 mCFpr4Os_BUpE0hBecZXK 	 
+ mHLOpps1TeJ1n4a5pxdNv 	 
     	  
     		   
-     , 65, 65 mq2WtyfxNuhMujs_W_RTx 	 
-    	  
-    	 mZ5n7IX_AHHoHYsodfx8Y 	 
-    	  
-    		
-            mask mwEFsCY_vJ82sL6GSMTpd 	rect mCxo5hT3adsjpL3eSx_tm 	 
-   mrW3LX4vM3dW4niDeipVf 	 
+   
+            rng.fill mpYC3Q6HCOG_y3bCV_bzU 	 
     	  
     		   
-     
-     
- 
-   255 mZ5n7IX_AHHoHYsodfx8Y 	
-             mKiEjAMYsFU_Bb_sAc8_Z 	 
+    bckg, cv mMNd9IbgZGNvHCj6cXNIY 	 
     	  
-r  mik5L9gUWoenRFF12Yrzk 	 
-    	   rng.uniform mmKFpIHZ2jW3Pl2yswFoH 	5, 15 mW00V7n8RwzFWH7tra2wp 	 
+    		   
+   RNG mgrChmV5pX_BBnPjupsCz 	 
+UNIFORM, 0, 128 mCxo5hT3adsjpL3eSx_tm 	 
+    	  
+    		   
+      mKCH6zvmv2K2hcW15vK3r 	 
     	  
     		   
      
-     
- 
-  	 mErDDSVFJd4ybmgEkutlI 	 
+    
+            rng.fill mYSn7neYwuzZiHSfgVhG4 	 
+  forg, cv mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+ RNG mpd4PM_FCAECboim6Wmgy 	 
+  UNIFORM, 128, 256 mCxo5hT3adsjpL3eSx_tm 	 
     	  
     		   
      
+  mCF6yuex92SFioZPpxBz2 	 
+    	  
+    		  
+            cv mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+    		   
      
- 
+     Mat frame1, frame2 mCF6yuex92SFioZPpxBz2 	 
+    	  
+    		   
 
-             mHvdR3hBbPsuYCiDibMCu 	 
+            bckg.copyTo mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+    		frame1 mW00V7n8RwzFWH7tra2wp 	 
+    	  
+    mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    	
+            forg.copyTo mZf3yA3X8Y4vlKmyskuBt 	 
     	  
     		   
      
      
  
-  gaussian  mrW3LX4vM3dW4niDeipVf 	 
+frame1 mmZpaGRQQTWxpkl5_I8in 	 
     	  
-    		   
-    true maPJhxKGuCRBF8PTSEfoJ 	 
-    	  
-    		
-            
-            std mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
- cerr  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  "\x66\x73\x69\x76\x5f\x62\x6c\x75\x72\x5f\x62\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x20\x28\x72\x3d"  mdapI6SZ0JwzhtKL_Oxis 	 
+    	cv mErde6Wj4Ze0ly0Y61AFC 	Rect mpYC3Q6HCOG_y3bCV_bzU 	 
+    	 128 - 32, 128 - 32, 64, 64 mCo_IAiG3U7gZmGW7mfLA 	 
     	  
     		   
      
      
-  r  mLKaNDZsfPRxbXiWdHvqO 	 
+  mq2WtyfxNuhMujs_W_RTx 	 
+ mCo_IAiG3U7gZmGW7mfLA 	 
     	  
     		   
      
-    "\x20\x67\x61\x75\x73\x73\x69\x61\x6e\x3d" 
-                 mLKaNDZsfPRxbXiWdHvqO 	 
+      mZ5n7IX_AHHoHYsodfx8Y 	 
     	  
-    		    mZf3yA3X8Y4vlKmyskuBt 	 
-   gaussian ? "\x74\x72\x75\x65" : "\x66\x61\x6c\x73\x65" mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    	  mdGdm6zgtH4zv3Nn0vGML 	 
-    	  "\x20\x29\x20\x2e\x2e\x2e\x20" mCTRiZEfCcZ4rtZeXzEPU 	 
+    		   
+     
+  
+            bckg.copyTo mChGzY6uJwNl0HsnhepB1 	 
     	  
     		   
      
      
  
-
-            cv mgwQSYXcc9TIiKkPXgshg 	 
+  	frame2 mxBVKq5uLQpnUbC1M415c 	 
     	  
- Mat my_img, your_img mIeb91O4CN5VggNyO2vQ7 	 
+    		   
+     mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+            forg.copyTo mZf3yA3X8Y4vlKmyskuBt 	 
+    frame2 mmKFpIHZ2jW3Pl2yswFoH 	 
+    	  
+    		   
+  cv mgrChmV5pX_BBnPjupsCz 	 
+    	  
+    		   
+   Rect mf6w6nRo1UPHMI9Ix1lmT 	 129 - 32, 129 - 32, 64, 64 mUaKuNbS96FbvDu3x85PG 	 
+  mCxo5hT3adsjpL3eSx_tm 	 
     	  
     		   
      
-     
- 
-            my_fsiv_blur_background mZf3yA3X8Y4vlKmyskuBt 	 
+     mUaKuNbS96FbvDu3x85PG 	 
     	  
-    		   
-     img, mask, my_img, r, gaussian mq2WtyfxNuhMujs_W_RTx 	 
-    	  
-    		   
-     
-     
- 
-  	  mHLOpps1TeJ1n4a5pxdNv 	
-            fsiv_blur_background mpYC3Q6HCOG_y3bCV_bzU 	 
- img, mask, your_img, r, gaussian mCo_IAiG3U7gZmGW7mfLA 	 
-    	  
-   mCTRiZEfCcZ4rtZeXzEPU 	 
-             mM2iqaERfKSkIvyG_DVsA 	 
-    	norm_v  mik5L9gUWoenRFF12Yrzk 	 
- cv mWT_5joNFiaFOgpc894br 	 
-    	  
-    		   
-   norm mf6w6nRo1UPHMI9Ix1lmT 	 
-    	  
-    		   
-my_img, your_img mxBVKq5uLQpnUbC1M415c 	 
-    	  
-    		   
-     
  mCTRiZEfCcZ4rtZeXzEPU 	 
+  
+             mgeFmKdNvJ1A_N0m69M7g 	 
+    	  
+    	th  mSk1ShXRx3FQBFfrfi8ft 	 
+    	  
+     int myuutvgsUpQCFDJ0ssvlp 	 
+  rng.uniform mYSn7neYwuzZiHSfgVhG4 	 0.0, 1.5 mXD0JeNoU_GFfICrMiytn 	  * 100.0 mCo_IAiG3U7gZmGW7mfLA 	 / 100.0 mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		 
+             mTHYbenkovkCYepR9rjtw 	 
     	  
     		   
+  ste_r  mLwpjlSPu7J_elHZYFHIX 	 0 mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+    		   
+     
+     
+ 
+             molbYrJdmAWzmis3mfRI9 	 
+    	  
+    		   
+     
+     
+ste_type  mik5L9gUWoenRFF12Yrzk 	 
+    	  
+    		   
+  2 mKCH6zvmv2K2hcW15vK3r 	 
+             m_Q5PCBYXJE_DRsG0wKBK 	 
+    	  
+    		   
+    alpha  mLZ3y6cDPwjsfFVKTrILy 	 
+    	  
+    		   
+    0.0 mErDDSVFJd4ybmgEkutlI 	 
+    	  
+    		   
+  
+            std mgrChmV5pX_BBnPjupsCz 	 
+    	  
+    		   
+  cerr  mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    		   
+    "\x66\x73\x69\x76\x5f\x63\x6f\x6d\x70\x75\x74\x65\x5f\x6f\x66\x5f\x66\x6f\x72\x65\x67\x72\x6f\x75\x6e\x64\x5f\x6d\x61\x73\x6b\x20\x28\x77\x69\x74\x68\x6f\x75\x74\x20\x69\x6e\x69\x74\x69\x61\x6c\x20\x65\x73\x74\x69\x6d\x61\x74\x65\x2c\x20\x74\x68\x20\x3d\x20"  mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    		   
+     
+   th
+                       mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+     
+     
+ 
+  "\x20\x73\x74\x65\x5f\x72\x3d"  mdGdm6zgtH4zv3Nn0vGML 	 
+  ste_r  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    	 "\x20\x73\x74\x65\x5f\x74\x79\x70\x65\x3d"  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    		    ste_type
+                       mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+    		  "\x20\x61\x6c\x70\x68\x61\x3d"  mHuF4mTDu6zvknssKtlKQ 	 
+    	   alpha  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+     
+     
+ 
+ "\x29\x20\x2e\x2e\x2e\x20" maPJhxKGuCRBF8PTSEfoJ 	
+            cv mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+    		   
+     
+Mat my_flow, your_flow mHLOpps1TeJ1n4a5pxdNv 	 
+   
+            cv mwz7jWEjfVuS42kuaQPn8 	Mat my_mask, your_mask mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		   
+     
      
  
 
-             mmoN25SYs7aJ2siMeP2QH 	 
+            my_fsiv_compute_of_foreground_mask mmKFpIHZ2jW3Pl2yswFoH 	 
     	  
-    		 mYSn7neYwuzZiHSfgVhG4 	 
-  norm_v mYDKn6Yr_a4ORyXvUa69a 	 
+    		   
+  frame1, frame2, my_flow,
+                                               my_mask, th, ste_r, ste_type, alpha mXD0JeNoU_GFfICrMiytn 	 mErDDSVFJd4ybmgEkutlI 	 
+    	  
+    		
+            fsiv_compute_of_foreground_mask myuutvgsUpQCFDJ0ssvlp 	 
+    	  
+    		   
+ frame1, frame2, your_flow,
+                                            your_mask, th, ste_r, ste_type, alpha mq2WtyfxNuhMujs_W_RTx 	 
     	  
     		   
      
      
  
- 1.e-6 mW00V7n8RwzFWH7tra2wp 	 
+  	 mCF6yuex92SFioZPpxBz2 	 
+    	
+             mZnpA1C5VCYvSOdWYd650 	norm_v  mik5L9gUWoenRFF12Yrzk 	 
+ cv mgrChmV5pX_BBnPjupsCz 	 
+  norm mpYC3Q6HCOG_y3bCV_bzU 	 
+    	  
+    		   
+  my_mask, your_mask mCxo5hT3adsjpL3eSx_tm 	 
+    	  
+    		   
+     
+      maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		   
+     
+     
+ 
+ 
+
+             mVmHfDt9pq2zl91iYWE6U 	 
+    	  
+    		   
+ mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
+    		norm_v  mTTUVMx3R6fGe9krQWHNl 	 
+    	  
+    		   
+     
+   1.e-6 mW00V7n8RwzFWH7tra2wp 	 
+    	  
+    		   
+     
+
+             mWPvycRWzzsoqLdQC4Zks 	 
+    	  
+    	
+                tests_passed mQqnRcoNxbykQSXWuA762 	 mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+    		   
+     
+     
+ 
+ 
+                std mtOADHjcfWlYUUaEqJYvC 	 
+    	  
+    		   
+     
+     
+ 
+  	cerr  mLKaNDZsfPRxbXiWdHvqO 	 "\x20\x4f\x6b\x21"  mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    		  std mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+    		   
+     
+     
+endl maPJhxKGuCRBF8PTSEfoJ 	 
+   
+             mJP7Jsm7au1oZp1CLb7PT 	 
+    	  
+  
+            else
+             miHaghnjGYZRXpERY7vgM 	 
+    	  
+    		   
+     
+  
+                std mnsDFHlx8Rb1ohrxyYFfi 	 
+    ostringstream fname mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		   
+     
+   
+                fname  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+ "\x74\x65\x73\x74\x2d"  mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+    		   
+     tests  mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+    		   
+   '-'  mXSaJTMo4mCIueHA05tT9 	 
+    	  
+    		   
+     
+    seed  mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+    		    "\x2e\x78\x6d\x6c" mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+    		   
+   
+                std mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     
+     
+ 
+  	cerr  mHuF4mTDu6zvknssKtlKQ 	 
+ "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x6d\x61\x73\x6b\x2c\x20\x79\x6f\x75\x72\x5f\x6d\x61\x73\x6b\x29\x3d\x3d"
+                           mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		  norm_v  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  mUgUEfVdBAs_RDl0oUbQO 	 std mpd4PM_FCAECboim6Wmgy 	 
+    	  
+    		   endl mUQApTk2utXRlZOX2bxsA 	 
     	  
     		   
      
      
  
   	 
-             mxiSiDyBWybvWD_EkXqQ2 	 
-    	  
-    
-                tests_passed mUzTGmNZ8S0WIPlKPasub 	 
-    	  
-    		   
-     
-     
- mCTRiZEfCcZ4rtZeXzEPU 	 
-    	  
-    	
-                std mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    	cerr  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		  "\x20\x4f\x6b\x21"  mXSaJTMo4mCIueHA05tT9 	 
-    std mErde6Wj4Ze0ly0Y61AFC 	 
-    	  
-    	endl mUQApTk2utXRlZOX2bxsA 	 
-    	  
-    
-             mOK1tXVOT4PUgeSc88pGY 	 
+                std mWT_5joNFiaFOgpc894br 	 
     	  
     		   
      
      
  
-  
-            else
-             mnkYVtKJoztdPpfebBy4S 	 
+  	cerr  mbP3VgAHoOgnaUfLyN3rO 	 
+    "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  mUgUEfVdBAs_RDl0oUbQO 	 
     	  
-  
-                std mErde6Wj4Ze0ly0Y61AFC 	 
+    		   
+     
+     
+ 
+  	  fname.str mwDTANvBf2eCihKlwIGcQ 	 
     	  
-    		 ostringstream fname mZ5n7IX_AHHoHYsodfx8Y 	 
+     mbP3VgAHoOgnaUfLyN3rO 	  std mtOADHjcfWlYUUaEqJYvC 	 
+    	  
+    		 endl mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		   
 
-                fname  mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    		 "\x74\x65\x73\x74\x2d"  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-    	 tests  mHuF4mTDu6zvknssKtlKQ 	 
-    	  
-    		   
-     
- '-'  mUgUEfVdBAs_RDl0oUbQO 	 
-    	  
-    		   seed  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
- "\x2e\x78\x6d\x6c" mUQApTk2utXRlZOX2bxsA 	
-                std mgrChmV5pX_BBnPjupsCz 	 cerr  maSJfbIkVmsGsjTv0UQpa 	 
-    	  
-    		   
-     
-     
- "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x69\x6d\x67\x2c\x20\x79\x6f\x75\x72\x5f\x69\x6d\x67\x29\x3d\x3d" 
-                     mdGdm6zgtH4zv3Nn0vGML 	 
-    	  
-    		   
-     
-norm_v  mA85Ru6M8Sh6PK100OVgE 	 
+                 mr2FttvZzA28fJewbKHY7 	 
     	  
     		   
      
      
  
-  	 "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  mA85Ru6M8Sh6PK100OVgE 	 
+ file  mAQFTjhI12FsIF680A_T9 	 
     	  
-    		   std mgrChmV5pX_BBnPjupsCz 	 
+    		 cv mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+    		   FileStorage mZGQ4J8pc7eRHZbaNBrTR 	 
     	  
     		   
      
-endl mCTRiZEfCcZ4rtZeXzEPU 	 
+     mu0Zw3fsOhh38Uo4aDS8W 	 
     	  
     		   
+     
+     
  
-                std mhlrvVwQFcOFpdjFt4y2u 	 
-    	  
-    		   
-     cerr  mUgUEfVdBAs_RDl0oUbQO 	 
-    	  "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		  fname.str muDy_qxq6pQC33xkdhIyC 	 
-    	  
-    		     mdapI6SZ0JwzhtKL_Oxis 	 
-    	  
-    		   
-     
-     
- std mtOADHjcfWlYUUaEqJYvC 	 
-    	  
-    		   
-     
-endl mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-    		   
-  
-                 mAot4lv_hqRDJSbAui1kl 	 
-    	  
-    		   
-     
-     
-file  mtcMtq_ZgTF0Gbvko4MMI 	 
-    	  
-    		   
-     
-    cv mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		   
-     FileStorage mkIFONPkvrdc61fQAT2H7 	 
-    	  
-    		   
-    mUQApTk2utXRlZOX2bxsA 	 
-    	  
-  
+  	 
                 file.open mYSn7neYwuzZiHSfgVhG4 	 
-    	  fname.str mwDTANvBf2eCihKlwIGcQ 	, cv mErde6Wj4Ze0ly0Y61AFC 	 
-FileStorage mMNd9IbgZGNvHCj6cXNIY 	 
+    	  fname.str mZGQ4J8pc7eRHZbaNBrTR 	 
+    	  
+    		   
+  , cv mgrChmV5pX_BBnPjupsCz 	 
+    	  
+  FileStorage mWT_5joNFiaFOgpc894br 	 
+    WRITE mCo_IAiG3U7gZmGW7mfLA 	 
     	  
     		   
      
-   WRITE mA3nRYnr_lZzzMo1jh_vB 	 
-  mKCH6zvmv2K2hcW15vK3r 	 
+     
+ 
+   mHLOpps1TeJ1n4a5pxdNv 	 
     	  
     		 
-                file  mdapI6SZ0JwzhtKL_Oxis 	 
+                file  mbP3VgAHoOgnaUfLyN3rO 	 
+    "\x6e\x6f\x72\x6d\x5f\x76"  mUgUEfVdBAs_RDl0oUbQO 	 
     	  
-    		 "\x6e\x6f\x72\x6d\x5f\x76"  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		   
      norm_v mCTRiZEfCcZ4rtZeXzEPU 	 
-    	 
-                file  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    	 "\x69\x6e\x70\x75\x74"  mA85Ru6M8Sh6PK100OVgE 	 
-    	  
-     img mZ5n7IX_AHHoHYsodfx8Y 	
-                file  mq3vxPsKSjjq_xpuFA9dn 	 
+    
+                file  mdapI6SZ0JwzhtKL_Oxis 	 
+    	   "\x79\x6f\x75\x72\x5f\x6d\x61\x73\x6b"  mLKaNDZsfPRxbXiWdHvqO 	 
     	  
     		   
- "\x6d\x79\x5f\x69\x6d\x67"  mbP3VgAHoOgnaUfLyN3rO 	 my_img mZ5n7IX_AHHoHYsodfx8Y 	 
+    your_mask mHLOpps1TeJ1n4a5pxdNv 	 
     	  
     		   
      
-                file  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		    "\x79\x6f\x75\x72\x5f\x69\x6d\x67"  mXSaJTMo4mCIueHA05tT9 	 
-    	  your_img maPJhxKGuCRBF8PTSEfoJ 	 
-  
-                file.release mwDTANvBf2eCihKlwIGcQ 	 
+                file  mUgUEfVdBAs_RDl0oUbQO 	 
     	  
     		   
      
-      mZ5n7IX_AHHoHYsodfx8Y 	 
+      "\x6d\x79\x5f\x6d\x61\x73\x6b"  mdapI6SZ0JwzhtKL_Oxis 	  my_mask mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+    		   
+   
+                file.release mJjX0DECNHF5WB5M9vRzJ 	 
+    	  
+    		   
+     
+     
+ 
+   mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		   
+     
              mozmL8sMtEcXdVFJtkOKz 	 
     	  
+    
+         mPktF2k_R4xKiN2Zg99Ud 	 
+    	  
+   
+        catch  mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
     		   
+     
+     
+ 
+ std mErde6Wj4Ze0ly0Y61AFC 	 
+    	  
+   exception &e mCFpr4Os_BUpE0hBecZXK 	
+         myi_nNZ_JfQR5mbTdok9w 	 
+    	  
+            std mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+  cerr  mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+    		   
+     
+     
+ 
+  "\x45\x72\x72\x6f\x72\x3a\x20"  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		   
+     
+     
+ 
+   e.what moLZmyH4uSJX9pXN1kkKz 	 
+    	  
+    		   
+     
+     
+ 
+   mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+   std mnsDFHlx8Rb1ohrxyYFfi 	 
+  endl mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+    		   
+     
   
-         mNGHuSbVa0_na45B50kOF 	 
+         mqBnU2_MtantM647nyIHb 	 
     	  
     		   
-     
-     
-        catch  mppKtzP31aZy0pGd2m0Z9 	 
-    	  
-    		   std mpd4PM_FCAECboim6Wmgy 	exception& e mCxo5hT3adsjpL3eSx_tm 	 
-    	  
-    		     myi_nNZ_JfQR5mbTdok9w 	 
+    
+        catch  mYSn7neYwuzZiHSfgVhG4 	 
     	  
     		   
-     
-     
+... mCxo5hT3adsjpL3eSx_tm 	 
+   
+         miHaghnjGYZRXpERY7vgM 	 
  
             std mnsDFHlx8Rb1ohrxyYFfi 	 
     	  
     		   
-     cerr  mdapI6SZ0JwzhtKL_Oxis 	 
-    "\x45\x72\x72\x6f\x72\x3a\x20"  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		   
-     e.what mWAv9IocI7GJUr5S69MXT 	 
-    	  
-    		   
-   mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-  std mErde6Wj4Ze0ly0Y61AFC 	endl mUQApTk2utXRlZOX2bxsA 	 
+     
+cerr  mLKaNDZsfPRxbXiWdHvqO 	 
     	  
     		   
      
+     
+ 
+ "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    		   
+     
+ std mgrChmV5pX_BBnPjupsCz 	 
+    	  
+    		   
+     
+     
+ 
+ endl maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		   
+     
+  
+         mOK1tXVOT4PUgeSc88pGY 	 
+    	  
+   
+
+        try
+         mxiSiDyBWybvWD_EkXqQ2 	 
+  
+            tests mQqnRcoNxbykQSXWuA762 	 
+    	  
+    		   
+    mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		   
+     
+     
+ 
+ 
+
+            cv mpd4PM_FCAECboim6Wmgy 	 
+    	  
+    		   
+Mat bckg mppKtzP31aZy0pGd2m0Z9 	 
+    	  256, 256, CV_8UC1 mt6dcxNU8FQBTRU5nGYnX 	 
+    	  
+  mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		   
+
+            cv mnsDFHlx8Rb1ohrxyYFfi 	 
+    	Mat forg mChGzY6uJwNl0HsnhepB1 	 
+    	  
+    		   
+  64, 64, CV_8UC1 mUaKuNbS96FbvDu3x85PG 	 
+    	  
+    		   
+  mIeb91O4CN5VggNyO2vQ7 	 
+    
+            rng.fill mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
+    bckg, cv mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+    		   
+     
+  RNG mhlrvVwQFcOFpdjFt4y2u 	 
+ UNIFORM, 0, 128 mxBVKq5uLQpnUbC1M415c 	 mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+ 
+            rng.fill myuutvgsUpQCFDJ0ssvlp 	 
+    	  
+    		   
+    forg, cv mgrChmV5pX_BBnPjupsCz 	 
+    	  
+    		   
+     RNG mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+    		   
+UNIFORM, 128, 256 mW00V7n8RwzFWH7tra2wp 	 
+    	  
+    		   
+     mIeb91O4CN5VggNyO2vQ7 	 
+  
+            cv mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     
+Mat frame1, frame2, frame3 mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		   
+     
+     
+ 
+ 
+            bckg.copyTo mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+    		   
+   frame1 mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		   
+ mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+            forg.copyTo mmKFpIHZ2jW3Pl2yswFoH 	frame1 mChGzY6uJwNl0HsnhepB1 	 
+    	  
+    		   
+     
+     
+ 
+  	cv mpd4PM_FCAECboim6Wmgy 	 
+    	  
+    	Rect mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+    		   
+     
+     
+ 
+  	128 - 32, 128 - 32, 64, 64 mt6dcxNU8FQBTRU5nGYnX 	 
+    	  
+    		   
+     mXD0JeNoU_GFfICrMiytn 	 
+    	   mq2WtyfxNuhMujs_W_RTx 	 
+    	  
+    mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+    		   
+     
+     
+
+            bckg.copyTo mppKtzP31aZy0pGd2m0Z9 	 
+    	  
+ frame2 mUaKuNbS96FbvDu3x85PG 	 
+    	  
+    mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+    		   
+     
+     
+ 
+  	
+            forg.copyTo mmZpaGRQQTWxpkl5_I8in 	 
+    	  
+    		   
+     frame2 mYSn7neYwuzZiHSfgVhG4 	 
+    	  
+    		 cv mpd4PM_FCAECboim6Wmgy 	 
+    	  
+    		   
+     
+     
+ 
+  Rect mYSn7neYwuzZiHSfgVhG4 	 
+    	  
+ 129 - 32, 129 - 32, 64, 64 mW00V7n8RwzFWH7tra2wp 	 
+    	  
+ mCxo5hT3adsjpL3eSx_tm 	 
+  mq2WtyfxNuhMujs_W_RTx 	 
+    	  
+     mCF6yuex92SFioZPpxBz2 	 
+    	  
+    		   
+     
+  
+            bckg.copyTo mYSn7neYwuzZiHSfgVhG4 	 
+    	  
+ frame3 mxBVKq5uLQpnUbC1M415c 	 
+   mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+    		   
+     
+     
+ 
+  	 
+            forg.copyTo mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
+  frame3 mpYC3Q6HCOG_y3bCV_bzU 	 
+    	  
+    		   
+     
+cv mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+    Rect mChGzY6uJwNl0HsnhepB1 	 
+    	130 - 32, 130 - 32, 64, 64 mCo_IAiG3U7gZmGW7mfLA 	 
+    	  
+    		 mCxo5hT3adsjpL3eSx_tm 	 
+ mCxo5hT3adsjpL3eSx_tm 	 mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+
+             mgeFmKdNvJ1A_N0m69M7g 	th  mAQFTjhI12FsIF680A_T9 	  int mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
+    		   
+     
+     
+ 
+  	rng.uniform mYSn7neYwuzZiHSfgVhG4 	 
+    	  
+    		   
+0.0, 1.5 mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		   
+     
+     
+ 
+  	  * 100.0 mxBVKq5uLQpnUbC1M415c 	 / 100.0 maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		   
+     
+     
+ 
+  	 
+             mxsIRoNEMzjS6Yb5k6usv 	 
+    	  
+    		   
+     
+ste_r  myAj9JkIJCTTmCuRc8M99 	 
+    	  
+    		   
+      3 mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		   
+     
+
+             mCWMzZFPcoXg9fIw5padT 	 
+    	  
+    		   
+     ste_type  mik5L9gUWoenRFF12Yrzk 	 
+    	  
+    2 mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    	
+             mdeeM7sTQ44guIS_idFPz 	 
+    alpha  mik5L9gUWoenRFF12Yrzk 	 
+    	  
+    		   
+     
+     
+ 
+  int mZf3yA3X8Y4vlKmyskuBt 	 
+    rng.uniform myuutvgsUpQCFDJ0ssvlp 	 
+    	  
+    		   
+     
+0.0, 1.0 mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		 * 100.0 mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    		   
+     
+     
+ / 100.0 mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		   
+
+            std mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+ cerr  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    		   
+     
+ "\x66\x73\x69\x76\x5f\x63\x6f\x6d\x70\x75\x74\x65\x5f\x6f\x66\x5f\x66\x6f\x72\x65\x67\x72\x6f\x75\x6e\x64\x5f\x6d\x61\x73\x6b\x20\x28\x77\x69\x74\x68\x20\x69\x6e\x69\x74\x69\x61\x6c\x20\x65\x73\x74\x69\x6d\x61\x74\x65\x2c\x20\x74\x68\x20\x3d\x20"  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    		 th
+                       mXSaJTMo4mCIueHA05tT9 	 "\x20\x73\x74\x65\x5f\x72\x3d"  mA85Ru6M8Sh6PK100OVgE 	 
+ ste_r  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+     "\x20\x73\x74\x65\x5f\x74\x79\x70\x65\x3d"  mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+     ste_type
+                       mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+  "\x20\x61\x6c\x70\x68\x61\x3d"  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		   
+     alpha  mdapI6SZ0JwzhtKL_Oxis 	 "\x29\x20\x2e\x2e\x2e\x20" mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+  
+            cv mWT_5joNFiaFOgpc894br 	 
+Mat prev_flow, my_flow, your_flow mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+            cv mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+    		   
+     
+     
+ 
+Mat prev_mask, my_mask, your_mask mCF6yuex92SFioZPpxBz2 	 
+    	  
+    		   
+     
+     
+ 
+  	 
+            my_fsiv_compute_of_foreground_mask mmZpaGRQQTWxpkl5_I8in 	frame1, frame2, prev_flow,
+                                               prev_mask, th, ste_r, ste_type, alpha mW00V7n8RwzFWH7tra2wp 	 mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		   
+     
+     
+ 
+  	 
+            prev_mask.copyTo mYSn7neYwuzZiHSfgVhG4 	 
+    	  
+  my_mask mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		   
+     mCF6yuex92SFioZPpxBz2 	 
+    	  
+    		   
+     
+  
+            prev_mask.copyTo mpYC3Q6HCOG_y3bCV_bzU 	 
+    	  
+    		   
+  your_mask mCxo5hT3adsjpL3eSx_tm 	 
+    	  mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+    		   
+
+            prev_flow.copyTo mChGzY6uJwNl0HsnhepB1 	 
+my_flow mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    		   
+    mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+    		   
+     
+     
+            prev_flow.copyTo mChGzY6uJwNl0HsnhepB1 	 
+    	  
+    		   
+your_flow mxBVKq5uLQpnUbC1M415c 	 
+    	  maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		   
+     
+     
+
+            my_fsiv_compute_of_foreground_mask myuutvgsUpQCFDJ0ssvlp 	 
+    	  
+    		   
+frame2, frame3, my_flow,
+                                               my_mask, th, ste_r, ste_type, alpha mUaKuNbS96FbvDu3x85PG 	 
+    	  
+    	 mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+ 
+            fsiv_compute_of_foreground_mask mmZpaGRQQTWxpkl5_I8in 	 
+    	  
+    		   
+  frame2, frame3, your_flow,
+                                            your_mask, th, ste_r, ste_type, alpha mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		 mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		   
+     
+             mxhl9wjLQZULxOU_43q0G 	 
+    	  
+    		   
+     
+norm_v  mik5L9gUWoenRFF12Yrzk 	 
+    	  
+    		   
+  cv mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     
+     
+ 
+norm mmZpaGRQQTWxpkl5_I8in 	 
+    	  
+    		  my_mask, your_mask mXD0JeNoU_GFfICrMiytn 	 
+    	  
+    		   
+     
+     
+ mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+    
+
+             ma_EPPI2vwlDqLbi0tgWx 	 
+    	  
+  mmKFpIHZ2jW3Pl2yswFoH 	 
+    	  
+    		   
+     
+     
+ 
+  norm_v  mTTUVMx3R6fGe9krQWHNl 	 
+    	  
+    		   
+     
+     
+ 
+  	 1.e-6 mCo_IAiG3U7gZmGW7mfLA 	
+             mWPvycRWzzsoqLdQC4Zks 	 
+    	  
+    		  
+                tests_passed mUzTGmNZ8S0WIPlKPasub 	 
+    	  
+    		   
+    mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+    		   
+ 
+                std mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+    		   cerr  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+     
+    "\x20\x4f\x6b\x21"  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    		  std mpd4PM_FCAECboim6Wmgy 	 
+    	  
+    		   
+     
+     
+ 
+ endl maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		   
+     
+             mNGHuSbVa0_na45B50kOF 	 
+    	  
+    		   
+     
+     
+ 
+            else
+             mmgqYc0_7tKLpJXAoouea 	 
+    	  
+    		   
+     
+ 
+                std mWT_5joNFiaFOgpc894br 	 
+    	  
+ostringstream fname mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		   
+  
+                fname  mUgUEfVdBAs_RDl0oUbQO 	 
+  "\x74\x65\x73\x74\x2d"  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		   
+     
+     
+ tests  mdGdm6zgtH4zv3Nn0vGML 	 
+    	   '-'  mq3vxPsKSjjq_xpuFA9dn 	 
+  seed  mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+    		   
+     
+     
+ 
+   "\x2e\x78\x6d\x6c" mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+ 
+                std mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+    		   cerr  mA85Ru6M8Sh6PK100OVgE 	 
+ "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x6d\x61\x73\x6b\x2c\x20\x79\x6f\x75\x72\x5f\x6d\x61\x73\x6b\x29\x3d\x3d"
+                           mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    		   
+     
+      norm_v  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    		   "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+    		   
+     
+     
+ 
+  std mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+    endl mu0Zw3fsOhh38Uo4aDS8W 	 
+    
+                std mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+    		   
+     
+ cerr  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		    "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		 fname.str mZGQ4J8pc7eRHZbaNBrTR 	 
+    	  
+    		   
+     
+    mbP3VgAHoOgnaUfLyN3rO 	 std mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+    		   
+    endl mUQApTk2utXRlZOX2bxsA 	 
+    	  
+
+                 mHtiFW3N5ulFoQa8SvVjg 	 
+    	  
+    		   
+     
+     
+ 
+file  mLZ3y6cDPwjsfFVKTrILy 	 
+    	  
+    	 cv mgwQSYXcc9TIiKkPXgshg 	FileStorage mWAv9IocI7GJUr5S69MXT 	 
+    	  
+ mCTRiZEfCcZ4rtZeXzEPU 	 
+    	
+                file.open mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
+    		   
+     
+fname.str mmLzOj1OpcOraAxHe0sHs 	 
+    	  
+    		   
+     
+     , cv mMNd9IbgZGNvHCj6cXNIY 	 
+    	  FileStorage mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+    		   
+     
+     WRITE mA3nRYnr_lZzzMo1jh_vB 	 
+  mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		 
+                file  mA85Ru6M8Sh6PK100OVgE 	 "\x6e\x6f\x72\x6d\x5f\x76"  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+   norm_v mCF6yuex92SFioZPpxBz2 	 
+    	  
+    		   
+
+                file  mXSaJTMo4mCIueHA05tT9 	 
+    	  
+    		   
+     
+      "\x79\x6f\x75\x72\x5f\x6d\x61\x73\x6b"  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+     your_mask mIeb91O4CN5VggNyO2vQ7 	 
+    	
+                file  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+      "\x6d\x79\x5f\x6d\x61\x73\x6b"  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+     my_mask mUQApTk2utXRlZOX2bxsA 	 
+    
+                file.release mWAv9IocI7GJUr5S69MXT 	 
+    	  
+    		   
+     
+     
+  mIeb91O4CN5VggNyO2vQ7 	 
+ 
+             mJTa21GBBlpdHs8EUXwZ0 	 
+    	  
+    		  
+         mqSTm3bttsS7HrMtCtqcS 	 
+    	  
+  
+        catch  mYSn7neYwuzZiHSfgVhG4 	 
+    	  
+    		   
+     
+     
+ 
+  std mtOADHjcfWlYUUaEqJYvC 	exception &e mCo_IAiG3U7gZmGW7mfLA 	
+         mDayc5WiuF3Q2GBCWXNZN 	 
+            std mErde6Wj4Ze0ly0Y61AFC 	 
+    	  
+    		   
+     
+ cerr  mXSaJTMo4mCIueHA05tT9 	 
+    	  
+   "\x45\x72\x72\x6f\x72\x3a\x20"  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    e.what muDy_qxq6pQC33xkdhIyC 	 
+    	    mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+   std mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+    endl mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		   
+     
+         mozmL8sMtEcXdVFJtkOKz 	 
+    	  
+    	
+        catch  mppKtzP31aZy0pGd2m0Z9 	 
+    	 ... mUaKuNbS96FbvDu3x85PG 	 
+    	  
+    		   
+
+         mDayc5WiuF3Q2GBCWXNZN 	 
+    	
+            std mErde6Wj4Ze0ly0Y61AFC 	 
+    	  
+    	cerr  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+   "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mA85Ru6M8Sh6PK100OVgE 	 std mhlrvVwQFcOFpdjFt4y2u 	 
+    endl maPJhxKGuCRBF8PTSEfoJ 	 
+    	
+         mPktF2k_R4xKiN2Zg99Ud 	 
+    	  
+    		   
+     
+   
+
+        try
+         mmgqYc0_7tKLpJXAoouea 	 
+    	  
+    		   
+     
+     
+ 
+  
+            tests mI4i8YlJZREbZV6pNhNgC 	 
+    	  
+    		   
+     mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+  
+
+            cv mpd4PM_FCAECboim6Wmgy 	 
+    	  
+    		   
+     
+     
+ 
+Mat img mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
+256, 256, CV_8UC1 mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		   
+   mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+    		   
+     
+            cv mErde6Wj4Ze0ly0Y61AFC 	 
+    	  
+ Mat mask  mrW3LX4vM3dW4niDeipVf 	 
+    	  
+     cv mWT_5joNFiaFOgpc894br 	 
+    	  
+    		   
+    Mat mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+zeros mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+    		   
+     
+     
+256, 256, CV_8UC1 mUaKuNbS96FbvDu3x85PG 	 
+    	  
+    mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+     
+ 
+
+            cv mErde6Wj4Ze0ly0Y61AFC 	 
+    	  
+    		   
+     
+     
+ 
+  Rect rect mmZpaGRQQTWxpkl5_I8in 	 
+    	  
+    		   
+   rng.uniform mpYC3Q6HCOG_y3bCV_bzU 	 
+    	  
+    		   
+     
+  128 - 32, 128 + 32 mCFpr4Os_BUpE0hBecZXK 	 
+    	  
+ ,
+                          rng.uniform mChGzY6uJwNl0HsnhepB1 	 
+    	  
+    		   
+ 128 - 32, 128 + 32 mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		   
+     
+  , 65, 65 mCFpr4Os_BUpE0hBecZXK 	 
+    	  
+    		   
+      mErDDSVFJd4ybmgEkutlI 	 
+
+            mask mpYC3Q6HCOG_y3bCV_bzU 	 
+    	  
+    		   
+     
+     
+ 
+ rect mxBVKq5uLQpnUbC1M415c 	 
+    	  
+      mpIazGz0BO8GDZeOCwtDA 	 
+    	  
+    		    255 mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		   
+     
+             mPEXKIHylb5EYa1bDUzOc 	 
+    	  
+    		 r  mSk1ShXRx3FQBFfrfi8ft 	 
+    	  
+    	 rng.uniform mf6w6nRo1UPHMI9Ix1lmT 	 
+  5, 15 mCxo5hT3adsjpL3eSx_tm 	 
+    	  
+    mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+             mHvdR3hBbPsuYCiDibMCu 	 
+    	  
+    		   
+gaussian  myAj9JkIJCTTmCuRc8M99 	 
+    	  
+    		  false mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		   
+    
+
+            std mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+cerr  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+ "\x66\x73\x69\x76\x5f\x62\x6c\x75\x72\x5f\x62\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x20\x28\x72\x3d"  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    		   
+     
+     
+  r  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+     
+     
+ "\x20\x67\x61\x75\x73\x73\x69\x61\x6e\x3d"
+                       mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+     mpYC3Q6HCOG_y3bCV_bzU 	 
+    	  
+  gaussian ? "\x74\x72\x75\x65" : "\x66\x61\x6c\x73\x65" mCFpr4Os_BUpE0hBecZXK 	 
+    	  
+    		   
+     
+    mbP3VgAHoOgnaUfLyN3rO 	 "\x20\x29\x20\x2e\x2e\x2e\x20" mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		   
+     
+     
+ 
+  	 
+            cv mMNd9IbgZGNvHCj6cXNIY 	Mat my_img, your_img mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+
+            my_fsiv_blur_background mYSn7neYwuzZiHSfgVhG4 	 
+    	  
+    		   
+     
+   img, mask, my_img, r, gaussian mCxo5hT3adsjpL3eSx_tm 	 
+    	  
+    		   
+     
+     
+ 
+  	  mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		   
+     
+  
+            fsiv_blur_background mmKFpIHZ2jW3Pl2yswFoH 	 
+    	  
+    	img, mask, your_img, r, gaussian mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		  
+             mlFquKXUmcJTiXl3Twu9O 	 
+    	  norm_v  mik5L9gUWoenRFF12Yrzk 	 
+    	  
+ cv mtOADHjcfWlYUUaEqJYvC 	 
+    	  
+    		 norm mmKFpIHZ2jW3Pl2yswFoH 	 
+    	  
+    		   
+     
+     
+ my_img, your_img mW00V7n8RwzFWH7tra2wp 	 
+    mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+    		   
+     
+
+
+             ma_EPPI2vwlDqLbi0tgWx 	 
+    	  
+    		   
+   mmKFpIHZ2jW3Pl2yswFoH 	 
+    	  
+    		   
+ norm_v  mC5E9mNw3KALrr8VsSONZ 	 
+    	  
+    		   
+    1.e-6 mCFpr4Os_BUpE0hBecZXK 	 
+ 
+             mWPvycRWzzsoqLdQC4Zks 	 
+    	  
+
+                tests_passed mjXVeKcEorHWSksfRH2UB 	 
+    	  
+    		   
+     mErDDSVFJd4ybmgEkutlI 	 
+    	  
+    
+                std mgrChmV5pX_BBnPjupsCz 	 
+    cerr  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+     
+     
+  "\x20\x4f\x6b\x21"  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+   std mErde6Wj4Ze0ly0Y61AFC 	 
+    	  
+    		endl mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+    		   
+     
+     
+             mfYUGCIJ4y66ek5pHyoZN 	 
+    	  
+    		   
+     
+     
+ 
+  	
+            else
+             mnkYVtKJoztdPpfebBy4S 	 
+    	  
+    		   
+     
+  
+                std mpd4PM_FCAECboim6Wmgy 	 
+    	  
+    		   
+     
+     
+ostringstream fname mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		 
+                fname  mXSaJTMo4mCIueHA05tT9 	  "\x74\x65\x73\x74\x2d"  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+    tests  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		   
+     
+     '-'  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+    		   
+     
+     
+ 
+  	 seed  mHuF4mTDu6zvknssKtlKQ 	 
+     "\x2e\x78\x6d\x6c" mu0Zw3fsOhh38Uo4aDS8W 	 
+
+                std mhlrvVwQFcOFpdjFt4y2u 	 
+    	  
+    cerr  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+     
+     
+ 
+   "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x69\x6d\x67\x2c\x20\x79\x6f\x75\x72\x5f\x69\x6d\x67\x29\x3d\x3d"
+                           mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+   norm_v  mA85Ru6M8Sh6PK100OVgE 	 
+  "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+     
+     
+  std mtOADHjcfWlYUUaEqJYvC 	 
+    	  
+    		   
+endl mUQApTk2utXRlZOX2bxsA 	 
+    
+                std mgrChmV5pX_BBnPjupsCz 	 
+    	  
+    		   
+     
+    cerr  mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    		   
+     
+  "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  mdGdm6zgtH4zv3Nn0vGML 	 fname.str mJjX0DECNHF5WB5M9vRzJ 	 
+    	  
+    		   
+     
+     
+ 
+   mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+    		   
+     
+     
+ std mwz7jWEjfVuS42kuaQPn8 	 
+    	 endl mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+   
+                 mm3ERFtObyKhe7QdFRo2M 	 
+    	  
+    file  mLwpjlSPu7J_elHZYFHIX 	 
+     cv mgrChmV5pX_BBnPjupsCz 	 
+    	  
+FileStorage mwDTANvBf2eCihKlwIGcQ 	 
+    	  
+    mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		   
+     
+     
+ 
+
+                file.open mChGzY6uJwNl0HsnhepB1 	 
+    	  
+    		fname.str mmLzOj1OpcOraAxHe0sHs 	 
+    	  
+    		   
+     
+     
+ 
+  , cv mpd4PM_FCAECboim6Wmgy 	 
+    	 FileStorage mErde6Wj4Ze0ly0Y61AFC 	 
+    	  
+    		   
+     WRITE mCFpr4Os_BUpE0hBecZXK 	 
+    	  
+    		   
+     
+     
+ 
+  	 mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+    		   
+                file  mXSaJTMo4mCIueHA05tT9 	 
+    "\x6e\x6f\x72\x6d\x5f\x76"  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+ norm_v mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    		  
+                file  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		   
+     
+     
+ 
+  	  "\x69\x6e\x70\x75\x74"  mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    		   
+     
+     
+ 
+   img mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+     
+ 
+                file  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    		   
+     
+     
+ 
+  "\x6d\x79\x5f\x69\x6d\x67"  mXSaJTMo4mCIueHA05tT9 	 
+     my_img mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+     
+ 
+  	
+                file  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    	 "\x79\x6f\x75\x72\x5f\x69\x6d\x67"  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+     your_img mHLOpps1TeJ1n4a5pxdNv 	 
+                file.release mJjX0DECNHF5WB5M9vRzJ 	 
+    	  
+    		   
+     
+     
+  mErDDSVFJd4ybmgEkutlI 	 
+    	  
+    		
+             mNGHuSbVa0_na45B50kOF 	 
+    	  
+    		   
+
+         mfYUGCIJ4y66ek5pHyoZN 	 
+    	  
+    		   
+     
+  
+        catch  mZf3yA3X8Y4vlKmyskuBt 	 
+    	  
+    		   
+     
+  std mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     
+  exception &e mCo_IAiG3U7gZmGW7mfLA 	 
+    	  
+    		   
+     
+
+         mzdEyRJKtHmAv_hyCRXsM 	 
+    	  
+    		   
+     
+            std mpd4PM_FCAECboim6Wmgy 	 
+    	  
+    		   
+cerr  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+    		   
+     
+      "\x45\x72\x72\x6f\x72\x3a\x20"  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    e.what mZGQ4J8pc7eRHZbaNBrTR 	  mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+    		   
+     
+     
+ 
+   std mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+    		   
+     
+endl mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		   
      
 
          mfYUGCIJ4y66ek5pHyoZN 	 
@@ -5523,781 +5111,1203 @@ FileStorage mMNd9IbgZGNvHCj6cXNIY
      
      
  
-        catch  mmZpaGRQQTWxpkl5_I8in 	 
-    	  
-    		   ... mCFpr4Os_BUpE0hBecZXK 	 
-    	  
-  mzdEyRJKtHmAv_hyCRXsM 	 
-    	 
-            std mwz7jWEjfVuS42kuaQPn8 	 
-    	  
-    		  cerr  mbP3VgAHoOgnaUfLyN3rO 	 
-    	  
-  "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mXSaJTMo4mCIueHA05tT9 	 
-    	  
-    		   
-     
-   std mgrChmV5pX_BBnPjupsCz 	 
-   endl mIeb91O4CN5VggNyO2vQ7 	 
-    	  
-  
-         mNGHuSbVa0_na45B50kOF 	 
-    	  
-    		  
 
-        std mpd4PM_FCAECboim6Wmgy 	 
-    cout  mdapI6SZ0JwzhtKL_Oxis 	 
+        catch  mmKFpIHZ2jW3Pl2yswFoH 	 
     	  
- "\x59\x6f\x75\x20\x70\x61\x73\x73\x20"  mdGdm6zgtH4zv3Nn0vGML 	 
+    		   
+    ... mt6dcxNU8FQBTRU5nGYnX 	 
+    	  
+    		   
+     
+     
+         mIXHmxpusVFv3HyUXTK1Q 	 
     	  
     		   
      
      
  
-   tests_passed  mXSaJTMo4mCIueHA05tT9 	 
+            std mWT_5joNFiaFOgpc894br 	 
     	  
     		   
      
-      "\x20\x6f\x66\x20"  mdapI6SZ0JwzhtKL_Oxis 	 
+     
+cerr  mbP3VgAHoOgnaUfLyN3rO 	 
     	  
     		   
-     
-     tests
-                   maSJfbIkVmsGsjTv0UQpa 	 
+     "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mLKaNDZsfPRxbXiWdHvqO 	 
     	  
     		   
      
      
  
- "\x20\x74\x65\x73\x74\x73\x2e"  mq3vxPsKSjjq_xpuFA9dn 	 
-   std mgwQSYXcc9TIiKkPXgshg 	 
+  	 std mWT_5joNFiaFOgpc894br 	 
     	  
-    		 endl mHLOpps1TeJ1n4a5pxdNv 	 
+    		   
+     
+     
+ 
+  	 endl mu0Zw3fsOhh38Uo4aDS8W 	 
+   
+         mMrjjxUfFnHYwyIeo4thn 	 
+    	  
+    		   
+   
+
+        try
+         myi_nNZ_JfQR5mbTdok9w 	 
+    	  
+    		 
+            tests mXcxo9pxHw09Ez3pwIM6S 	 mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		   
+
+
+            cv mWT_5joNFiaFOgpc894br 	 
+    	  
+ Mat img mYSn7neYwuzZiHSfgVhG4 	 
+    	 256, 256, CV_8UC1 mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    		   
+     
+     
+ 
+  	 mHLOpps1TeJ1n4a5pxdNv 	 
+ 
+            cv mpd4PM_FCAECboim6Wmgy 	 
+    	  
+    		   
+     
+    Mat mask  mpIazGz0BO8GDZeOCwtDA 	 
+    	  
+    		   
+     
+     cv mpd4PM_FCAECboim6Wmgy 	 
+    Mat mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   zeros mYSn7neYwuzZiHSfgVhG4 	 
+    	  
+ 256, 256, CV_8UC1 mXD0JeNoU_GFfICrMiytn 	 
+    	  
+    		   
+     
+     
+ mErDDSVFJd4ybmgEkutlI 	 
+    	  
+   
+            cv mMNd9IbgZGNvHCj6cXNIY 	Rect rect mwEFsCY_vJ82sL6GSMTpd 	 
+    	  
+    		   
+     
+     
+ rng.uniform mppKtzP31aZy0pGd2m0Z9 	 
+    	  
+    		   
+128 - 32, 128 + 32 mXD0JeNoU_GFfICrMiytn 	 
+    	,
+                          rng.uniform mpYC3Q6HCOG_y3bCV_bzU 	 
+    	128 - 32, 128 + 32 mA3nRYnr_lZzzMo1jh_vB 	 
+    , 65, 65 mq2WtyfxNuhMujs_W_RTx 	 
+    	  
+    		 mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		   
+  
+            mask mmZpaGRQQTWxpkl5_I8in 	 
+    	  
+    		   
+     rect mUaKuNbS96FbvDu3x85PG 	 
+    	  
+    		   
+     
+   mAQFTjhI12FsIF680A_T9 	 
+    	  
+    	 255 mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		   
+     
+
+             mCWMzZFPcoXg9fIw5padT 	 
+    	  
+    		r  mrW3LX4vM3dW4niDeipVf 	 
+    	  
+    		   
+     
+     
+ 
+   rng.uniform mwEFsCY_vJ82sL6GSMTpd 	5, 15 mCxo5hT3adsjpL3eSx_tm 	 
+  mZ5n7IX_AHHoHYsodfx8Y 	
+             maj782xJqBofsysA5mWjg 	 
+    	  
+gaussian  mLZ3y6cDPwjsfFVKTrILy 	 
+    	  
+    		   
+     
+     
+ 
+  	 true maPJhxKGuCRBF8PTSEfoJ 	
+
+            std mgwQSYXcc9TIiKkPXgshg 	 
+    	  cerr  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+    		   
+     
+     
+ 
+ "\x66\x73\x69\x76\x5f\x62\x6c\x75\x72\x5f\x62\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x20\x28\x72\x3d"  mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+    		   
+     
+     
+ 
+   r  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+    "\x20\x67\x61\x75\x73\x73\x69\x61\x6e\x3d"
+                       mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    		  mZf3yA3X8Y4vlKmyskuBt 	 
+    	  
+    		   
+     
+     
+ gaussian ? "\x74\x72\x75\x65" : "\x66\x61\x6c\x73\x65" mUaKuNbS96FbvDu3x85PG 	 
+    	   mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+  "\x20\x29\x20\x2e\x2e\x2e\x20" mCF6yuex92SFioZPpxBz2 	 
+    	  
+    		   
+     
+   
+            cv mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+    		  Mat my_img, your_img mu0Zw3fsOhh38Uo4aDS8W 	 
     	
-     mqBnU2_MtantM647nyIHb 	 
+            my_fsiv_blur_background mZf3yA3X8Y4vlKmyskuBt 	 
+   img, mask, my_img, r, gaussian mxBVKq5uLQpnUbC1M415c 	 
     	  
- 
-    catch  myuutvgsUpQCFDJ0ssvlp 	 
-    	  
-    		   
-     
-     
- 
- std mgwQSYXcc9TIiKkPXgshg 	 
-    	  
-    		exception& e mxBVKq5uLQpnUbC1M415c 	 
+    	 mCTRiZEfCcZ4rtZeXzEPU 	 
     	  
     		   
      
+     
+ 
 
-     mnkYVtKJoztdPpfebBy4S 	 
-    	  
-    		   
-
-        std mgrChmV5pX_BBnPjupsCz 	 
+            fsiv_blur_background mZf3yA3X8Y4vlKmyskuBt 	 
     	  
     		   
      
      
-cerr  mA85Ru6M8Sh6PK100OVgE 	 
+ img, mask, your_img, r, gaussian mA3nRYnr_lZzzMo1jh_vB 	 
     	  
-    		   
-     
-      "\x43\x61\x75\x67\x68\x74\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x3a\x20"  mLKaNDZsfPRxbXiWdHvqO 	 
-    	  
-    		   
-     
-      e.what meDekgZkaKWxgWJNWiB94 	 
-    	  
-    		     mXSaJTMo4mCIueHA05tT9 	 
-    	  std mMNd9IbgZGNvHCj6cXNIY 	 
-    	  
-endl mu0Zw3fsOhh38Uo4aDS8W 	 
-    	  
-    		   
-     
-     
- 
-        retCode  mtcMtq_ZgTF0Gbvko4MMI 	 
-    	  
-    		   
-     
-      EXIT_FAILURE mIeb91O4CN5VggNyO2vQ7 	
-     mJP7Jsm7au1oZp1CLb7PT 	 
-  
-    catch  mppKtzP31aZy0pGd2m0Z9 	 
-    	  
-    		   
-     
- ... mt6dcxNU8FQBTRU5nGYnX 	 
-    	  
-    		   
-     
-     
- 
-    mxiSiDyBWybvWD_EkXqQ2 	 
-    	  
-    		   
-        std mnsDFHlx8Rb1ohrxyYFfi 	 
-    	  
-    		   
-     
- cerr  mdapI6SZ0JwzhtKL_Oxis 	 
-    	   "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mbP3VgAHoOgnaUfLyN3rO 	 std mMNd9IbgZGNvHCj6cXNIY 	 
-    	endl mu0Zw3fsOhh38Uo4aDS8W 	 
+  maPJhxKGuCRBF8PTSEfoJ 	 
     	  
     		   
      
      
  
   	 
-        retCode  mLZ3y6cDPwjsfFVKTrILy 	 
-     EXIT_FAILURE mKCH6zvmv2K2hcW15vK3r 	 
- 
-     mJP7Jsm7au1oZp1CLb7PT 	 
-    	
-     mJpoBwgn0DJQHiXgAvSEa 	 
+             mlFquKXUmcJTiXl3Twu9O 	 
     	  
-    retCode mKCH6zvmv2K2hcW15vK3r 	 
+    		   
+     norm_v  mik5L9gUWoenRFF12Yrzk 	  cv mWT_5joNFiaFOgpc894br 	norm mpYC3Q6HCOG_y3bCV_bzU 	 
+ my_img, your_img mCo_IAiG3U7gZmGW7mfLA 	 
+    	  
+   maPJhxKGuCRBF8PTSEfoJ 	 
+    	
+
+             mj0RN9F71W_6s_YhWh1SP 	 
+    	  
+    		   
+    mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
+    		   
+norm_v  mC5E9mNw3KALrr8VsSONZ 	 
+ 1.e-6 mxBVKq5uLQpnUbC1M415c 	 
+    	  
+    		   
+     
+
+             mmgqYc0_7tKLpJXAoouea 	 
+    	  
+    		   
+     
+ 
+                tests_passed mGFaG2sFpPbGqC0w_fGEu 	 
+    	  
+    		 mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+     
+ 
+  	 
+                std mpd4PM_FCAECboim6Wmgy 	 
+  cerr  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+     "\x20\x4f\x6b\x21"  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		   
+     
+     
+ std mErde6Wj4Ze0ly0Y61AFC 	 
+    	  
+    		   
+     
+     
+ 
+ endl mCTRiZEfCcZ4rtZeXzEPU 	 
+    	  
+    	
+             mMrjjxUfFnHYwyIeo4thn 	 
+    	  
+    	
+            else
+             mIXHmxpusVFv3HyUXTK1Q 	 
+    	  
+    	
+                std mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+    		 ostringstream fname mHLOpps1TeJ1n4a5pxdNv 	 
+   
+                fname  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+     "\x74\x65\x73\x74\x2d"  mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    		   
+     
+     
+ 
+   tests  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+   '-'  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    		  seed  mq3vxPsKSjjq_xpuFA9dn 	 
+ "\x2e\x78\x6d\x6c" maPJhxKGuCRBF8PTSEfoJ 	 
+    	  
+    		
+                std mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+    	cerr  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+     
+ "\x54\x65\x73\x74\x20\x66\x61\x69\x6c\x20\x6e\x6f\x72\x6d\x28\x6d\x79\x5f\x69\x6d\x67\x2c\x20\x79\x6f\x75\x72\x5f\x69\x6d\x67\x29\x3d\x3d"
+                           mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+ norm_v  mA85Ru6M8Sh6PK100OVgE 	 "\x20\x4d\x75\x73\x74\x20\x62\x65\x20\x7a\x65\x72\x6f\x21\x21"  mbP3VgAHoOgnaUfLyN3rO 	  std mtOADHjcfWlYUUaEqJYvC 	 
+    	  
+    		  endl mCTRiZEfCcZ4rtZeXzEPU 	 
     	  
     		   
      
      
 
- mJP7Jsm7au1oZp1CLb7PT 	 
+                std mErde6Wj4Ze0ly0Y61AFC 	 
     	  
     		   
+     
+cerr  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+    		   "\x5c\x74\x20\x74\x65\x73\x74\x20\x64\x61\x74\x61\x20\x66\x69\x6c\x65\x3a\x20"  maSJfbIkVmsGsjTv0UQpa 	 
+    	  
+    		   
+  fname.str mmLzOj1OpcOraAxHe0sHs 	 
+    	  
+    		   
+     
+  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		    std mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+    		   
+     
+     
+ 
+  	endl mKCH6zvmv2K2hcW15vK3r 	 
+    	  
+    		   
+     
+                 mJBzoLtWNcFHmcPQ3d6OQ 	 
+    	  
+    		   
+     
+file  mtcMtq_ZgTF0Gbvko4MMI 	 
+    	  
+    		   
+     
+     
+ cv mWT_5joNFiaFOgpc894br 	 
+    	  
+    		 FileStorage mWAv9IocI7GJUr5S69MXT 	 
+    	  mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+    		   
+  
+                file.open mChGzY6uJwNl0HsnhepB1 	 
+    	  
+  fname.str moLZmyH4uSJX9pXN1kkKz 	 
+    	  
+    		   
+     
+     
+, cv mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+   FileStorage mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		   
+     WRITE mCxo5hT3adsjpL3eSx_tm 	 
+    	  
+    		   
+     
+    mIeb91O4CN5VggNyO2vQ7 	
+                file  mdGdm6zgtH4zv3Nn0vGML 	 
+ "\x6e\x6f\x72\x6d\x5f\x76"  mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+    		   
+     
+    norm_v mCTRiZEfCcZ4rtZeXzEPU 	 
+ 
+                file  mq3vxPsKSjjq_xpuFA9dn 	 
+    	   "\x69\x6e\x70\x75\x74"  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		  img mIeb91O4CN5VggNyO2vQ7 	 
+    	  
+    		
+                file  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+     "\x6d\x79\x5f\x69\x6d\x67"  maSJfbIkVmsGsjTv0UQpa 	 
+    	  my_img mCF6yuex92SFioZPpxBz2 	 
+    	  
+    	
+                file  mA85Ru6M8Sh6PK100OVgE 	 
+    	  
+     "\x79\x6f\x75\x72\x5f\x69\x6d\x67"  mq3vxPsKSjjq_xpuFA9dn 	 your_img mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		   
+
+                file.release mmLzOj1OpcOraAxHe0sHs 	 mZ5n7IX_AHHoHYsodfx8Y 	 
+    	  
+    		   
+     
+             mqSTm3bttsS7HrMtCtqcS 	 
+    	  
+    		   
+         mqSTm3bttsS7HrMtCtqcS 	 
+    	 
+        catch  mYSn7neYwuzZiHSfgVhG4 	 std mtOADHjcfWlYUUaEqJYvC 	 
+  exception &e mCxo5hT3adsjpL3eSx_tm 	 
+    	  
+    		   
+     
+     
+         miHaghnjGYZRXpERY7vgM 	 
+    	  
+    		   
+  
+            std mpd4PM_FCAECboim6Wmgy 	cerr  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+    		    "\x45\x72\x72\x6f\x72\x3a\x20"  mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+    		   
+     
+     
+  e.what meDekgZkaKWxgWJNWiB94 	 
+    	  
+    		   
+     
+       mUgUEfVdBAs_RDl0oUbQO 	 
+    	  
+    		   
+  std mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+    		   endl mCF6yuex92SFioZPpxBz2 	 
+    	  
+    		   
+     
+         mPktF2k_R4xKiN2Zg99Ud 	
+        catch  mmZpaGRQQTWxpkl5_I8in 	 
+    	  
+    		   
+    ... mCxo5hT3adsjpL3eSx_tm 	 
    
+         mnkYVtKJoztdPpfebBy4S 	 
+    	  
+ 
+            std mwz7jWEjfVuS42kuaQPn8 	 
+    	  
+    		   
+     
+     
+cerr  mXSaJTMo4mCIueHA05tT9 	 
+    	  
+ "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mXSaJTMo4mCIueHA05tT9 	 
+    	  
+    		    std mMNd9IbgZGNvHCj6cXNIY 	 
+    	  
+    		   
+     
+     
+ endl mHLOpps1TeJ1n4a5pxdNv 	 
+    	 
+         mJTa21GBBlpdHs8EUXwZ0 	 
+    	  
+    		  
+
+        std mgrChmV5pX_BBnPjupsCz 	 
+   cout  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+  "\x59\x6f\x75\x20\x70\x61\x73\x73\x20"  mXSaJTMo4mCIueHA05tT9 	 
+    	  
+    		   
+     
+   tests_passed  mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+   "\x20\x6f\x66\x20"  mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+    		   tests
+                   mdapI6SZ0JwzhtKL_Oxis 	 
+    	  
+ "\x20\x74\x65\x73\x74\x73\x2e"  mdGdm6zgtH4zv3Nn0vGML 	 
+    	  
+    		   
+     
+     
+ 
+   std mpd4PM_FCAECboim6Wmgy 	 
+    endl mHLOpps1TeJ1n4a5pxdNv 	 
+    	  
+    		   
+     
+     
+     mfYUGCIJ4y66ek5pHyoZN 	 
+    	  
+    		   
+     
+    
+    catch  mYSn7neYwuzZiHSfgVhG4 	 
+  std mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		 exception &e mA3nRYnr_lZzzMo1jh_vB 	 
+    	  
+    		   
+     
+     
+ 
+
+     mzdEyRJKtHmAv_hyCRXsM 	 
+    	
+        std mgwQSYXcc9TIiKkPXgshg 	 
+    	  
+    		cerr  mHuF4mTDu6zvknssKtlKQ 	 
+    	  
+    		   
+     
+     
+ 
+  "\x43\x61\x75\x67\x68\x74\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x3a\x20"  mLKaNDZsfPRxbXiWdHvqO 	 
+    	  
+    		   
+ e.what mkIFONPkvrdc61fQAT2H7 	 
+    	  
+   mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+    		    std mnsDFHlx8Rb1ohrxyYFfi 	 
+    	  
+    		   
+     
+endl mErDDSVFJd4ybmgEkutlI 	 
+    	  
+    		   
+     
+     
+
+        retCode  mtcMtq_ZgTF0Gbvko4MMI 	 
+    	  
+ EXIT_FAILURE mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+     
+     
+     mMrjjxUfFnHYwyIeo4thn 	 
+    	  
+    		   
+     
+     
+    catch  mf6w6nRo1UPHMI9Ix1lmT 	 
+    	  
+    		   
+     
+     
+ ... mCFpr4Os_BUpE0hBecZXK 	 
+    	 
+     myi_nNZ_JfQR5mbTdok9w 	 
+    	  
+    		   
+     
+     
+        std mMNd9IbgZGNvHCj6cXNIY 	cerr  mq3vxPsKSjjq_xpuFA9dn 	 
+    	  
+    		   
+     
+     
+ 
+   "\x45\x72\x72\x6f\x72\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x65\x78\x63\x65\x70\x74\x69\x6f\x6e\x21\x21\x2e"  mbP3VgAHoOgnaUfLyN3rO 	 
+    	  
+    		   
+     
+  std mgrChmV5pX_BBnPjupsCz 	 
+  endl mUQApTk2utXRlZOX2bxsA 	 
+    	  
+    		   
+        retCode  mrW3LX4vM3dW4niDeipVf 	 
+    	  
+    		   
+     
+  EXIT_FAILURE mIeb91O4CN5VggNyO2vQ7 	 
+    	
+     mfYUGCIJ4y66ek5pHyoZN 	 
+    	  
+     mAwKqRu7JKd0T15BB9SVo 	retCode mu0Zw3fsOhh38Uo4aDS8W 	 
+    	  
+    		   
+     
+     
+ 
+  	 
+ mJTa21GBBlpdHs8EUXwZ0 	 
+    
 
 #ifdef _9902994529659639011
-#undef  mjIG00qxk4JkrUXEnFt0i 
-#undef  mX_dnaLb4HMPgttj0N6cS 
-#undef  myAj9JkIJCTTmCuRc8M99 
-#undef mnvfs5BDNoNZaH2yKtmAwSEwIuYzenx
-#undef  mmLzOj1OpcOraAxHe0sHs 
-#undef  mUgFQNn6NFW_G4o3ySm_4 
-#undef  mCFpr4Os_BUpE0hBecZXK 
-#undef  mR4GSoDMh588p6gml2ppZ 
-#undef mTQ6fz8vn4RTtZGBgadrOoJp57aBMTi
-#undef mNxNhhHpfeAiZ5sJo_7mt4nHTXJYDVT
-#undef  mee36YukNoygoRh_lR_Ze 
-#undef  mesVqjyN8Zd40ufTyiSMc 
-#undef  mkIFONPkvrdc61fQAT2H7 
-#undef  mkFSQs4i_JAuUSM0kZAym 
-#undef  mWLJAJJUZMLHiHLjyoQgG 
-#undef  myi_nNZ_JfQR5mbTdok9w 
-#undef  mYSn7neYwuzZiHSfgVhG4 
-#undef  mYb0S2XuO0Wx1MlstrBcI 
-#undef  mcuDBAnn1wGY7StG6m7EO 
-#undef mNm3tIZaxNmZesd6TUuHkhUD_qnf_Fh
-#undef  mA85Ru6M8Sh6PK100OVgE 
-#undef  mKKbbCUUypEL8epnweX9n 
-#undef  mRD6PKZKrH07MF78RfKlm 
-#undef  mdruYgOQmkv3BIAuvjWLy 
-#undef  maaer3lm0klVkPVFja88l 
-#undef  mVmHfDt9pq2zl91iYWE6U 
-#undef  mqnDdNNOPfVropZK3wguh 
-#undef  mzgXwSEN9xEsGXmlzussn 
-#undef  mBGpopX91RPBnrW1jmwrR 
-#undef  mxhof4Ntel2hNEVMAOf_m 
-#undef  mI731qyUiUqX6x_iyE5Oc 
-#undef  mwoqRnf28GiO23mh9WRm_ 
-#undef  mAh372E_Wg9TxPqKoaDdB 
-#undef  mKCH6zvmv2K2hcW15vK3r 
-#undef  mifW8L55qoQzdH9Hxh_rZ 
-#undef  mVGBonTDiCwFL0cnZln6A 
-#undef mtNfOkyFGK3082SQQbAZCMw3hpB0iyf
-#undef  mLKaNDZsfPRxbXiWdHvqO 
-#undef  mErDDSVFJd4ybmgEkutlI 
-#undef  mLwpjlSPu7J_elHZYFHIX 
-#undef  mmd50wX7Qq0n7gXtBROth 
-#undef  mSf2hO6FvraBmUtaPHgZB 
-#undef  mO6K574X7bRtXKjbUO7lG 
-#undef  mLb0lJEDMWAhQxS1Zq67K 
-#undef  mQqnRcoNxbykQSXWuA762 
-#undef  mUSCgfjpSMcf05uswdfL7 
-#undef  mCWMzZFPcoXg9fIw5padT 
-#undef mUvgLwCm9bQ59zbaPbd5U1X0XqTEv9O
-#undef  mN1XYry49Lp0X_pMj4fzO 
-#undef  mhbVKFNcfuJXmKB2yO0I7 
-#undef  myCDh386wqCMf5a0poN5E 
-#undef  mZWGtEnNSuqL2nrO4fXdk 
-#undef mr6MWVHx8P95r4cHeiqasoMXxgcesWE
-#undef  mpd4PM_FCAECboim6Wmgy 
-#undef  mdScDBc7q82a1WdAnmuIu 
-#undef  mxeJSBEbCsTLiumaqkjDh 
-#undef mEs0irIAnd2xX01fSVchhl55dHEYop3
-#undef mr5qzJx26OhVD45MSWsVlyKAhna97nV
-#undef  meUn5JsY9ungDpQtF4sS0 
-#undef  mF4a7aeyPOk_IENHOG_s9 
-#undef miORm26edjfpNn_hCt9GrEERRoVsykU
-#undef  msTzoWt64V0e_oS8Fv95H 
-#undef  mlLrSGYJjbAGfNrE2Njqn 
-#undef  meGH6zSWZBHXv9GpkDOsU 
-#undef  mZIGb0G_7tQt3sEyXxMzg 
-#undef  mwiBdzEHrOc8W4OPuXzjS 
-#undef  mjTA13gm_tkindhJ355KT 
-#undef  mbS2AfD4QSxooCUlUSRqP 
-#undef  mPFo6diccQ2JPoBzrbKbf 
-#undef  mX5S2JiQl0c2tpcc8bIuq 
-#undef  mAYVxyfIbkjPzf_zHmDXf 
-#undef md9eLhBsbxZUoWAvizc3jyCBtlXD_iu
-#undef mcImvLMVOKKeAUXeQiZ70nBU0Wgf8pR
-#undef  mxBVKq5uLQpnUbC1M415c 
-#undef  mLKx7V4m_2xz3wI_2SN14 
-#undef  msF3n_Llrc3Y4xisawDlW 
-#undef  mJUNcXClktUN2Tl2zOPvk 
-#undef mERR_Wx8iB0lnwsZka9rx9eZXZuCy1N
-#undef  mL0x8fUOLy6sZWW8GUnrT 
-#undef  mLABsMDLgeDjo3a0doFQX 
-#undef mmjAk1019HgM9qjJ4mrzJ6zO3VZq6fy
-#undef  mgeFmKdNvJ1A_N0m69M7g 
-#undef  myEhqL0JuDL39IMru8yFB 
-#undef mBwVcshwviptLz3c10i53yS2aJZWZo9
-#undef mqO4MXVld_mK859zqQQURhmbagaqDcn
-#undef  mmgqYc0_7tKLpJXAoouea 
-#undef  mGGDcIY_nfYZ9_mUGBiyV 
-#undef  mIYfprKiCusfY6QKqNNQd 
-#undef  mmZpaGRQQTWxpkl5_I8in 
-#undef  mo_zGryQm1OW390INk4Rh 
-#undef  mKRZOLOcuSUonKadQYQeP 
-#undef  mqKKrBWIaOyLS3Ra_jBDL 
-#undef  mmn8ymmm1AIJ6zrUylRVH 
-#undef  mSkvBeLHubgyviqhSCFVS 
-#undef  msJ1KNPOiADf6gZGCZMo2 
-#undef  mkNGVmRSdeblSckxXzGVq 
-#undef  mloosVMq6sq0h_qHzTDP3 
-#undef  mC5E9mNw3KALrr8VsSONZ 
-#undef  mJBzoLtWNcFHmcPQ3d6OQ 
-#undef  moJmL11euOhHbQagPq8ij 
-#undef maU8Gmc9saEUcOIdGiyBpVseIOM8rGK
-#undef  mb5F9AqEAhyr5cXENvU_U 
-#undef  mq7AbHYh_W1mCH4H2mNum 
-#undef  mjyVQ48wRRVzvwtpWu4LT 
-#undef  mQc9YzY5JoYXb1z0eiZUL 
-#undef  mq8QZ1fcu7doY8zC16S2e 
-#undef  m_23kSgiA0WF7jIecI9GS 
-#undef  mUaKuNbS96FbvDu3x85PG 
-#undef mYk9HmQd8bbGOJRdA7BiyW5yO61pPnK
-#undef mOnachF1QzcHZSNCQGQLEZgaVNfMype
-#undef  mtOADHjcfWlYUUaEqJYvC 
-#undef  mCgqm4phtQwlbAwXa03Lt 
-#undef  mF5KqMOLuj66Qc9BVmrCK 
-#undef m_IS0uDTjYoTNAddluQDV9SM5nC7_q6
-#undef mxSidAmSZazu8ciz5L56TycQuLFDGvk
-#undef  maPJhxKGuCRBF8PTSEfoJ 
-#undef  mgwAvkwbyCsAnDH8GAXXg 
-#undef  mOXFj8zu2J2qXnrmqx2yR 
-#undef  mwQxO9PrX8fJnrjpG1aZI 
-#undef  mpgP0vTNcH8bnjKMb0lnb 
-#undef  mYDKn6Yr_a4ORyXvUa69a 
-#undef  mAZRToBg4lDGzySG6Xoe1 
-#undef  mgEICEME5NV3U_tXGoy_7 
-#undef  mZ6WGMFrmYyqAAdcUkwEy 
-#undef  mq0XT3lHLE8Km3OLyXyEF 
-#undef  mC8KI3ySuRUP4dht1IyzM 
-#undef  mJ8wuTuPR6f1IyiIT8UIu 
-#undef  mS_cL6sduOKwOc9eoSgGT 
-#undef  mwdxiJ7bkKBFeuo6juueu 
-#undef  mWPvycRWzzsoqLdQC4Zks 
-#undef  mIY6aTF3Jsp7xx7PGtJiE 
-#undef  mYEnJ2KFETSCMo9vpFgQh 
-#undef  mgrChmV5pX_BBnPjupsCz 
-#undef  mpYC3Q6HCOG_y3bCV_bzU 
-#undef  mVQS095yooNNd1gPQ2zeM 
-#undef mGOSqQB8VlpT8JcDzrYjtvukl6adru3
-#undef  mX2sEi46khxM2A_PZGLcg 
-#undef mQYBsLBq8E2T5jD3oJpEGi2Nvlb48JZ
-#undef  mh9ZrcsYuwWJqvQRqG41T 
-#undef  mPTzrDzdT9es05kbzwnmP 
-#undef  mdUMW8l4XOUiCvkuJO43u 
-#undef  mUAyNrdMBPqfxcBcQxB7c 
-#undef  mRAG5Ci16sQoS2EA7eVzC 
-#undef  mWGGkbJfFDMzeQkQHP8zB 
-#undef  mWqGf9oBDxunrUAXjNCwH 
-#undef  mKrqFPG8zODQIl9cbepcB 
-#undef  mSk1ShXRx3FQBFfrfi8ft 
-#undef  mtPSLyNBQ2pm6dAI2etAM 
-#undef  mqiPQR6HtZOTL5qCeQlR8 
-#undef  mIAfvDkHI6lIIINQzTJKV 
-#undef  mAtqmWgqIeEipX4lQNtCe 
-#undef  mbP3VgAHoOgnaUfLyN3rO 
-#undef mPC2D40u9UNkOp3dfTHNMRJkK7O5kba
-#undef  mz4sAB8Lke0GjEqcgK49Q 
-#undef  mImaiwn1PdizTcyUDXulO 
-#undef  mYqcsV42kZVOveATGJgwC 
-#undef  mpywFnfax90Dm7uvF3t0E 
-#undef  mTHYbenkovkCYepR9rjtw 
-#undef  mROaoKuxZxQUeKvavsRgd 
-#undef  mhOLPnF03rFFNfjNqd_Z4 
-#undef  mXEvT4eTJ0JjwVNzWVCd_ 
-#undef  mSnZkOnBAqXU3YDsfi4ET 
-#undef  m_q9HVEqGzfY1bLsvvnLk 
-#undef  mEQIsA3CEFNeYEkD0VISr 
-#undef  mJSjBBo51EctsDDn27vtP 
-#undef  mdunAdC6xu6GJIYvfAsV3 
-#undef  mX2X958br5qt4Ghfp3m_N 
-#undef  mYsOEPMsPI3X8nh_LwHNz 
-#undef mbQCceuE8wn7_fovfqyb0GwzqjwqWr6
-#undef  mxergcKZo1TaZwkF3katu 
-#undef  mP1zJlYesuPo0RorPJYu9 
-#undef  mOnEJbNUBTUOPydb56e4i 
-#undef  meRV1BnTNhVK4UY7xqlmy 
-#undef  myuutvgsUpQCFDJ0ssvlp 
-#undef  mbZnXfolbhe6fzyUhCjzz 
-#undef  mYIGks_NNZ7VAm4pFdvj4 
-#undef mD6TNyDaY08Lmj3scFGjUbu4VR5Lf4H
-#undef  mnur9YE0hxi1cir_V3aIB 
-#undef  msqgfIeLj_ylvK1sbLrxZ 
-#undef  mB2EhXT0BPBy9yjrxqp1u 
-#undef  mXtZuhgtiaV6S5T_FEAVq 
-#undef  moUYnjRTAuoihfJii16Wu 
-#undef mr9f_lpUR_FGty__DA6kaQP7t0oEc_G
-#undef  meiUeWrefx0V6GSxveGfz 
-#undef  meDekgZkaKWxgWJNWiB94 
-#undef  mHuF4mTDu6zvknssKtlKQ 
-#undef  maJJMpCnCYLQsMYPbFYMA 
-#undef  mmKFpIHZ2jW3Pl2yswFoH 
-#undef  mxiSiDyBWybvWD_EkXqQ2 
-#undef  mCmJBaXVr33OuaU8e66CB 
-#undef mmGrg3t54rl6CR6ifITt2Up2VUqrr5s
-#undef  mlgG1YxgiooTLC8cHM7WN 
-#undef  mhlrvVwQFcOFpdjFt4y2u 
-#undef  mEBO9XZXAXJaUk4obnE7N 
-#undef  mW00V7n8RwzFWH7tra2wp 
-#undef  mJpoBwgn0DJQHiXgAvSEa 
-#undef  mlJVBsqoWtsTo473MOT6a 
-#undef  mh7Pwtw4LXwQlT3sCdvz5 
-#undef  mUAj7kjruyBnhjVxRcpft 
-#undef  myn0IRnj83DrK6IeL7ZqP 
-#undef mxs00DzjNV45CaOe3stxm12MYYasrAH
-#undef  mR8ixRQUitFYrNN2mR_Vt 
-#undef meqZKImxwHi1E1VitjMP7tv47yFKZDS
-#undef mVuS5o6wMdvdatiyAyQB13ULZ3J32wq
-#undef  mPEXKIHylb5EYa1bDUzOc 
-#undef  m_DVkEWDaWG1t5mgtZxkD 
-#undef  mIiGzGved4F_baCi5YYkM 
-#undef  mBK1TAtRe0ulRgZBnMSfy 
-#undef  mwqtBehXiutMKDGeJnJ67 
-#undef  mMnnGpHxOGg7ZBDtb2pmt 
-#undef mVw4dEmkS1nYXwAkjytTb45IovCxtS1
-#undef  mnjaKsh3k7rjBD7gZFgTk 
-#undef m_NPY932yWJgmI0EB9Nxw2wwI3j5V0Y
-#undef  mDlCq1FEvS2b0w1Z7KnPr 
-#undef  mmp7_M9ugDi91VvmJTBt1 
-#undef  mNjJsZDfV8Dwnl6nMK84O 
-#undef  mCuVYMMKrUdwI_2mOu9QB 
-#undef  mNauiDa3J32sWVmjw5iS_ 
-#undef  mx_zsDiQLqCIOGG6ZVaIm 
-#undef  mc3Ft5vFbWZ0I_cyBj9MZ 
-#undef  mgPto1LD96SW9jqOPXKFT 
-#undef  maNRdGOSqH0sUhNNjaXcm 
-#undef msqJqsIXxTdxIdzmzPFf8R8fww27l3K
-#undef mtiO9aWlTGS338_vs4akINkJOnG85lV
-#undef  mppKtzP31aZy0pGd2m0Z9 
-#undef mSjwCKnBYKiKWPQ7zHc76YVaFPeJyK1
-#undef  mUe35ebvjiFbtyLJFPyE6 
-#undef  mLZ3y6cDPwjsfFVKTrILy 
-#undef  mskyfHCUFCaS7gh4hcS3o 
-#undef  mywpKnyrwgwsGgm5z61Z7 
-#undef  maSRbpjxVVICurEUbIuQV 
-#undef  mT20HT4iX5uExGVzFTLK9 
-#undef  mwDTANvBf2eCihKlwIGcQ 
-#undef  mk8OCx3O4AOVAIRiQPOlu 
-#undef  mGFaG2sFpPbGqC0w_fGEu 
-#undef  mlaJAVwTnSatEJKz1vwwT 
-#undef  mRaHBseQqWYz2cyp3Rs3E 
-#undef  mILIfk7PGxDDTOakYwpAj 
-#undef  mE_6o32Gp3JDq_gnNQzZ0 
-#undef  mHGTVYrFbHv3PJ7RCD0Jc 
-#undef  mik5L9gUWoenRFF12Yrzk 
-#undef  mq2WtyfxNuhMujs_W_RTx 
-#undef  mqepl_oeHDfUCmkoDKIVa 
-#undef  mHRK1Qbpc6SXqAGUtoV8J 
-#undef  mj0RN9F71W_6s_YhWh1SP 
-#undef mQ3LrQGWK3ITvOxiNlHApLxrgKB8npw
-#undef  my1wIVN5s0pEr254Z3t4I 
-#undef  mmoN25SYs7aJ2siMeP2QH 
-#undef  mZGQ4J8pc7eRHZbaNBrTR 
-#undef  mkyYKoUzRp4I6poF2VXKn 
-#undef  mXD0JeNoU_GFfICrMiytn 
-#undef  mOIgqIOZLy6fFD2HdHZmO 
-#undef  mlBPgyFb0C2QAT0fTdjcv 
-#undef  muozdGyOiRg8bbfHYbrAV 
-#undef mIwIjmPxEhGOH033Ezcnxk2bA6mC9v3
-#undef mxkN_Ys1CO2UF5KBLbuGlfLR3gBIwbq
-#undef  mdxpLcivZQ9gvLtG_CD8k 
-#undef ms8iZt5t1Dq1Q_9a5NP8qsz_CS9lfzf
-#undef  mccbBTKxxy74ZgysgeBt9 
-#undef  muUS5FvYhlxfTkFJmYezn 
-#undef  mscLdcfav2XqEy1mvndWW 
-#undef  mUQApTk2utXRlZOX2bxsA 
-#undef  mq0ucKzgQJ8Vb483rVaDC 
-#undef muqaQT10PsyYE1MFLySGQD8oyhsZvS7
-#undef mvqkd_u1Ad9fUIAuCbSAFJO0YlIVTLl
-#undef  mHCPFDMeeHMqUzSoOz84O 
-#undef  mlDvkVxgo6zQqIYtzpbuY 
-#undef  mrW3LX4vM3dW4niDeipVf 
-#undef  mxD748a2I6dASvSlPvIj_ 
-#undef mMMv71ZM2ilhkiUrLoXLLoOg2YFFHu2
-#undef  mUjurCRBYJHF255t6Kmzs 
-#undef  mCo_IAiG3U7gZmGW7mfLA 
-#undef  mk5_ghEAebl24EQAP8Y2I 
-#undef  mspo5vXPAtvuBUj_m4e3N 
-#undef  mwEFsCY_vJ82sL6GSMTpd 
-#undef  mKnQQsyvSGfClEhJfjf_2 
-#undef  mI4i8YlJZREbZV6pNhNgC 
-#undef  mHvdR3hBbPsuYCiDibMCu 
-#undef  maKfyHtPbDZZ8wDRXTLTe 
-#undef  mRPiNnEPcQH3y12uP7HFQ 
-#undef  mHLOpps1TeJ1n4a5pxdNv 
-#undef  mOFbQJXpIqx2CUsXY6ojL 
-#undef  mdZrIg75HXBbfo6YijnMm 
-#undef mvZxJ95beLJLoeYRAM1sz8sS9A7aayI
-#undef  mP96kujYTIhRaRZvoFY3s 
-#undef  mHdVTvslisAFDOlw9Tqcl 
-#undef  mxhl9wjLQZULxOU_43q0G 
-#undef  mG44HhsnniupLg6qlgFIH 
-#undef  molLfYeMM1X9tWqNJoWGM 
-#undef  mxyL0InM4x64CV7L3AaHT 
-#undef  mSu5TAw93UtHMEST_mEgZ 
-#undef  mGomz2J4zQ4F_lx1Uo8V6 
-#undef  mHrq7R5UXcqwWoCwseouD 
-#undef  mfYUGCIJ4y66ek5pHyoZN 
-#undef  mbXG9MVBv4U6srvfu4315 
-#undef  mlB2QYv5KjhdifG0wAHJ3 
-#undef  mxJJoGrHRUFqS_L8CEdvL 
-#undef  mjtj7yQ_q2uLcbKG2QsDq 
-#undef  mcZIiEkLwLGoy0_KkZHSk 
-#undef  mjNjrFKv44mwngUEfcirB 
-#undef  mN1g5nNNsdQ2YhVjJ_tGK 
-#undef  myp_fbjiOXFMZ2yjTUOjp 
-#undef  mxjrjSIo9uk8DpohX_dX_ 
-#undef  mq3vxPsKSjjq_xpuFA9dn 
-#undef  m_Q5PCBYXJE_DRsG0wKBK 
-#undef mRtvuN9GNsflAplthKhMS4rH6S32izJ
-#undef  miAtAduyJ46MxHHzkj4ZX 
-#undef  mxMT8lSa5l6hiKbQkPkeE 
-#undef  mCPzTgsHWoZ3UU0dnU7s8 
-#undef  mEjV10WoNQYtojmohB76_ 
-#undef  mNGHuSbVa0_na45B50kOF 
-#undef  mozF1ZOMKmB5oOYXvA1du 
-#undef  mWhE2c4Mys3RC3rNzuJP0 
-#undef  mhiOzNWXae6WAnJ151Fyt 
-#undef  mG3YAAlNpehHAOVkS5sG3 
-#undef  meCLS9T66CCBsN2UIgI5y 
-#undef  mPktF2k_R4xKiN2Zg99Ud 
-#undef  mpaHcg4PHwnP8av2bRnxG 
-#undef  mt6dcxNU8FQBTRU5nGYnX 
-#undef  mH6PiHnqpo8UuqrMEAB6z 
-#undef  mGv6D9Qz8MbJvAmkFU4Hx 
-#undef  mla_qUta0CYTeiLcAk3J8 
-#undef  mGMSpCfQ5cVseqJ4FqHTq 
-#undef  mXnMFKz3exHf_N4BVfgef 
-#undef  mDdjKnE6eQPZmBEbJ1t7q 
-#undef  mzHh89aGoIBqfwknhH3H4 
-#undef  my120EBF7HLidYoqsyV9U 
-#undef  mdGdm6zgtH4zv3Nn0vGML 
-#undef  mUOElYxXCWJ0NENjEKuO2 
-#undef  muJE97qvNzITjsGin6tfo 
-#undef  mpshT4E2nxvfxIwt7YAk6 
-#undef  m_P_thdAGOXPNBzljrTS8 
-#undef  mrNdhbQvUPeiPjqPNXdcz 
-#undef  mXus_Eo2JqnLh5y7kJELW 
-#undef  mRMUJnQUt0oea5rnYn0_Y 
-#undef  mWkuRTKqKYSGmNkBdxM6x 
-#undef  mw4uDArLAQRJ5RILMGE2G 
-#undef  mRwhC3e3qO_WZuEA4A2BW 
-#undef  mH2iaTe1AmMknyrV3qrko 
-#undef  mWAv9IocI7GJUr5S69MXT 
-#undef mEUidw6mp1G_E5OXU0KePiiCfIvznsw
-#undef  mNiYurmpzq4vJvNRIl54W 
-#undef  mrqE4Np4QAy0VQlmgqxkb 
-#undef  mlFquKXUmcJTiXl3Twu9O 
-#undef  mdvypU3x78f7PkloW409K 
-#undef  mXx6_jd2koNBijGdiN7Vz 
-#undef  mdYWeG2a5BHWYTCQWns_L 
-#undef  maj782xJqBofsysA5mWjg 
-#undef  mBy8ck1PNZuSY2OB9WIhA 
-#undef mOQnD0ULpuH4SCrZIgr5a0RAht7dCyt
-#undef  mEaKKI8OgTfRUieYzOXug 
-#undef  mgwQSYXcc9TIiKkPXgshg 
-#undef  mgRWDmYeVW8IswTg4QT2O 
-#undef  mD2IMpmuC9DqK0MgNcche 
-#undef  mwz7jWEjfVuS42kuaQPn8 
-#undef  mq1N5d_4DodFLRkHvpqwH 
-#undef  mOrY_iT8gjLHjVIW3FW1O 
-#undef mIEh0WPsMbtbUK3nUBX9LWlCz6RZq7L
-#undef  mua3NnY0TAfYsb7mnK3AB 
-#undef  mIiH5VfWSEYwop5tklVfB 
-#undef  mdapI6SZ0JwzhtKL_Oxis 
-#undef mbDgHYMP195EyLGQrE12uPk2WJ7zJWT
-#undef  mPmVqR2XlBp2aChIshsXl 
-#undef  mQ6Dvoa5zpln4IZHMHn1R 
-#undef  meIKowFtzF_KnWuEf8Sw8 
-#undef  mUoH8XEEEfCHr_okINOsr 
-#undef  mro504FCPvSIA3yDAGv65 
-#undef mMwYJB3BgOv6cM80ptANSlxGtICblgL
-#undef mrw35lUQEv9D3j0Ewf9SCBglDaEtoyg
-#undef  mSSbc2Iv8QJAtmPX_f1yA 
-#undef  mWT_5joNFiaFOgpc894br 
-#undef  mxI4OGfJNppK6bSaPtb96 
-#undef mJCG5fpTiEuYKigze8PJI1nRcI0LtEW
-#undef  mmCQ_mZDeOH1roaBYApfn 
-#undef  moWzCteaw2sTVcwRbVbzv 
-#undef  mACEtiH5Tbi8lnO88jrSp 
-#undef  maUewyToTzO7e_C2pAChj 
-#undef mzkrZL2hayNpYL4ZujEcNw2hmOE1Q5y
-#undef mfxgiWxOdJfDLBYA6oOI27LKWpXmCZX
-#undef  mJTa21GBBlpdHs8EUXwZ0 
-#undef  mAhRWDjq8o9SPhF0wMeGa 
-#undef  mLL4O6dMZS3YRrZPW1pBs 
-#undef  mz8XdZut8o_7V0z0HOkYN 
-#undef mc_26RHyoBayf9xMlH1AIvFaSqwSZgF
-#undef mDgA_METjyeHgMDPZVFhWWwqnIsPQVJ
-#undef  mWwY6cyV1jNMlS59jmeZo 
-#undef  mXSaJTMo4mCIueHA05tT9 
-#undef  mdC6ly0QVADyZxTR9Kd4S 
-#undef  mIPx7yO4OGEcmtJRLikG_ 
-#undef  mSqEva6ZvHDtTTNPzbcTg 
-#undef  mT46C_XnqCe7R6H4MhOxr 
-#undef  mAEwafH8Gv5IPmvo8_2uc 
-#undef m_dAVQ4_eR3yzuHDH4gFJ6w2MtMrU1A
-#undef  mo6Gg80T2qtOHoP1MtCnk 
-#undef mTCUDxGUbteq6PD8Ui1X1haAKpG87ny
-#undef  mK77hVwIWVLedKNcvp6PM 
-#undef  mYc5Sb0FNQP4mPqAjZK6N 
-#undef  mXznCGqPJShYepsGsgRSL 
-#undef mv6ZJHUn82VI0i1Pph9tZ9g_rkljmM1
-#undef  mzdEyRJKtHmAv_hyCRXsM 
-#undef  mPOe7V5nqpXvrHVQUbsK6 
-#undef  mmqp10RQmuasvrITygi9L 
-#undef  muF6729Fw0dY7IUXcqL_F 
-#undef  moLWDGJRwk6oG4njcobZ9 
-#undef  mjXVeKcEorHWSksfRH2UB 
-#undef  mphhLRc3W5j_M1GNrmYpo 
-#undef  mJP7Jsm7au1oZp1CLb7PT 
-#undef  mIK03fc5ROh9ICjmvi4Vh 
-#undef  mjLI8BhQkZaoZetEfC056 
-#undef  mRpvDNjELHQyaC2EvjfKi 
-#undef  m_ZHEEUwDRnDdlaSMvfmk 
-#undef  mEhfuF62zQ5txn5P0wodE 
-#undef  mOK1tXVOT4PUgeSc88pGY 
-#undef  mBrwrGtTrM7PuIVoXwC9E 
-#undef  mPg_7ggju4jVdkaoVYPNL 
-#undef  muDy_qxq6pQC33xkdhIyC 
-#undef  mIk4yxibfXlu1GNQwRj9M 
-#undef mA7KccoaFW3_JT4hubww6RQPOED20pb
-#undef mAYS1Ux9gOkq8T7s1qr9ErCfKxkJVir
-#undef mJ3E2ofr5RROqXwznnfeqR9OyuEOurg
-#undef  mvdNCfq_pL4n3ih66P_la 
-#undef  mf6w6nRo1UPHMI9Ix1lmT 
-#undef mPH4gZyJFhTV0IKckWyrQDoStaDbiOd
-#undef  molbYrJdmAWzmis3mfRI9 
-#undef  mKlr4mnSO22NHd5T0mgC8 
-#undef mXe3CrI5a11ZUmwS7tjcBfsrXgYbSHW
-#undef  mF_d3P26PhUbOrZj5urQY 
-#undef  mQLo7l7qWOomLrknIjpN9 
-#undef mwDbt2VOZLiJlLLx2w5pyTLfMg5POTI
-#undef  mSngiQHKFtXGAWWYegLBb 
-#undef mPQL9QR6GDug6_XQPkoBBO_EWclDsYa
-#undef  mAwKqRu7JKd0T15BB9SVo 
-#undef  moDnD1KzpS8g7Il2uIZev 
-#undef  mixaz8fF68w_Z8NkYykGN 
-#undef  mEfcevZ59zAv7W5lfxfjP 
-#undef  mm3ERFtObyKhe7QdFRo2M 
-#undef  mf5ELtUxoB_DDYvBYbkkr 
-#undef  mTRdzsidy41IXzn6FJpYi 
-#undef  mUgUEfVdBAs_RDl0oUbQO 
-#undef mKvGYdUZpzBjHq0vzXQ7yslRJTGxteI
-#undef mfqtybIM_xDObi3bQEsSDncUWCphcSv
-#undef  mlvrAGsnVcTUzfachoVym 
-#undef m_jVttE8osawaP9C6CBzxOTiuhOgqf8
-#undef  mZqddaHRX13iS5uKeuLZ9 
-#undef  mdjkd8YtBaMV2CNQaNmgb 
-#undef mg2gIcF367jD4ckbHidNffI1iCwXr8I
-#undef  mwmL8FJwTyVILdCGkEIbX 
-#undef mvc7dOEZQdzti1fXmvQSH_82cfaaPuU
-#undef  mkP9lTzG4BRAAlywJ8F2V 
-#undef  mOdmOZ6JhhXgfuJ3N5Jmp 
-#undef mVaS9g0F8rMUfhwGHe9hpPrRP4nhQcu
-#undef  mM2iqaERfKSkIvyG_DVsA 
-#undef  mr2FttvZzA28fJewbKHY7 
-#undef  mpDUun5vtv3_P3gMremqb 
-#undef mPCEht9pGOwTltmiZwaG5XKUhQMU99e
-#undef mZCWjQLyVIUxFk8nBpPBHoweBhtBxQS
-#undef  mB8a1ttPFjFQb6FACJVri 
-#undef  muNsKPCBa0wKqqOUjL7bZ 
-#undef  mw6J30JhGYZOxHrm_wMpc 
-#undef moGNslw0uGdG5ctBUscALJEtDcnUyJ_
-#undef  mxOdc90XJRhVwb3UeaxT9 
-#undef  m_V1WGNpPQBcGaW7uF8Lx 
-#undef  mtQ5Iu6IwFDiWNGDAwlFt 
-#undef  mcL1lQJjBPnSrmH2kuUsY 
-#undef  mV6HmzAb9nt4ZzMV8wxyz 
-#undef  mChGzY6uJwNl0HsnhepB1 
-#undef  mTTUVMx3R6fGe9krQWHNl 
-#undef  msmAD6drDtNttgeYR9jK2 
-#undef  mLJyLhCC1vQSydWqj1GOr 
-#undef  mxhbsubyMccDrHGNJMioN 
-#undef muUMBTBTZxRVSK60A4LDf4ZubpFVKHa
-#undef  mCxo5hT3adsjpL3eSx_tm 
-#undef  mUzTGmNZ8S0WIPlKPasub 
-#undef mfx9_1AnrX1Ul6tpzHL2YgNZaqNuGjA
-#undef  mddK3s_AIwJJYy91UPWm0 
-#undef mCIj1IpSvnQffHx5YCM2g1I5KZ94y2J
 #undef mZE35hSLZpuII32tgf1JmbPoCra0VBd
-#undef  muWXtrHRVFC7KhnfWhKAI 
-#undef  mTvAB8snV2fgebopblqYn 
-#undef mVXldDXddM8gmoFViJNgWpkiNjkWkrz
-#undef  mCg6Nym6bk7APUcZJcg42 
-#undef  mxHKiAXYrWIjTAoDEPTIB 
-#undef  mErde6Wj4Ze0ly0Y61AFC 
-#undef  mRDfu1xLphZvqmDx7exl7 
-#undef miwSU0QtFcZ7UD0Oo5vxVC9j3tsHnyp
-#undef mxtoPv02ciIgas4ChUZdMvVI4fwHpSi
-#undef mQMLJwxfCy5K3G2bQ07H_dAcBPxxeWv
-#undef  mXcxo9pxHw09Ez3pwIM6S 
-#undef  maTKateMxjtQcbE93HNJ0 
-#undef  msL_HjjMOgmuquii8oJwE 
-#undef  m_TIpRK6cfIdqQhX1CkJd 
-#undef  mCF6yuex92SFioZPpxBz2 
-#undef  miLM3jwK2Yz49yPA0oQB1 
-#undef  mbFEPHkpnUpIRl7LXW2Ak 
-#undef  mAm1IBghYGwuUeJKTKm8k 
-#undef  mnzMtAZ2b2rQ9m1VZA0mK 
-#undef  mUDgRdrdeBFvkEOlQ4jdx 
-#undef  mJjX0DECNHF5WB5M9vRzJ 
-#undef  movbmmA7d7fL2IMmkgf6q 
-#undef  mnsDFHlx8Rb1ohrxyYFfi 
-#undef  minOymI64c8f3H3XHJv3L 
-#undef  mMrjjxUfFnHYwyIeo4thn 
-#undef  mHoYOCFl7w41X_Ih6amkp 
-#undef  mWrRucvDBnUNxwq34J_n5 
-#undef  mUagi6OPvjB1yh8__JH1r 
-#undef  mc8cpdg49gSTWCJ_fcPgf 
-#undef  mZToZatzbdYktAqdlAuMA 
-#undef mvZo5OdmdGRqCmrzVudHsFtf5a0Fo4d
-#undef  maE55GrVViUaJT6DY5y6z 
-#undef mIi4pGj2ZRBLOFPg8uwj4Mr3IqLqlE1
-#undef  mZ6hFhQkAGVzS_SZ8Fuq3 
-#undef  mIY6eWGNhdwzAegYIRulk 
-#undef  mpIazGz0BO8GDZeOCwtDA 
-#undef mtc_Co_EWmP5Hp_FAUdaqPNri3mpU2J
-#undef mlRCHsCtRe6k9kb_2Roqq8jl6foSkCI
-#undef mH9BEFYeJD8Iu3PWTP97njhgLVZdqKq
-#undef  mq1dLrY9fa4LlsXx3HCMA 
-#undef  mIlg7SfwuJCuKSCLrAmGW 
-#undef  mi9SS68Swio6VNvbl_mFB 
-#undef  mqSTm3bttsS7HrMtCtqcS 
-#undef  mEejCmnS94SV2wMbkWVsn 
-#undef mx19pTpr6SPRZjH9NkTxvmw7ihv6jR_
-#undef  maSJfbIkVmsGsjTv0UQpa 
-#undef  m_2rb0cegg1vhefblfVbl 
-#undef  mAQFTjhI12FsIF680A_T9 
-#undef  mVFmnX1ATHIuUhmRgOLcE 
-#undef  mkcg1f3K8o27bNvoJTpmC 
-#undef  mZPKcO31MdgyyO0EYYshF 
-#undef  mILJjka6sZHBW0u1eOWdI 
-#undef  mChKOw2unTvh7zyq4OT_T 
-#undef mVhdPWZ3aJ4PYAl1vaE1D67MUIkC0C7
+#undef  mKRZOLOcuSUonKadQYQeP 
+#undef  mYb0S2XuO0Wx1MlstrBcI 
+#undef  mEQIsA3CEFNeYEkD0VISr 
+#undef  meRV1BnTNhVK4UY7xqlmy 
 #undef  mpmqMrNQlSi4dv2nYASdr 
-#undef  mVlKX00k16qzhto6c5_qj 
-#undef monnmjZMh33FL1Qs8UVZ8UT4Y9QZ_mE
-#undef md9UB98vrq4jJkezErUZ05uMq4I82AQ
-#undef  mDcE2lDrCQrHV9wjLABGh 
-#undef  mxsIRoNEMzjS6Yb5k6usv 
-#undef  mUMTQYGn_vjeSIYugrU2s 
-#undef  mozmL8sMtEcXdVFJtkOKz 
-#undef  mjaVAncDj71cTeIqEbWwz 
-#undef  mlxp0NYP5CeR4ty6JTYD2 
-#undef  mES_2yZC_KXxuyB8sa6ZW 
-#undef  mezgQgjr7nDbCRUgCu1cq 
-#undef  mxnbn5N6CVBHAgOUlVJZu 
-#undef  mMNd9IbgZGNvHCj6cXNIY 
-#undef  mZf3yA3X8Y4vlKmyskuBt 
-#undef  my7DlUa_jcEKiN8C83xVo 
-#undef  mYRlAwygoj5gEQ8ab27p7 
-#undef  mxEVD667Jqeb4kgvDqizk 
-#undef  mRSSDe7hONLNKU5PudIcE 
-#undef mb7McY6T8aQDuHSfTKSpWbOtv94qkFN
-#undef mR0iycNYX1FOFgEUS3F4KjdVmmiFkXX
-#undef  mKiEjAMYsFU_Bb_sAc8_Z 
+#undef  maJJMpCnCYLQsMYPbFYMA 
+#undef  mvdNCfq_pL4n3ih66P_la 
+#undef mPQL9QR6GDug6_XQPkoBBO_EWclDsYa
+#undef  mdScDBc7q82a1WdAnmuIu 
+#undef mQ3LrQGWK3ITvOxiNlHApLxrgKB8npw
+#undef  mIAfvDkHI6lIIINQzTJKV 
 #undef  mkPJr4m66EIhdFNV2A2hx 
-#undef  mJiHt3M1dcVlb3RetJPWh 
-#undef  mPvPei7s60LjvIsL3QjyU 
-#undef  msuedeOIHU6ewvLMy442k 
-#undef  mWsyTEGIlXdOWruNjOvgI 
-#undef  mGHqZ_bgrGT4Q7zI8CKhF 
-#undef  mSnExO4i5GNIq1BqABZ51 
-#undef  mINW5N9jnrOsBvCB3F_Tg 
-#undef  mxKm4fhiQR07mUQZtvQsj 
-#undef  mDayc5WiuF3Q2GBCWXNZN 
-#undef  mdeeM7sTQ44guIS_idFPz 
-#undef  mnkYVtKJoztdPpfebBy4S 
-#undef mrwnUakjFje2EJlpug7_9RJurwdjY0T
-#undef  mBNA8mmWYQ7r_6EK7bz0q 
-#undef  mA3nRYnr_lZzzMo1jh_vB 
-#undef mQBrdiSopp1NcqzM9KDuuwUEDdgQZ_k
-#undef mPyjgkPvUCWCk8FezIcTXyL9sJn8wGi
-#undef  mYQkXgv52j8TRFlT2039v 
-#undef  mtcMtq_ZgTF0Gbvko4MMI 
-#undef  mMGT2hzcXHkUIYeMRYsCS 
-#undef  mAot4lv_hqRDJSbAui1kl 
-#undef  mqgUxf8fEezt3JZHibRI6 
-#undef  mmjJByskoayWNXAL0eEli 
-#undef  moLZmyH4uSJX9pXN1kkKz 
-#undef  mleaN1JwZuigEsM3tS2a6 
-#undef  mNiGtWTU2PT3VyoTSpMdj 
-#undef  mIeb91O4CN5VggNyO2vQ7 
-#undef  miaPZb98n8vLtwMCfTkFg 
-#undef  mXifu34TuHwfEgv5FpdR5 
+#undef mXe3CrI5a11ZUmwS7tjcBfsrXgYbSHW
+#undef mg2gIcF367jD4ckbHidNffI1iCwXr8I
+#undef  mq7AbHYh_W1mCH4H2mNum 
+#undef  mAh372E_Wg9TxPqKoaDdB 
+#undef  mTRdzsidy41IXzn6FJpYi 
+#undef  mdapI6SZ0JwzhtKL_Oxis 
+#undef  mrNdhbQvUPeiPjqPNXdcz 
+#undef  mDlCq1FEvS2b0w1Z7KnPr 
 #undef mVZ7KZEjD2giJLu4gtXHFz9WepSBkpw
-#undef  mLAyVzLAK_LqwPnxSz9Ya 
-#undef  mHvTmtzoUHyBLXpTWKNs7 
-#undef  mRo6loK_zpoTJQIMUf6FY 
-#undef  mKCTftSTuG6VG4jxcv69W 
-#undef  mu0Zw3fsOhh38Uo4aDS8W 
-#undef  mUCGPJvWQ5iGnbekARZlm 
-#undef  mjikT8GG_Eaa4oCQeyiMq 
-#undef  mqBnU2_MtantM647nyIHb 
-#undef  mBl9BsRffI8ufIAr08w2y 
-#undef  muxbEt9CF8rzlFkqwpyvX 
-#undef  mOf_6UbsK7ep8Mc44M3OV 
-#undef  mSjGMEYYvU3tkDcTrtWVc 
-#undef  mvpbb7zB0unxZ3rn7aVG2 
-#undef  mMAgfm6vQg6ssvRbezbqa 
-#undef  mDQMtL5YeoKm_YS3gZzWk 
-#undef  mZ5n7IX_AHHoHYsodfx8Y 
-#undef  meuG4OCj4N4C9n5yLv6aF 
-#undef  mVOE107r5YCZnQhGJnyyc 
-#undef  mPg8ShPrRyDomzQVD8JDd 
-#undef  mWq9_KmZGFjxoJt2lPEt0 
-#undef  mfIWMShtlO1lWRlmhTgit 
-#undef  mWFvb9yv7vF3YXh4NKVlk 
-#undef  mCTRiZEfCcZ4rtZeXzEPU 
-#undef  mOQeKej3FayoxqmksgMAe 
-#undef  ma_EPPI2vwlDqLbi0tgWx 
-#undef  mFTDk1A7X2oZzPWrjJBTS 
-#undef  mdshQAp19qrZycBsUZPaE 
-#undef  mf_JqpiEFJo91B8NiezKm 
-#undef  md3s1mb3r7yj6iAla_Uph 
-#undef  moLZV0j_SV0Paib5pnbtP 
-#undef  msBil3sNAqwEOnp3Wgbyj 
+#undef  mjIG00qxk4JkrUXEnFt0i 
+#undef mv6ZJHUn82VI0i1Pph9tZ9g_rkljmM1
+#undef  mSkvBeLHubgyviqhSCFVS 
+#undef  mpaHcg4PHwnP8av2bRnxG 
+#undef mr5qzJx26OhVD45MSWsVlyKAhna97nV
+#undef  mM2iqaERfKSkIvyG_DVsA 
+#undef  mdC6ly0QVADyZxTR9Kd4S 
+#undef  mJpoBwgn0DJQHiXgAvSEa 
+#undef  mbS2AfD4QSxooCUlUSRqP 
+#undef  minOymI64c8f3H3XHJv3L 
+#undef  mdunAdC6xu6GJIYvfAsV3 
+#undef  mlLrSGYJjbAGfNrE2Njqn 
+#undef  mYc5Sb0FNQP4mPqAjZK6N 
+#undef  mXus_Eo2JqnLh5y7kJELW 
+#undef  mVFmnX1ATHIuUhmRgOLcE 
+#undef  maPJhxKGuCRBF8PTSEfoJ 
 #undef  mIXHmxpusVFv3HyUXTK1Q 
-#undef  mxQTBVrtumjHzsNY1uJ4q 
+#undef  mOK1tXVOT4PUgeSc88pGY 
+#undef  mjtj7yQ_q2uLcbKG2QsDq 
+#undef  mdxpLcivZQ9gvLtG_CD8k 
+#undef  muF6729Fw0dY7IUXcqL_F 
+#undef  mxI4OGfJNppK6bSaPtb96 
+#undef  mddK3s_AIwJJYy91UPWm0 
+#undef  mbP3VgAHoOgnaUfLyN3rO 
+#undef  mLZ3y6cDPwjsfFVKTrILy 
+#undef  mF_d3P26PhUbOrZj5urQY 
+#undef  mlaJAVwTnSatEJKz1vwwT 
+#undef  mua3NnY0TAfYsb7mnK3AB 
+#undef  mGHqZ_bgrGT4Q7zI8CKhF 
+#undef  mq2WtyfxNuhMujs_W_RTx 
+#undef  mILJjka6sZHBW0u1eOWdI 
+#undef  mHLOpps1TeJ1n4a5pxdNv 
+#undef  mBK1TAtRe0ulRgZBnMSfy 
+#undef  mlB2QYv5KjhdifG0wAHJ3 
+#undef  mm3ERFtObyKhe7QdFRo2M 
+#undef mYk9HmQd8bbGOJRdA7BiyW5yO61pPnK
+#undef  mBy8ck1PNZuSY2OB9WIhA 
+#undef  mPg8ShPrRyDomzQVD8JDd 
 #undef  mhRH6NAjeqg5kA7AN6iyK 
-#undef  mVPDb9eh1vkqO1xut7gjv 
-#undef  miHaghnjGYZRXpERY7vgM 
-#undef  mHtiFW3N5ulFoQa8SvVjg 
-#undef  mlhI6nALuWI4Pffg0o1of 
-#undef  mnqU09SN6BDUZqwySuDju 
-#undef  mZnpA1C5VCYvSOdWYd650 
-#undef  mAk7lLQ7JMLiy1kZRxSuB 
-#undef  mQ_F1GFFTMyE1Q_xqKLoh 
-#undef mdzuOBIswyh1V6b38J5JiyybuhXlMrO
-#undef  mvShd2oEJi2tLN0SOFZu5 
-#undef  mpY6s1pB7QlG4hhS5P20D 
-#undef  mbryrl4BV13xrMXG4D4bJ 
+#undef  mmCQ_mZDeOH1roaBYApfn 
+#undef  mUe35ebvjiFbtyLJFPyE6 
+#undef  mIk4yxibfXlu1GNQwRj9M 
+#undef  mXifu34TuHwfEgv5FpdR5 
+#undef  mEhfuF62zQ5txn5P0wodE 
+#undef  mQc9YzY5JoYXb1z0eiZUL 
+#undef  mmoN25SYs7aJ2siMeP2QH 
+#undef  meiUeWrefx0V6GSxveGfz 
+#undef  moLZmyH4uSJX9pXN1kkKz 
+#undef  mT46C_XnqCe7R6H4MhOxr 
+#undef moGNslw0uGdG5ctBUscALJEtDcnUyJ_
+#undef  mXtZuhgtiaV6S5T_FEAVq 
+#undef  mIPx7yO4OGEcmtJRLikG_ 
+#undef mxtoPv02ciIgas4ChUZdMvVI4fwHpSi
+#undef mNm3tIZaxNmZesd6TUuHkhUD_qnf_Fh
+#undef  mYSn7neYwuzZiHSfgVhG4 
+#undef  mSqEva6ZvHDtTTNPzbcTg 
+#undef mKvGYdUZpzBjHq0vzXQ7yslRJTGxteI
+#undef mvZo5OdmdGRqCmrzVudHsFtf5a0Fo4d
+#undef  mChKOw2unTvh7zyq4OT_T 
+#undef  myi_nNZ_JfQR5mbTdok9w 
+#undef  mT20HT4iX5uExGVzFTLK9 
+#undef  m_q9HVEqGzfY1bLsvvnLk 
+#undef  mRMUJnQUt0oea5rnYn0_Y 
+#undef  mLwpjlSPu7J_elHZYFHIX 
+#undef miwSU0QtFcZ7UD0Oo5vxVC9j3tsHnyp
+#undef  mG44HhsnniupLg6qlgFIH 
+#undef  mHCPFDMeeHMqUzSoOz84O 
+#undef  mAm1IBghYGwuUeJKTKm8k 
+#undef  mDayc5WiuF3Q2GBCWXNZN 
+#undef  mNGHuSbVa0_na45B50kOF 
+#undef mUvgLwCm9bQ59zbaPbd5U1X0XqTEv9O
+#undef  mxOdc90XJRhVwb3UeaxT9 
+#undef  mwoqRnf28GiO23mh9WRm_ 
+#undef  mjyVQ48wRRVzvwtpWu4LT 
 #undef mSabz3HnesxSAp6ZqnLIItEaJ8fHXKq
+#undef mDgA_METjyeHgMDPZVFhWWwqnIsPQVJ
+#undef  mChGzY6uJwNl0HsnhepB1 
+#undef mcImvLMVOKKeAUXeQiZ70nBU0Wgf8pR
+#undef  mI731qyUiUqX6x_iyE5Oc 
+#undef  mLb0lJEDMWAhQxS1Zq67K 
+#undef  mu0Zw3fsOhh38Uo4aDS8W 
+#undef  mEfcevZ59zAv7W5lfxfjP 
+#undef  mZ6WGMFrmYyqAAdcUkwEy 
+#undef  mUQApTk2utXRlZOX2bxsA 
+#undef  mJSjBBo51EctsDDn27vtP 
+#undef  mpDUun5vtv3_P3gMremqb 
+#undef  mQ_F1GFFTMyE1Q_xqKLoh 
+#undef  m_V1WGNpPQBcGaW7uF8Lx 
+#undef  mWq9_KmZGFjxoJt2lPEt0 
+#undef  mI4i8YlJZREbZV6pNhNgC 
+#undef  mOf_6UbsK7ep8Mc44M3OV 
+#undef  molLfYeMM1X9tWqNJoWGM 
+#undef  ma_EPPI2vwlDqLbi0tgWx 
+#undef mxSidAmSZazu8ciz5L56TycQuLFDGvk
+#undef  mGMSpCfQ5cVseqJ4FqHTq 
+#undef  mA3nRYnr_lZzzMo1jh_vB 
+#undef mQYBsLBq8E2T5jD3oJpEGi2Nvlb48JZ
+#undef  mgeFmKdNvJ1A_N0m69M7g 
+#undef  mROaoKuxZxQUeKvavsRgd 
+#undef  mhlrvVwQFcOFpdjFt4y2u 
+#undef mfxgiWxOdJfDLBYA6oOI27LKWpXmCZX
+#undef  mHGTVYrFbHv3PJ7RCD0Jc 
+#undef md9UB98vrq4jJkezErUZ05uMq4I82AQ
+#undef  mWLJAJJUZMLHiHLjyoQgG 
+#undef  mHrq7R5UXcqwWoCwseouD 
+#undef  mlJVBsqoWtsTo473MOT6a 
+#undef  mUoH8XEEEfCHr_okINOsr 
+#undef  msTzoWt64V0e_oS8Fv95H 
+#undef  mw6J30JhGYZOxHrm_wMpc 
+#undef mPyjgkPvUCWCk8FezIcTXyL9sJn8wGi
+#undef  mAtqmWgqIeEipX4lQNtCe 
+#undef  mNiGtWTU2PT3VyoTSpMdj 
+#undef  mt6dcxNU8FQBTRU5nGYnX 
+#undef  mJjX0DECNHF5WB5M9vRzJ 
+#undef  mZToZatzbdYktAqdlAuMA 
+#undef  mGv6D9Qz8MbJvAmkFU4Hx 
+#undef  mHtiFW3N5ulFoQa8SvVjg 
+#undef  meCLS9T66CCBsN2UIgI5y 
+#undef  mz8XdZut8o_7V0z0HOkYN 
+#undef  moLZV0j_SV0Paib5pnbtP 
+#undef  mUagi6OPvjB1yh8__JH1r 
+#undef  mee36YukNoygoRh_lR_Ze 
+#undef  mxhbsubyMccDrHGNJMioN 
+#undef mVw4dEmkS1nYXwAkjytTb45IovCxtS1
+#undef  mCgqm4phtQwlbAwXa03Lt 
+#undef  mdGdm6zgtH4zv3Nn0vGML 
+#undef  mKnQQsyvSGfClEhJfjf_2 
+#undef  mN1g5nNNsdQ2YhVjJ_tGK 
+#undef  mdUMW8l4XOUiCvkuJO43u 
+#undef  mYIGks_NNZ7VAm4pFdvj4 
+#undef  mDdjKnE6eQPZmBEbJ1t7q 
+#undef  mHdVTvslisAFDOlw9Tqcl 
+#undef  mWPvycRWzzsoqLdQC4Zks 
+#undef  mX_dnaLb4HMPgttj0N6cS 
+#undef  mwQxO9PrX8fJnrjpG1aZI 
+#undef  mWAv9IocI7GJUr5S69MXT 
+#undef  mpywFnfax90Dm7uvF3t0E 
+#undef  mZnpA1C5VCYvSOdWYd650 
+#undef  mKrqFPG8zODQIl9cbepcB 
+#undef mEUidw6mp1G_E5OXU0KePiiCfIvznsw
+#undef  moUYnjRTAuoihfJii16Wu 
+#undef  mtOADHjcfWlYUUaEqJYvC 
+#undef  meDekgZkaKWxgWJNWiB94 
+#undef  mla_qUta0CYTeiLcAk3J8 
+#undef  moWzCteaw2sTVcwRbVbzv 
+#undef  mxKm4fhiQR07mUQZtvQsj 
+#undef  mbXG9MVBv4U6srvfu4315 
+#undef  mImaiwn1PdizTcyUDXulO 
+#undef mfqtybIM_xDObi3bQEsSDncUWCphcSv
+#undef mJ3E2ofr5RROqXwznnfeqR9OyuEOurg
+#undef  mXznCGqPJShYepsGsgRSL 
+#undef md9eLhBsbxZUoWAvizc3jyCBtlXD_iu
+#undef  mKKbbCUUypEL8epnweX9n 
+#undef  mZqddaHRX13iS5uKeuLZ9 
+#undef  mH6PiHnqpo8UuqrMEAB6z 
+#undef  mOIgqIOZLy6fFD2HdHZmO 
+#undef  mWsyTEGIlXdOWruNjOvgI 
+#undef  moDnD1KzpS8g7Il2uIZev 
+#undef  mV6HmzAb9nt4ZzMV8wxyz 
+#undef  mfIWMShtlO1lWRlmhTgit 
+#undef  mvShd2oEJi2tLN0SOFZu5 
+#undef mPCEht9pGOwTltmiZwaG5XKUhQMU99e
+#undef  mPFo6diccQ2JPoBzrbKbf 
+#undef  mmLzOj1OpcOraAxHe0sHs 
+#undef  maSJfbIkVmsGsjTv0UQpa 
+#undef  mq0XT3lHLE8Km3OLyXyEF 
+#undef  mKCH6zvmv2K2hcW15vK3r 
+#undef  mZIGb0G_7tQt3sEyXxMzg 
+#undef  mACEtiH5Tbi8lnO88jrSp 
+#undef  mq8QZ1fcu7doY8zC16S2e 
+#undef  mErDDSVFJd4ybmgEkutlI 
+#undef  maUewyToTzO7e_C2pAChj 
+#undef  moLWDGJRwk6oG4njcobZ9 
+#undef  mOQeKej3FayoxqmksgMAe 
+#undef  mzHh89aGoIBqfwknhH3H4 
+#undef  mkcg1f3K8o27bNvoJTpmC 
+#undef  muxbEt9CF8rzlFkqwpyvX 
+#undef  miaPZb98n8vLtwMCfTkFg 
+#undef  mqnDdNNOPfVropZK3wguh 
+#undef  mAQFTjhI12FsIF680A_T9 
+#undef  mhiOzNWXae6WAnJ151Fyt 
+#undef mVuS5o6wMdvdatiyAyQB13ULZ3J32wq
+#undef  mDQMtL5YeoKm_YS3gZzWk 
+#undef  mxhl9wjLQZULxOU_43q0G 
+#undef  mEaKKI8OgTfRUieYzOXug 
+#undef  mPmVqR2XlBp2aChIshsXl 
+#undef mRtvuN9GNsflAplthKhMS4rH6S32izJ
+#undef  mNauiDa3J32sWVmjw5iS_ 
+#undef mPC2D40u9UNkOp3dfTHNMRJkK7O5kba
+#undef  mYqcsV42kZVOveATGJgwC 
+#undef  mxHKiAXYrWIjTAoDEPTIB 
+#undef  myuutvgsUpQCFDJ0ssvlp 
+#undef  mzgXwSEN9xEsGXmlzussn 
+#undef mMwYJB3BgOv6cM80ptANSlxGtICblgL
+#undef  meGH6zSWZBHXv9GpkDOsU 
+#undef  mWFvb9yv7vF3YXh4NKVlk 
+#undef mr9f_lpUR_FGty__DA6kaQP7t0oEc_G
+#undef  mOrY_iT8gjLHjVIW3FW1O 
+#undef  mjTA13gm_tkindhJ355KT 
+#undef  msBil3sNAqwEOnp3Wgbyj 
+#undef  mRwhC3e3qO_WZuEA4A2BW 
+#undef  mesVqjyN8Zd40ufTyiSMc 
+#undef  mj0RN9F71W_6s_YhWh1SP 
+#undef  mZGQ4J8pc7eRHZbaNBrTR 
+#undef mdzuOBIswyh1V6b38J5JiyybuhXlMrO
+#undef  mP1zJlYesuPo0RorPJYu9 
+#undef  m_Q5PCBYXJE_DRsG0wKBK 
+#undef  mJiHt3M1dcVlb3RetJPWh 
+#undef  moJmL11euOhHbQagPq8ij 
+#undef  mCuVYMMKrUdwI_2mOu9QB 
+#undef mTCUDxGUbteq6PD8Ui1X1haAKpG87ny
+#undef  mUgUEfVdBAs_RDl0oUbQO 
+#undef mtiO9aWlTGS338_vs4akINkJOnG85lV
+#undef mIi4pGj2ZRBLOFPg8uwj4Mr3IqLqlE1
+#undef  mxeJSBEbCsTLiumaqkjDh 
+#undef  mAwKqRu7JKd0T15BB9SVo 
+#undef  mmgqYc0_7tKLpJXAoouea 
+#undef  mYsOEPMsPI3X8nh_LwHNz 
+#undef  msJ1KNPOiADf6gZGCZMo2 
+#undef  mSk1ShXRx3FQBFfrfi8ft 
+#undef  muDy_qxq6pQC33xkdhIyC 
+#undef  mCFpr4Os_BUpE0hBecZXK 
+#undef  mXSaJTMo4mCIueHA05tT9 
+#undef  mOXFj8zu2J2qXnrmqx2yR 
+#undef  mrqE4Np4QAy0VQlmgqxkb 
+#undef mOnachF1QzcHZSNCQGQLEZgaVNfMype
+#undef mtc_Co_EWmP5Hp_FAUdaqPNri3mpU2J
+#undef  mh7Pwtw4LXwQlT3sCdvz5 
+#undef  mbryrl4BV13xrMXG4D4bJ 
+#undef  miAtAduyJ46MxHHzkj4ZX 
+#undef mVhdPWZ3aJ4PYAl1vaE1D67MUIkC0C7
+#undef  mxergcKZo1TaZwkF3katu 
+#undef  mWGGkbJfFDMzeQkQHP8zB 
+#undef mGOSqQB8VlpT8JcDzrYjtvukl6adru3
+#undef  my120EBF7HLidYoqsyV9U 
+#undef mQMLJwxfCy5K3G2bQ07H_dAcBPxxeWv
+#undef  mIY6aTF3Jsp7xx7PGtJiE 
+#undef  mIK03fc5ROh9ICjmvi4Vh 
+#undef mJCG5fpTiEuYKigze8PJI1nRcI0LtEW
+#undef  mkP9lTzG4BRAAlywJ8F2V 
+#undef  mbZnXfolbhe6fzyUhCjzz 
+#undef  mgPto1LD96SW9jqOPXKFT 
+#undef  mgEICEME5NV3U_tXGoy_7 
+#undef mrw35lUQEv9D3j0Ewf9SCBglDaEtoyg
+#undef  muJE97qvNzITjsGin6tfo 
+#undef  mxEVD667Jqeb4kgvDqizk 
+#undef  mdZrIg75HXBbfo6YijnMm 
+#undef  mFTDk1A7X2oZzPWrjJBTS 
+#undef  mUAyNrdMBPqfxcBcQxB7c 
+#undef  mjaVAncDj71cTeIqEbWwz 
+#undef  m_ZHEEUwDRnDdlaSMvfmk 
+#undef  mQLo7l7qWOomLrknIjpN9 
+#undef  mH2iaTe1AmMknyrV3qrko 
+#undef mx19pTpr6SPRZjH9NkTxvmw7ihv6jR_
+#undef  mtcMtq_ZgTF0Gbvko4MMI 
+#undef  mYRlAwygoj5gEQ8ab27p7 
+#undef  mCPzTgsHWoZ3UU0dnU7s8 
+#undef  mdeeM7sTQ44guIS_idFPz 
+#undef mD6TNyDaY08Lmj3scFGjUbu4VR5Lf4H
+#undef  mq1N5d_4DodFLRkHvpqwH 
+#undef  mxnbn5N6CVBHAgOUlVJZu 
+#undef  mJBzoLtWNcFHmcPQ3d6OQ 
+#undef  mscLdcfav2XqEy1mvndWW 
+#undef  mezgQgjr7nDbCRUgCu1cq 
+#undef  mMnnGpHxOGg7ZBDtb2pmt 
+#undef  mzdEyRJKtHmAv_hyCRXsM 
+#undef mOQnD0ULpuH4SCrZIgr5a0RAht7dCyt
+#undef  mYQkXgv52j8TRFlT2039v 
+#undef  mMAgfm6vQg6ssvRbezbqa 
+#undef  mIiH5VfWSEYwop5tklVfB 
+#undef  mtQ5Iu6IwFDiWNGDAwlFt 
+#undef  mA85Ru6M8Sh6PK100OVgE 
+#undef  mloosVMq6sq0h_qHzTDP3 
+#undef  mphhLRc3W5j_M1GNrmYpo 
+#undef  mlBPgyFb0C2QAT0fTdjcv 
+#undef  mCo_IAiG3U7gZmGW7mfLA 
+#undef  mWkuRTKqKYSGmNkBdxM6x 
+#undef  mnqU09SN6BDUZqwySuDju 
+#undef  mpY6s1pB7QlG4hhS5P20D 
+#undef  mppKtzP31aZy0pGd2m0Z9 
+#undef mfx9_1AnrX1Ul6tpzHL2YgNZaqNuGjA
+#undef  mgRWDmYeVW8IswTg4QT2O 
+#undef  mrW3LX4vM3dW4niDeipVf 
+#undef  mOFbQJXpIqx2CUsXY6ojL 
+#undef  mDcE2lDrCQrHV9wjLABGh 
+#undef  mxyL0InM4x64CV7L3AaHT 
+#undef  mUOElYxXCWJ0NENjEKuO2 
+#undef  mq0ucKzgQJ8Vb483rVaDC 
+#undef  mMNd9IbgZGNvHCj6cXNIY 
+#undef  maE55GrVViUaJT6DY5y6z 
+#undef  mmqp10RQmuasvrITygi9L 
+#undef ms8iZt5t1Dq1Q_9a5NP8qsz_CS9lfzf
+#undef  mro504FCPvSIA3yDAGv65 
+#undef  mKiEjAMYsFU_Bb_sAc8_Z 
+#undef  mWwY6cyV1jNMlS59jmeZo 
+#undef  mf6w6nRo1UPHMI9Ix1lmT 
+#undef  mx_zsDiQLqCIOGG6ZVaIm 
+#undef  maKfyHtPbDZZ8wDRXTLTe 
+#undef  mcL1lQJjBPnSrmH2kuUsY 
+#undef  mLKaNDZsfPRxbXiWdHvqO 
+#undef  m_DVkEWDaWG1t5mgtZxkD 
+#undef  mXnMFKz3exHf_N4BVfgef 
+#undef mMMv71ZM2ilhkiUrLoXLLoOg2YFFHu2
+#undef  mO6K574X7bRtXKjbUO7lG 
+#undef  mBNA8mmWYQ7r_6EK7bz0q 
+#undef  mZ5n7IX_AHHoHYsodfx8Y 
+#undef  muozdGyOiRg8bbfHYbrAV 
+#undef mBwVcshwviptLz3c10i53yS2aJZWZo9
+#undef  maTKateMxjtQcbE93HNJ0 
+#undef  mB2EhXT0BPBy9yjrxqp1u 
+#undef  maaer3lm0klVkPVFja88l 
+#undef  mErde6Wj4Ze0ly0Y61AFC 
+#undef  mpIazGz0BO8GDZeOCwtDA 
+#undef  mILIfk7PGxDDTOakYwpAj 
+#undef  mGGDcIY_nfYZ9_mUGBiyV 
+#undef  mpd4PM_FCAECboim6Wmgy 
+#undef  mL0x8fUOLy6sZWW8GUnrT 
+#undef m_NPY932yWJgmI0EB9Nxw2wwI3j5V0Y
+#undef  mRPiNnEPcQH3y12uP7HFQ 
+#undef m_IS0uDTjYoTNAddluQDV9SM5nC7_q6
+#undef  mLL4O6dMZS3YRrZPW1pBs 
+#undef  mh9ZrcsYuwWJqvQRqG41T 
+#undef mtNfOkyFGK3082SQQbAZCMw3hpB0iyf
+#undef  mWrRucvDBnUNxwq34J_n5 
+#undef mERR_Wx8iB0lnwsZka9rx9eZXZuCy1N
+#undef  mik5L9gUWoenRFF12Yrzk 
+#undef  mX2X958br5qt4Ghfp3m_N 
+#undef  mc8cpdg49gSTWCJ_fcPgf 
+#undef mqO4MXVld_mK859zqQQURhmbagaqDcn
+#undef mvc7dOEZQdzti1fXmvQSH_82cfaaPuU
+#undef mxs00DzjNV45CaOe3stxm12MYYasrAH
+#undef mmjAk1019HgM9qjJ4mrzJ6zO3VZq6fy
+#undef  mhbVKFNcfuJXmKB2yO0I7 
+#undef monnmjZMh33FL1Qs8UVZ8UT4Y9QZ_mE
+#undef mAYS1Ux9gOkq8T7s1qr9ErCfKxkJVir
+#undef  mgwAvkwbyCsAnDH8GAXXg 
+#undef  my7DlUa_jcEKiN8C83xVo 
+#undef  mHoYOCFl7w41X_Ih6amkp 
+#undef  mPOe7V5nqpXvrHVQUbsK6 
+#undef  mIlg7SfwuJCuKSCLrAmGW 
+#undef mIEh0WPsMbtbUK3nUBX9LWlCz6RZq7L
+#undef  mLABsMDLgeDjo3a0doFQX 
+#undef  mUAj7kjruyBnhjVxRcpft 
+#undef mSjwCKnBYKiKWPQ7zHc76YVaFPeJyK1
+#undef  mWT_5joNFiaFOgpc894br 
+#undef mCIj1IpSvnQffHx5YCM2g1I5KZ94y2J
+#undef  mF4a7aeyPOk_IENHOG_s9 
+#undef  mG3YAAlNpehHAOVkS5sG3 
+#undef maU8Gmc9saEUcOIdGiyBpVseIOM8rGK
+#undef  mC8KI3ySuRUP4dht1IyzM 
+#undef  mUCGPJvWQ5iGnbekARZlm 
+#undef mR0iycNYX1FOFgEUS3F4KjdVmmiFkXX
+#undef  mIeb91O4CN5VggNyO2vQ7 
+#undef  mUSCgfjpSMcf05uswdfL7 
+#undef  m_2rb0cegg1vhefblfVbl 
+#undef mxkN_Ys1CO2UF5KBLbuGlfLR3gBIwbq
+#undef  mEejCmnS94SV2wMbkWVsn 
+#undef  mJUNcXClktUN2Tl2zOPvk 
+#undef  molbYrJdmAWzmis3mfRI9 
+#undef  mozF1ZOMKmB5oOYXvA1du 
+#undef  mjXVeKcEorHWSksfRH2UB 
+#undef  mAk7lLQ7JMLiy1kZRxSuB 
+#undef  mixaz8fF68w_Z8NkYykGN 
+#undef  mkIFONPkvrdc61fQAT2H7 
+#undef  mqSTm3bttsS7HrMtCtqcS 
+#undef  mkFSQs4i_JAuUSM0kZAym 
+#undef  mleaN1JwZuigEsM3tS2a6 
+#undef  mjLI8BhQkZaoZetEfC056 
+#undef  mKlr4mnSO22NHd5T0mgC8 
+#undef  mTvAB8snV2fgebopblqYn 
+#undef  mgwQSYXcc9TIiKkPXgshg 
+#undef  mUDgRdrdeBFvkEOlQ4jdx 
+#undef  mk5_ghEAebl24EQAP8Y2I 
+#undef  mw4uDArLAQRJ5RILMGE2G 
+#undef  mwdxiJ7bkKBFeuo6juueu 
+#undef m_dAVQ4_eR3yzuHDH4gFJ6w2MtMrU1A
+#undef  mgrChmV5pX_BBnPjupsCz 
+#undef  myEhqL0JuDL39IMru8yFB 
+#undef  mxJJoGrHRUFqS_L8CEdvL 
+#undef  msuedeOIHU6ewvLMy442k 
+#undef  muUS5FvYhlxfTkFJmYezn 
+#undef  mIY6eWGNhdwzAegYIRulk 
+#undef  mTHYbenkovkCYepR9rjtw 
+#undef  mCF6yuex92SFioZPpxBz2 
+#undef  mSu5TAw93UtHMEST_mEgZ 
+#undef  mbFEPHkpnUpIRl7LXW2Ak 
+#undef  mRDfu1xLphZvqmDx7exl7 
+#undef mzkrZL2hayNpYL4ZujEcNw2hmOE1Q5y
+#undef  mOdmOZ6JhhXgfuJ3N5Jmp 
+#undef  mdshQAp19qrZycBsUZPaE 
+#undef  mVPDb9eh1vkqO1xut7gjv 
+#undef meqZKImxwHi1E1VitjMP7tv47yFKZDS
+#undef  mdYWeG2a5BHWYTCQWns_L 
+#undef  mqepl_oeHDfUCmkoDKIVa 
+#undef  mX5S2JiQl0c2tpcc8bIuq 
+#undef  mLKx7V4m_2xz3wI_2SN14 
+#undef  mjikT8GG_Eaa4oCQeyiMq 
+#undef  maNRdGOSqH0sUhNNjaXcm 
+#undef  mq3vxPsKSjjq_xpuFA9dn 
+#undef  mVGBonTDiCwFL0cnZln6A 
+#undef  mPktF2k_R4xKiN2Zg99Ud 
+#undef  mwz7jWEjfVuS42kuaQPn8 
+#undef  mINW5N9jnrOsBvCB3F_Tg 
+#undef  mfYUGCIJ4y66ek5pHyoZN 
+#undef  mPEXKIHylb5EYa1bDUzOc 
+#undef  mXx6_jd2koNBijGdiN7Vz 
+#undef  mSnExO4i5GNIq1BqABZ51 
+#undef  mZPKcO31MdgyyO0EYYshF 
+#undef  mRAG5Ci16sQoS2EA7eVzC 
+#undef  mwDTANvBf2eCihKlwIGcQ 
+#undef  mwEFsCY_vJ82sL6GSMTpd 
+#undef mvZxJ95beLJLoeYRAM1sz8sS9A7aayI
+#undef  mZWGtEnNSuqL2nrO4fXdk 
+#undef  mz4sAB8Lke0GjEqcgK49Q 
+#undef  mjNjrFKv44mwngUEfcirB 
+#undef  mqBnU2_MtantM647nyIHb 
+#undef  mwqtBehXiutMKDGeJnJ67 
+#undef  mdjkd8YtBaMV2CNQaNmgb 
+#undef  mAEwafH8Gv5IPmvo8_2uc 
+#undef  mHRK1Qbpc6SXqAGUtoV8J 
+#undef mrwnUakjFje2EJlpug7_9RJurwdjY0T
+#undef  mlxp0NYP5CeR4ty6JTYD2 
+#undef  mJP7Jsm7au1oZp1CLb7PT 
+#undef  mPTzrDzdT9es05kbzwnmP 
+#undef  mvpbb7zB0unxZ3rn7aVG2 
+#undef  mUaKuNbS96FbvDu3x85PG 
+#undef mc_26RHyoBayf9xMlH1AIvFaSqwSZgF
+#undef  mJ8wuTuPR6f1IyiIT8UIu 
+#undef  mXEvT4eTJ0JjwVNzWVCd_ 
+#undef  mIiGzGved4F_baCi5YYkM 
+#undef  mCg6Nym6bk7APUcZJcg42 
+#undef  mRD6PKZKrH07MF78RfKlm 
+#undef  mi9SS68Swio6VNvbl_mFB 
+#undef  msmAD6drDtNttgeYR9jK2 
+#undef  mhOLPnF03rFFNfjNqd_Z4 
+#undef mbQCceuE8wn7_fovfqyb0GwzqjwqWr6
+#undef  maj782xJqBofsysA5mWjg 
+#undef  mIYfprKiCusfY6QKqNNQd 
+#undef  mW00V7n8RwzFWH7tra2wp 
+#undef mbDgHYMP195EyLGQrE12uPk2WJ7zJWT
+#undef muUMBTBTZxRVSK60A4LDf4ZubpFVKHa
+#undef  mnkYVtKJoztdPpfebBy4S 
+#undef  mspo5vXPAtvuBUj_m4e3N 
+#undef  mr2FttvZzA28fJewbKHY7 
+#undef  mHvdR3hBbPsuYCiDibMCu 
+#undef  mNiYurmpzq4vJvNRIl54W 
+#undef  mSngiQHKFtXGAWWYegLBb 
+#undef  mYDKn6Yr_a4ORyXvUa69a 
+#undef  mmd50wX7Qq0n7gXtBROth 
+#undef mVXldDXddM8gmoFViJNgWpkiNjkWkrz
+#undef  meuG4OCj4N4C9n5yLv6aF 
+#undef  mUgFQNn6NFW_G4o3ySm_4 
+#undef  myp_fbjiOXFMZ2yjTUOjp 
+#undef  mSSbc2Iv8QJAtmPX_f1yA 
+#undef  myAj9JkIJCTTmCuRc8M99 
+#undef  mozmL8sMtEcXdVFJtkOKz 
+#undef  mBrwrGtTrM7PuIVoXwC9E 
+#undef  mk8OCx3O4AOVAIRiQPOlu 
+#undef  mxQTBVrtumjHzsNY1uJ4q 
+#undef  mxhof4Ntel2hNEVMAOf_m 
+#undef  mkyYKoUzRp4I6poF2VXKn 
+#undef  mJTa21GBBlpdHs8EUXwZ0 
+#undef  mxjrjSIo9uk8DpohX_dX_ 
+#undef  mCxo5hT3adsjpL3eSx_tm 
+#undef  m_23kSgiA0WF7jIecI9GS 
+#undef  mo_zGryQm1OW390INk4Rh 
+#undef  mQqnRcoNxbykQSXWuA762 
+#undef  mVlKX00k16qzhto6c5_qj 
+#undef  mYEnJ2KFETSCMo9vpFgQh 
+#undef  mpgP0vTNcH8bnjKMb0lnb 
+#undef  mc3Ft5vFbWZ0I_cyBj9MZ 
+#undef  mWqGf9oBDxunrUAXjNCwH 
+#undef  mnjaKsh3k7rjBD7gZFgTk 
+#undef  mdvypU3x78f7PkloW409K 
+#undef  muWXtrHRVFC7KhnfWhKAI 
+#undef  mRpvDNjELHQyaC2EvjfKi 
+#undef  mkNGVmRSdeblSckxXzGVq 
+#undef  mEjV10WoNQYtojmohB76_ 
+#undef  mxBVKq5uLQpnUbC1M415c 
+#undef  msqgfIeLj_ylvK1sbLrxZ 
+#undef  mGFaG2sFpPbGqC0w_fGEu 
+#undef  mwiBdzEHrOc8W4OPuXzjS 
+#undef  mX2sEi46khxM2A_PZGLcg 
+#undef  mnsDFHlx8Rb1ohrxyYFfi 
+#undef  mxD748a2I6dASvSlPvIj_ 
+#undef  mLJyLhCC1vQSydWqj1GOr 
+#undef  meUn5JsY9ungDpQtF4sS0 
+#undef  mRaHBseQqWYz2cyp3Rs3E 
+#undef mTQ6fz8vn4RTtZGBgadrOoJp57aBMTi
+#undef  mVmHfDt9pq2zl91iYWE6U 
+#undef  mcuDBAnn1wGY7StG6m7EO 
+#undef  mEBO9XZXAXJaUk4obnE7N 
+#undef  mWhE2c4Mys3RC3rNzuJP0 
+#undef  mlhI6nALuWI4Pffg0o1of 
+#undef  mRSSDe7hONLNKU5PudIcE 
+#undef mlRCHsCtRe6k9kb_2Roqq8jl6foSkCI
+#undef  mxMT8lSa5l6hiKbQkPkeE 
+#undef  mAhRWDjq8o9SPhF0wMeGa 
+#undef  mf_JqpiEFJo91B8NiezKm 
+#undef  mQ6Dvoa5zpln4IZHMHn1R 
+#undef  mCWMzZFPcoXg9fIw5padT 
+#undef  mywpKnyrwgwsGgm5z61Z7 
+#undef  mB8a1ttPFjFQb6FACJVri 
+#undef  mifW8L55qoQzdH9Hxh_rZ 
+#undef  mBl9BsRffI8ufIAr08w2y 
+#undef  mcZIiEkLwLGoy0_KkZHSk 
+#undef  mmKFpIHZ2jW3Pl2yswFoH 
+#undef  mUzTGmNZ8S0WIPlKPasub 
+#undef  mXcxo9pxHw09Ez3pwIM6S 
+#undef  mSf2hO6FvraBmUtaPHgZB 
+#undef muqaQT10PsyYE1MFLySGQD8oyhsZvS7
+#undef  mmZpaGRQQTWxpkl5_I8in 
+#undef  mskyfHCUFCaS7gh4hcS3o 
+#undef  mES_2yZC_KXxuyB8sa6ZW 
+#undef  mS_cL6sduOKwOc9eoSgGT 
+#undef mnvfs5BDNoNZaH2yKtmAwSEwIuYzenx
+#undef  mnzMtAZ2b2rQ9m1VZA0mK 
+#undef  mVOE107r5YCZnQhGJnyyc 
+#undef msqJqsIXxTdxIdzmzPFf8R8fww27l3K
+#undef  m_TIpRK6cfIdqQhX1CkJd 
+#undef  msF3n_Llrc3Y4xisawDlW 
+#undef  mLAyVzLAK_LqwPnxSz9Ya 
+#undef  mVQS095yooNNd1gPQ2zeM 
+#undef  mmp7_M9ugDi91VvmJTBt1 
+#undef  mpYC3Q6HCOG_y3bCV_bzU 
+#undef  mUjurCRBYJHF255t6Kmzs 
+#undef  mmjJByskoayWNXAL0eEli 
+#undef  mb5F9AqEAhyr5cXENvU_U 
+#undef  mwmL8FJwTyVILdCGkEIbX 
+#undef  mmn8ymmm1AIJ6zrUylRVH 
+#undef  mAot4lv_hqRDJSbAui1kl 
+#undef  mCmJBaXVr33OuaU8e66CB 
+#undef  mOnEJbNUBTUOPydb56e4i 
+#undef  mMrjjxUfFnHYwyIeo4thn 
+#undef  mtPSLyNBQ2pm6dAI2etAM 
+#undef  mZf3yA3X8Y4vlKmyskuBt 
+#undef  mP96kujYTIhRaRZvoFY3s 
+#undef  mq1dLrY9fa4LlsXx3HCMA 
+#undef  mHuF4mTDu6zvknssKtlKQ 
+#undef  mR4GSoDMh588p6gml2ppZ 
+#undef  myn0IRnj83DrK6IeL7ZqP 
+#undef mVaS9g0F8rMUfhwGHe9hpPrRP4nhQcu
+#undef  maSRbpjxVVICurEUbIuQV 
+#undef  mxsIRoNEMzjS6Yb5k6usv 
+#undef  mf5ELtUxoB_DDYvBYbkkr 
+#undef  mXD0JeNoU_GFfICrMiytn 
+#undef  miLM3jwK2Yz49yPA0oQB1 
+#undef  mE_6o32Gp3JDq_gnNQzZ0 
+#undef  myCDh386wqCMf5a0poN5E 
+#undef mH9BEFYeJD8Iu3PWTP97njhgLVZdqKq
+#undef  mN1XYry49Lp0X_pMj4fzO 
+#undef  mlgG1YxgiooTLC8cHM7WN 
+#undef  mGomz2J4zQ4F_lx1Uo8V6 
+#undef  mAYVxyfIbkjPzf_zHmDXf 
+#undef  mMGT2hzcXHkUIYeMRYsCS 
+#undef  mKCTftSTuG6VG4jxcv69W 
+#undef  mqKKrBWIaOyLS3Ra_jBDL 
+#undef  mxiSiDyBWybvWD_EkXqQ2 
+#undef  mTTUVMx3R6fGe9krQWHNl 
+#undef  mpshT4E2nxvfxIwt7YAk6 
+#undef  mlFquKXUmcJTiXl3Twu9O 
+#undef  mZ6hFhQkAGVzS_SZ8Fuq3 
+#undef  mlDvkVxgo6zQqIYtzpbuY 
+#undef  mBGpopX91RPBnrW1jmwrR 
+#undef  mqgUxf8fEezt3JZHibRI6 
+#undef  mdruYgOQmkv3BIAuvjWLy 
+#undef  md3s1mb3r7yj6iAla_Uph 
+#undef  mPg_7ggju4jVdkaoVYPNL 
+#undef  mqiPQR6HtZOTL5qCeQlR8 
+#undef mIwIjmPxEhGOH033Ezcnxk2bA6mC9v3
+#undef m_jVttE8osawaP9C6CBzxOTiuhOgqf8
+#undef  mCTRiZEfCcZ4rtZeXzEPU 
+#undef  mSnZkOnBAqXU3YDsfi4ET 
+#undef  mRo6loK_zpoTJQIMUf6FY 
+#undef  mPvPei7s60LjvIsL3QjyU 
+#undef mQBrdiSopp1NcqzM9KDuuwUEDdgQZ_k
+#undef  mlvrAGsnVcTUzfachoVym 
+#undef  mF5KqMOLuj66Qc9BVmrCK 
+#undef mEs0irIAnd2xX01fSVchhl55dHEYop3
+#undef mb7McY6T8aQDuHSfTKSpWbOtv94qkFN
+#undef  mHvTmtzoUHyBLXpTWKNs7 
+#undef mPH4gZyJFhTV0IKckWyrQDoStaDbiOd
+#undef mr6MWVHx8P95r4cHeiqasoMXxgcesWE
+#undef mZCWjQLyVIUxFk8nBpPBHoweBhtBxQS
+#undef  mnur9YE0hxi1cir_V3aIB 
+#undef  mSjGMEYYvU3tkDcTrtWVc 
+#undef miORm26edjfpNn_hCt9GrEERRoVsykU
+#undef  mUMTQYGn_vjeSIYugrU2s 
+#undef mmGrg3t54rl6CR6ifITt2Up2VUqrr5s
+#undef  miHaghnjGYZRXpERY7vgM 
+#undef  movbmmA7d7fL2IMmkgf6q 
+#undef mNxNhhHpfeAiZ5sJo_7mt4nHTXJYDVT
+#undef  mC5E9mNw3KALrr8VsSONZ 
+#undef  mo6Gg80T2qtOHoP1MtCnk 
+#undef  msL_HjjMOgmuquii8oJwE 
+#undef mA7KccoaFW3_JT4hubww6RQPOED20pb
+#undef  mccbBTKxxy74ZgysgeBt9 
+#undef  meIKowFtzF_KnWuEf8Sw8 
+#undef  m_P_thdAGOXPNBzljrTS8 
+#undef mwDbt2VOZLiJlLLx2w5pyTLfMg5POTI
+#undef  mAZRToBg4lDGzySG6Xoe1 
+#undef  muNsKPCBa0wKqqOUjL7bZ 
+#undef mvqkd_u1Ad9fUIAuCbSAFJO0YlIVTLl
+#undef  mK77hVwIWVLedKNcvp6PM 
+#undef  mR8ixRQUitFYrNN2mR_Vt 
+#undef  mD2IMpmuC9DqK0MgNcche 
+#undef  my1wIVN5s0pEr254Z3t4I 
+#undef  mNjJsZDfV8Dwnl6nMK84O 
 #endif

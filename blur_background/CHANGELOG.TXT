@@ -18,3 +18,5 @@
 - Adapted to course 24-25.
 * 2.3
 - Set the frame size when the input video stream is from a camera.
+* 2.4
+- Fixed bug in test for fsiv_compute_of_foreground_mask with initial state.
