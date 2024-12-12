@@ -1,15 +1,21 @@
 # Lo que he hecho
 
-_Describe de forma honesta qué funcionalidades has realizado de forma total o parcial, indicando en este caso qué problema has tenido para no poder implementarla de forma completa._
+- fsiv_compute_derivate
+- fsiv_compute_gradient_magnitude
+- fsiv_compute_gradient_histogram
+- fsiv_compute_histogram_percentile
+- fsiv_histogram_idx_to_value
+- fsiv_percentile_edge_detector
+- fsiv_otsu_edge_detector
+- fsiv_canny_edge_detector
+- fsiv_compute_ground_truth_image
+- fsiv_compute_confusion_matrix
+- fsiv_compute_sensitivity
+- fsiv_compute_F1_score
+- fsiv_compute_precision
 
 # Lo que no he hecho
 
 # Enlace al vídeo descriptivo
 
-_No olvides poner en la descripción del vídeo los capítulos de la forma:_
-'
-Capítulos:
-00:00 fsiv_xxxx
-01:30 fsiv_xxxx
-03:00 Ejemplo de ejecución con parámetro X y justificación.
-'
+https://youtu.be/zEnBow536uA
