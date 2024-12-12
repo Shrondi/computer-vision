@@ -100,9 +100,10 @@ void fsiv_compute_of_foreground_mask(cv::Mat const &prev, cv::Mat const &curr,
     if (alpha > 0.0 && !mask.empty()){
         cv::addWeighted(mask, alpha, current_mask, 1.0 - alpha, 0.0, mask);
 
-    }else if(alpha == 0.0){
+    }else{
         current_mask.copyTo(mask);
     }
+
 
     //
     CV_Assert(mask.size() == prev.size());
