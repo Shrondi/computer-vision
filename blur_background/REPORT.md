@@ -1,15 +1,13 @@
 # Lo que he hecho
 
-_Describe de forma honesta qué funcionalidades has realizado de forma total o parcial, indicando en este caso qué problema has tenido para no poder implementarla de forma completa._
+- fsiv_compute_dense_optical_flow
+- fsiv_compute_optical_flow_magnitude
+- fsiv_create_structuring_element
+- fsiv_compute_of_foreground_mask
+- fsiv_blur_background
 
 # Lo que no he hecho
 
 # Enlace al vídeo descriptivo
 
-_No olvides poner en la descripción del vídeo los capítulos de la forma:_
-'
-Capítulos:
-00:00 fsiv_xxxx
-01:30 fsiv_xxxx
-03:00 Ejemplo de ejecución con parámetro X y justificación.
-'
+https://youtu.be/E8GsTTuCUN4
