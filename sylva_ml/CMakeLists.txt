@@ -26,7 +26,7 @@ add_library(common_code STATIC common_code.hpp
     features.cpp features.hpp
     gray_levels_features.hpp gray_levels_features.cpp
     #Add your feature extractors modules here
-    pca_gray_levels_features.hpp pca_gray_levels_features.cpp
+    #pca_gray_levels_features.hpp pca_gray_levels_features.cpp
     )
 
 add_executable(test_common_code test_common_code.cpp)
