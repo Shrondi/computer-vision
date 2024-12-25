@@ -39,6 +39,16 @@ fsiv_extract_01_normalized_graylevels (cv::Mat const& img)
     // Hint: use cv:normalize to normalize the input to full range [0, 1].
     // Hint: use cv::Mat::reshape() method to pass from WxH to 1xW*H row vector.
 
+    cv::Mat gray = img.clone();
+
+    if (img.channels() == 3){
+        cv::cvtColor(img, gray, cv::COLOR_BGR2GRAY);
+    }
+
+    cv::normalize(gray, feature, 0.0, 1.0, cv::NORM_MINMAX, CV_32FC1);
+
+    feature = feature.reshape(1, 1);
+    
     //
     CV_Assert(feature.rows==1);
     CV_Assert(feature.type()==CV_32FC1);
@@ -56,6 +66,20 @@ fsiv_extract_mean_stddev_normalized_gray_levels(cv::Mat const& img)
     // Hint: use cv::meanStdDev to get the image's mean and stdDev.
     // Hint: use cv::Mat::reshape() method to pass from WxH to 1xW*H row vector.
 
+    cv::Scalar mean, stddev;
+    cv::Mat gray = img.clone();
+
+    if (img.channels() == 3){
+        cv::cvtColor(img, gray, cv::COLOR_BGR2GRAY);
+    }  
+
+    gray.convertTo(gray, CV_32FC1);
+
+    cv::meanStdDev(gray, mean, stddev);
+    feature = (gray - mean) / stddev;
+
+    feature = feature.reshape(1, 1);
+    
     //
     CV_Assert(feature.rows==1);
     CV_Assert(feature.type()==CV_32FC1);
